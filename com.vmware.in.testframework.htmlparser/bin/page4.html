@@ -1,0 +1,233 @@
+<html style="display: block;" xmlns="http://www.w3.org/1999/xhtml">​​​​​<head id="ctl00_ctl00_head"><link rel="stylesheet" type="text/css" href="../App_Themes/VMware/Web/sprite.css"><link rel="stylesheet" type="text/css" href="../App_Themes/VMware/Web/styles.css"><link rel="stylesheet" type="text/css" href="../App_Themes/VMware/GridView/sprite.css"><link rel="stylesheet" type="text/css" href="../App_Themes/VMware/GridView/styles.css"><link rel="stylesheet" type="text/css" href="../App_Themes/VMware/Editors/sprite.css"><link rel="stylesheet" type="text/css" href="../App_Themes/VMware/Editors/styles.css"><link rel="stylesheet" type="text/css" href="/vCAC/DXR.axd?r=1_8,1_4-kMs68">        <link href="/vCAC/App_Themes/VMware/Chart/styles.css" type="text/css" rel="stylesheet">
+        <link href="/vCAC/App_Themes/VMware/DCAC/Controls.css" type="text/css" rel="stylesheet">
+        <link href="/vCAC/App_Themes/VMware/DCAC/masthead.css" type="text/css" rel="stylesheet">
+        <link href="/vCAC/App_Themes/VMware/DCAC/VmpsWeb.css" type="text/css" rel="stylesheet">
+        <link href="/vCAC/App_Themes/VMware/Editors/sprite.css" type="text/css" rel="stylesheet">
+        <link href="/vCAC/App_Themes/VMware/Editors/styles.css" type="text/css" rel="stylesheet">
+        <link href="/vCAC/App_Themes/VMware/GridView/sprite.css" type="text/css" rel="stylesheet">
+        <link href="/vCAC/App_Themes/VMware/GridView/styles.css" type="text/css" rel="stylesheet">
+        <link href="/vCAC/App_Themes/VMware/HtmlEditor/sprite.css" type="text/css" rel="stylesheet">
+        <link href="/vCAC/App_Themes/VMware/HtmlEditor/styles.css" type="text/css" rel="stylesheet">
+        <link href="/vCAC/App_Themes/VMware/SpellChecker/styles.css" type="text/css" rel="stylesheet">
+        <link href="/vCAC/App_Themes/VMware/TreeList/sprite.css" type="text/css" rel="stylesheet">
+        <link href="/vCAC/App_Themes/VMware/TreeList/styles.css" type="text/css" rel="stylesheet">
+        <link href="/vCAC/App_Themes/VMware/Web/sprite.css" type="text/css" rel="stylesheet">
+        <link href="/vCAC/App_Themes/VMware/Web/styles.css" type="text/css" rel="stylesheet">
+        <title>Credentials - vCloud Automation Center</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="/vCAC/Images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+        <meta name="version" content="5.2.4 Build 13">
+        <meta name="copyright" content="Copyright © 2008-2014 VMware, Inc. All rights reserved.">
+        <meta name="trademark" content="This product is protected by U.S. and international copyright and intellectual property laws. VMware products are covered by one or more patents listed at http://www.vmware.com/go/patents.  VMware is a registered trademark or trademark of VMware, Inc. in the United States and/or other jurisdictions. All other marks and names mentioned herein may be trademarks of their respective companies.">
+<script src="/vCAC/WebResource.axd?d=sNfsy33qUBb83QLkbTMeRozQNEtMvTmg5wAZadNehgWQQ5knQEd1x50UepZko5X-DkY7ArkuvWjfh6ggrjv3bV21S-_XFG6Gz3HXlq-JWOZzjyWiKWXzHVrVT82MejcUD8taI4xL6ybqoPMLbfiI15NXG0bv_sJ7l2sQHkRgf6ilUrJL6PnDoRSgYpZYnKDV0&amp;t=635255107500000000" type="text/javascript"></script><style type="text/css">html { display:none; }</style><script type="text/javascript">if (top.location.hostname == self.location.hostname) { document.documentElement.style.display = 'block'; } else { top.location = self.location; }</script></head>
+    <body class="Default">
+        <form name="aspnetForm" method="post" action="EditCredentials.aspx" id="aspnetForm" onsubmit="return startWait(this)">
+<div>
+<input name="__EVENTTARGET" id="__EVENTTARGET" value="" type="hidden">
+<input name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" type="hidden">
+<input name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTIyNDMyMTI0NA9kFgJmD2QWAmYPZBYEZhBkZBYEAhMQFgQeA3JlbAUNc2hvcnRjdXQgaWNvbh4EdHlwZQUMaW1hZ2UveC1pY29uZGQCFw8WBB4Dc3JjBe4BL3ZDQUMvV2ViUmVzb3VyY2UuYXhkP2Q9c05mc3kzM3FVQmI4M1FMa2JUTWVSb3pRTkV0TXZUbWc1d0FaYWROZWhnV1FRNWtuUUVkMXg1MFVlcFprbzVYLURrWTdBcmt1dldqZmg2Z2dyanYzYlYyMVMtX1hGRzZHejNIWGxxLUpXT1p6anlXaUtXWHpIVnJWVDgyTWVqY1VEOHRhSTR4TDZ5YnFvUE1MYmZpSTE1TlhHMGJ2X3NKN2wyc1FIa1JnZjZpbFVySkw2UG5Eb1JTZ1lwWlluS0RWMCZ0PTYzNTI1NTEwNzUwMDAwMDAwMB8BBQ90ZXh0L2phdmFzY3JpcHRkAgEPZBYCAgIPZBYCAgcPZBYCAgEPZBYCZg9kFgICAQ9kFgRmDygphQFEeW5hbWljT3BzLldlYi5Db250cm9scy5MaXRlcmFsK0xpdGVyYWxTdGF0ZSwgRHluYW1pY09wcy5XZWIuTG9naWMsIFZlcnNpb249NS4yLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNmU1MWVhM2ViMWRlZWJjATFkAgMPPCsAGAMADxYCHg9EYXRhU291cmNlQm91bmRnZAYPZBAWAwIBAgMCBBYDPCsACwEAFgYeB1Rvb2xUaXBlHglTb3J0SW5kZXhmHgdDYXB0aW9uBYcBPGRpdiBjbGFzcz0iSWNvblJlcXVpcmVkIEljb25UZXh0R3JpZCBIaWRkZW4iPjxzcGFuPjxpbWcgc3JjPSIvdkNBQy9JbWFnZXMvaWNvbl9yZXF1aXJlZC5wbmciIHdpZHRoPSI4IiBoZWlnaHQ9IjE2IiAvPk5hbWU8L3NwYW4+PC9kaXY+PCsACwEAFgQfBGUfBgWLATxkaXYgY2xhc3M9Ikljb25SZXF1aXJlZCBJY29uVGV4dEdyaWQgSGlkZGVuIj48c3Bhbj48aW1nIHNyYz0iL3ZDQUMvSW1hZ2VzL2ljb25fcmVxdWlyZWQucG5nIiB3aWR0aD0iOCIgaGVpZ2h0PSIxNiIgLz5Vc2VybmFtZTwvc3Bhbj48L2Rpdj48KwALAQAWBB8EZR8GBYsBPGRpdiBjbGFzcz0iSWNvblJlcXVpcmVkIEljb25UZXh0R3JpZCBIaWRkZW4iPjxzcGFuPjxpbWcgc3JjPSIvdkNBQy9JbWFnZXMvaWNvbl9yZXF1aXJlZC5wbmciIHdpZHRoPSI4IiBoZWlnaHQ9IjE2IiAvPlBhc3N3b3JkPC9zcGFuPjwvZGl2Pg8WAwIBAgECARYBBYwBRGV2RXhwcmVzcy5XZWIuQVNQeEdyaWRWaWV3LkdyaWRWaWV3RGF0YVRleHRDb2x1bW4sIERldkV4cHJlc3MuV2ViLnYxMi4yLCBWZXJzaW9uPTEyLjIuNy4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI4OGQxNzU0ZDcwMGU0OWEVPCsABgEFFCsAAmRkZBgBBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WAgUfY3RsMDAkY3RsMDAkTWFzdGVyQ29udGVudCRjdGwwNQVbY3RsMDAkY3RsMDAkTWFzdGVyQ29udGVudCRNYWluQ29udGVudFBsYWNlSG9sZGVyJFZpZXdDcmVkZW50aWFscyRUb3BpY1BhbmVsMSRjcmVkZW50aWFsR3JpZJA637VQGulvHmPf1wvrcham4dAlxJ0u5wOKCg6IG/rg" type="hidden">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/vCAC/WebResource.axd?d=tnx3CP0oMxsmEbXMe8ST2dF-pRHyoCiDB6Is_MfdBEA7YRFGNJ1UNgHIqxK0c31IKPCvU7ElRI8eL81wQD9uxF5gh4H8W93E_WSFKDwUbCw1&amp;t=635086466580000000" type="text/javascript"></script>
+
+
+<script src="/vCAC/ScriptResource.axd?d=kDd_kzNZpzXgH5l-FW1U4h-25Ya6D2pqTDjmcWKZLW80bModHtrhLI1qBGB00Lo4uM8Dh_mevFt-0qCZJ7czpTTnvS7GmfrBZ7Jy121AfIlYqxKZ53dXRSxYHCUAPFzwRzkvEnVf66c8NMeax4tf5DhuTre9oYkHPc_SuLR7SeA1&amp;t=6119e399" type="text/javascript"></script>
+<script src="/vCAC/ScriptResource.axd?d=7mPYvyZAzYBWlYLo1HVsVwRQs4RggG1ykgiYTy9C6eVk-bc59p-gJFcDDUBbkaUCEQrOpI-aymvn5qTczKrYJrGLvYs-oJfAKd9QlDwNJqVtac4vWh6CMhLgW_86YYyrQvi27jEOCWgh3Z8rIFxZvkMQfyiak9bJ152tWwKPXgzKrvuLylUVuZjOyKOlLQiS0&amp;t=6119e399" type="text/javascript"></script>
+<div>
+
+	<input name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAJ6YUs6DTNP7TstAQGWB2eHvM1pkp6hHT/uTXB6k1eteNn9rC3g1e4eD44yCvc40h58qgsWSLIdCCanw0HNF9DX" type="hidden">
+</div>
+            <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ctl00$ScriptManager1', 'aspnetForm', ['fctl00$ctl00$MasterContent$BannerPanel',''], [], [], 90, 'ctl00$ctl00');
+//]]>
+</script>
+
+            <script src="/vCAC/Scripts/VMPS.js" type="text/javascript"></script>
+            <script src="/vCAC/Scripts/Controls.js" type="text/javascript"></script>
+            <script src="/vCAC/Scripts/RoboHelp_CSH.js" type="text/javascript"></script>
+            <script type="text/javascript">
+                g_sGetPleaseWaitMessageUrl = "/vCAC/GetPleaseWaitMessage.ashx?SessionID=t0kiodhqhgipazrtjupdiu1i&Path=%2fvCAC%2fVmpsAdmin%2fEditCredentials.aspx";
+                g_sSaveUserPreferenceUrl = "/vCAC/SaveUserPreference.ashx?ReturnUrl=%2fvCAC%2fVmpsAdmin%2fEditCredentials.aspx";
+                g_sHeartbeatUrl = "/vCAC/SessionKeepAlive.ashx";
+                g_iHeartbeatIntervalMin = 5;
+            </script>
+
+            <!-- Header -->
+            <div id="Header"><div class="masthead_outer_left"><div class="masthead_left"></div></div><div class="masthead_outer_right"><div class="masthead_right_middle"><div id="logo"><a href="/vCAC/Default.aspx" title="vCloud Automation Center announcements"><img src="/vCAC/App_Themes/VMware/DCAC/Images/nav_logo.png" id="imgLogo" height="64" border="0" width="200"></a></div><div class="appname">vCloud Automation Center</div><img class="PleaseWait" src="/vCAC/App_Themes/VMware/DCAC/Images/icon_loading.gif" title="Please wait..." height="16" width="16"><div class="masthead_links"><span class="Label">User: </span><span class="User">VCAC\administrator</span><a class="" href="/vCAC/Default.aspx"><span>Announcements</span></a><a href="javascript:RH_ShowHelp(0, &quot;/vCAC/WebHelp/VRM_Help.htm>NewWindow&quot;, HH_HELP_CONTEXT, 61)"><span>Help</span></a><a target="_blank" onclick="return !showPopup('wndAbout', this.href)" href="/vCAC/About.aspx"><span>About</span></a></div><img src="/vCAC/App_Themes/VMware/DCAC/images/nav_plain.gif" alt="" class="masthead_right"></div></div><div class="LogoLineFooter"><div></div></div></div>
+            
+            <!-- Content -->
+            <div id="MainContentArea">
+                
+    <!-- Sidebar -->
+    <div id="Sidebar">
+        <div id="SidebarDiv"><div class="SidebarTabs"><script id="dxis_1277457456" src="/vCAC/DXR.axd?r=1_142,1_80,1_135,1_128,1_133,1_119,1_90,1_113,1_98,1_105-kMs68" type="text/javascript"></script><table id="ctl00_ctl00_MasterContent_ctl05" style="width:190px;border-collapse:collapse;border-collapse:separate;" border="0" cellpadding="0" cellspacing="0">
+	<tbody><tr>
+		<td class="dxmVerticalMenu_VMware" style="border-bottom-color:#CCCCCC;border-bottom-style:Dotted;border-bottom-width:1px;" valign="top"><table style="width:100%;border-collapse:collapse;border-collapse:separate;" border="0" cellpadding="0" cellspacing="0">
+			<tbody><tr id="ctl00_ctl00_MasterContent_ctl05_DXI0_" onclick="aspxMIClick(event, 'ctl00_ctl00_MasterContent_ctl05', '0')">
+				<td id="ctl00_ctl00_MasterContent_ctl05_DXI0_I" title="View reports." class="dxmMenuGutter_VMware dxmVerticalMenuItemWithImage_VMware" style="cursor:pointer;text-align:Left;white-space:normal;padding-right:3px!important;border-right:0px!important;"><a tabindex="-1" href="/vCAC/Reports/ViewReports.aspx"><img id="ctl00_ctl00_MasterContent_ctl05_DXI0_Img" title="View reports." src="../images/toc_img_reports_sm.png" alt="" style="height:32px;width:32px;"></a></td><td id="ctl00_ctl00_MasterContent_ctl05_DXI0_N" title="View reports." class="dxmVerticalMenuItemWithImage_VMware dxmVerticalMenuItemLeftImageSpacing_VMware" style="cursor:pointer;"><div style="overflow:hidden;">
+
+				</div></td><td id="ctl00_ctl00_MasterContent_ctl05_DXI0_T" title="View reports." class="dxmVerticalMenuItemWithImage_VMware" style="color:#444444;font-family:Arial;width:100%;cursor:pointer;text-align:Left;white-space:normal;border-left:0px!important;padding-left:0px!important;"><a title="View reports." href="/vCAC/Reports/ViewReports.aspx" style="color:#444444;font-family:Arial;white-space:normal;">Reports</a></td>
+			</tr>
+		</tbody></table></td>
+	</tr>
+</tbody></table><script id="dxss_1660123581" type="text/javascript">
+<!--
+aspxAddHoverItems('ctl00_ctl00_MasterContent_ctl05',[[[''],[''],['DXM_']],[['dxmVerticalMenuItemHoverWithImage_VMware'],[''],['DXI0_'],['I','N','T','P'],[['']],['Img','PImg']]]);
+
+var dxo = new ASPxClientMenu('ctl00_ctl00_MasterContent_ctl05');
+window['ctl00_ctl00_MasterContent_ctl05'] = dxo;
+dxo.uniqueID = 'ctl00$ctl00$MasterContent$ctl05';
+dxo.disappearAfter=0;
+dxo.subMenuFIXOffset=2;
+dxo.subMenuLIXOffset=2;
+dxo.subMenuXOffset=2;
+dxo.isVertical=true;
+dxo.InlineInitialize();
+
+//-->
+</script><div class="SelectedNavNode"><img src="/vCAC/App_Themes/VMware/DCAC/Images/bg_nav_sel_top.gif" class="Header" height="4" width="191"><table class="Heading" cellspacing="0"><tbody><tr><td onclick="document.location.href='/vCAC/VMPSAdmin/ViewEntAdmins.aspx';" class="Clickable"><img class="HeadingImage" src="/vCAC/images/toc_img_support_sm.png" height="32" width="32">vCAC Administrator</td></tr></tbody></table><ul><li><a title="Assign access control administrators and vCAC administrators." href="/vCAC/VMPSAdmin/ViewAppAdmins.aspx">Administrators</a></li><li><a title="Configure agents compute resource discovery" href="/vCAC/VMPSAdmin/AgentConfiguration.aspx">Agent Configuration</a></li><li><a title="View the audit logs." href="/vCAC/VMPSAdmin/ViewAuditLog.aspx">Audit Log Viewer</a></li><li class="Selected"><a title="Manage the credentials associated with endpoints." href="/vCAC/VmpsAdmin/EditCredentials.aspx">Credentials</a></li><li><a title="Change the announcements, application name, and logo seen by users of this application." href="/vCAC/VMPSAdmin/Customize.aspx">Customization</a></li><li><a title="View the status of all Distributed Execution Managers." href="/vCAC/VMPSAdmin/WorkflowExecutionManagerStatus.aspx">Distributed Execution Status</a></li><li><a title="Manage the endpoints representing virtualization platforms, cloud service accounts, physical machines and storage devices." href="/vCAC/VmpsAdmin/ViewEndpoints.aspx">Endpoints</a></li><li><a title="Place compute resources in enterprise groups and assign enterprise administrators to manage them." href="/vCAC/VMPSAdmin/ViewEntAdmins.aspx">Enterprise Groups</a></li><li><a title="Manage global configuration settings." href="/vCAC/VMPSAdmin/EditGlobalProperties.aspx">Global Properties</a></li><li><a title="Manage the instance types associated with Amazon machine images." href="/vCAC/VMPSAdmin/EditInstanceTypes.aspx">Instance Types</a></li><li><a title="View license information." href="/vCAC/VMPSAdmin/LicenseInfo.aspx">License Info</a></li><li><a title="Review vCAC Logs" href="/vCAC/VMPSAdmin/ViewTrackingLog.aspx">Log Viewer</a></li><li><a title="Review a user's provisioning group memberships, access to machine blueprints and administrator assignments." href="/vCAC/VMPSAdmin/ViewUserRights.aspx">User Rights</a></li><li><a title="View the workflow execution history." href="/vCAC/VMPSAdmin/WorkflowHistory.aspx">Workflow History</a></li></ul><img src="/vCAC/App_Themes/VMware/DCAC/Images/bg_nav_sel_bottom.gif" class="Footer" height="4" width="191"></div></div></div>
+        
+    </div>
+    <!-- Page Content -->
+    <div id="Content">
+        <div id="ctl00_ctl00_MasterContent_BannerPanel">
+	
+                <div class="Banner">  <div class="BannerHeader"><div></div></div>  <div class="BannerBody">    <ul><li class="warning">vCAC Server License is using a temporary license and has 7 days remaining.</li><li class="warning">vCAC Desktop License is using a temporary license and has 7 days remaining.</li>    </ul>  </div>  <div class="Footer"><div><div></div></div></div></div>
+            
+</div>
+        
+    <table class="ContentPanel" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_ViewCredentials_TopicPanel1" cellpadding="0" cellspacing="0"><tbody><tr><td><table class="ContentPanelHeader" cellspacing="0"><thead><tr><th class="Header Left"></th><th class="TitleHeader">Credentials <span class="Count">(2)</span></th>
+<th id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_ViewCredentials_TopicPanel1_ContentPanelHeaderLinkCell1" class="Header" align="right"><a href="#" class="Header" onclick="credentialGrid.AddNewRow();return false;"><img src="/vCAC/images/icon_add.png" height="16" width="16"><span>New Credentials</span></a></th>
+<th class="Header Right"></th></tr>
+</thead></table></td></tr><tr><td class="ContentPanelBodyCell"><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_ViewCredentials_TopicPanel1_Body" class="Body"><span><div class="PaddedContent">Manage the credentials associated with endpoints.</div></span>
+        
+        <table class="dxgvControl_VMware" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_ViewCredentials_TopicPanel1_credentialGrid" style="width:100%;border-collapse:collapse;border-collapse:separate;" border="0" cellpadding="0" cellspacing="0">
+	<tbody><tr>
+		<td><table id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_ViewCredentials_TopicPanel1_credentialGrid_DXMainTable" class="dxgvTable_VMware" onclick="aspxGVTableClick('ctl00_ctl00_MasterContent_MainContentPlaceHolder_ViewCredentials_TopicPanel1_credentialGrid', event);" style="width:100%;border-collapse:collapse;empty-cells:show;" border="0" cellpadding="0" cellspacing="0">
+			<tbody><tr id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_ViewCredentials_TopicPanel1_credentialGrid_DXHeadersRow0">
+				<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_ViewCredentials_TopicPanel1_credentialGrid_col0" class="dxgvHeader_VMware" onmousedown="aspxGVHeaderMouseDown('ctl00_ctl00_MasterContent_MainContentPlaceHolder_ViewCredentials_TopicPanel1_credentialGrid', this, event);" style="width:40px;white-space:normal;border-top-width:0px;border-left-width:0px;"><table style="width:100%;border-collapse:collapse;" border="0" cellpadding="0" cellspacing="0">
+					<tbody><tr>
+						<td style="white-space:normal;">&nbsp;</td>
+					</tr>
+				</tbody></table></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_ViewCredentials_TopicPanel1_credentialGrid_col1" class="dxgvHeader_VMware" onmousedown="aspxGVHeaderMouseDown('ctl00_ctl00_MasterContent_MainContentPlaceHolder_ViewCredentials_TopicPanel1_credentialGrid', this, event);" style="white-space:normal;border-top-width:0px;border-left-width:0px;"><table style="width:100%;border-collapse:collapse;" border="0" cellpadding="0" cellspacing="0">
+					<tbody><tr>
+						<td style="width:100%;white-space:normal;"><div class="IconRequired IconTextGrid Hidden"><span><img src="/vCAC/Images/icon_required.png" height="16" width="8">Name</span></div></td><td style="padding-left:5px;"><img class="dxGridView_gvHeaderSortUp_VMware" src="/vCAC/DXR.axd?r=1_9-kMs68" alt="(Ascending)"></td>
+					</tr>
+				</tbody></table></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_ViewCredentials_TopicPanel1_credentialGrid_col2" class="dxgvHeader_VMware" onmousedown="aspxGVHeaderMouseDown('ctl00_ctl00_MasterContent_MainContentPlaceHolder_ViewCredentials_TopicPanel1_credentialGrid', this, event);" style="width:30%;white-space:normal;border-top-width:0px;border-left-width:0px;"><table style="width:100%;border-collapse:collapse;" border="0" cellpadding="0" cellspacing="0">
+					<tbody><tr>
+						<td style="white-space:normal;">Description</td>
+					</tr>
+				</tbody></table></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_ViewCredentials_TopicPanel1_credentialGrid_col3" class="dxgvHeader_VMware" onmousedown="aspxGVHeaderMouseDown('ctl00_ctl00_MasterContent_MainContentPlaceHolder_ViewCredentials_TopicPanel1_credentialGrid', this, event);" style="white-space:normal;border-top-width:0px;border-left-width:0px;"><table style="width:100%;border-collapse:collapse;" border="0" cellpadding="0" cellspacing="0">
+					<tbody><tr>
+						<td style="white-space:normal;"><div class="IconRequired IconTextGrid Hidden"><span><img src="/vCAC/Images/icon_required.png" height="16" width="8">Username</span></div></td>
+					</tr>
+				</tbody></table></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_ViewCredentials_TopicPanel1_credentialGrid_col4" class="dxgvHeader_VMware" onmousedown="aspxGVHeaderMouseDown('ctl00_ctl00_MasterContent_MainContentPlaceHolder_ViewCredentials_TopicPanel1_credentialGrid', this, event);" style="white-space:normal;border-top-width:0px;border-left-width:0px;border-right-width:0px;"><table style="width:100%;border-collapse:collapse;" border="0" cellpadding="0" cellspacing="0">
+					<tbody><tr>
+						<td style="white-space:normal;"><div class="IconRequired IconTextGrid Hidden"><span><img src="/vCAC/Images/icon_required.png" height="16" width="8">Password</span></div></td>
+					</tr>
+				</tbody></table></td>
+			</tr><tr id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_ViewCredentials_TopicPanel1_credentialGrid_DXDataRow0" class="dxgvDataRow_VMware">
+				<td class="dxgvCommandColumn_VMware dxgv" align="center"><img title="Edit" class="dxgvCommandColumnItem_VMware dxgv__cci" onclick="aspxGVScheduleCommand('ctl00_ctl00_MasterContent_MainContentPlaceHolder_ViewCredentials_TopicPanel1_credentialGrid',['StartEdit',0],1)" src="../images/icon_edit.png" alt="Edit" style="height:16px;width:16px;cursor:pointer;"><img title="Delete" class="dxgvCommandColumnItem_VMware dxgv__cci" onclick="aspxGVScheduleCommand('ctl00_ctl00_MasterContent_MainContentPlaceHolder_ViewCredentials_TopicPanel1_credentialGrid',['Delete',0],1)" src="../images/icon_delete.png" alt="Delete" style="height:16px;width:16px;cursor:pointer;"></td><td class="dxgv">hyperv</td><td class="dxgv">test</td><td class="dxgv">root</td><td class="dxgv" style="border-right-width:0px;">************</td>
+			</tr><tr id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_ViewCredentials_TopicPanel1_credentialGrid_DXDataRow1" class="dxgvDataRow_VMware dxgvDataRowAlt_VMware">
+				<td class="dxgvCommandColumn_VMware dxgv" style="border-bottom-width:0px;" align="center"><img title="Edit" class="dxgvCommandColumnItem_VMware dxgv__cci" onclick="aspxGVScheduleCommand('ctl00_ctl00_MasterContent_MainContentPlaceHolder_ViewCredentials_TopicPanel1_credentialGrid',['StartEdit',1],1)" src="../images/icon_edit.png" alt="Edit" style="height:16px;width:16px;cursor:pointer;"><img title="Delete" class="dxgvCommandColumnItem_VMware dxgv__cci" onclick="aspxGVScheduleCommand('ctl00_ctl00_MasterContent_MainContentPlaceHolder_ViewCredentials_TopicPanel1_credentialGrid',['Delete',1],1)" src="../images/icon_delete.png" alt="Delete" style="height:16px;width:16px;cursor:pointer;"></td><td class="dxgv" style="border-bottom-width:0px;">vcloud1</td><td class="dxgv" style="border-bottom-width:0px;">&nbsp;</td><td class="dxgv" style="border-bottom-width:0px;">automation</td><td class="dxgv" style="border-right-width:0px;border-bottom-width:0px;">************</td>
+			</tr>
+		</tbody></table><img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_ViewCredentials_TopicPanel1_credentialGrid_IADD" class="dxGridView_gvDragAndDropArrowDown_VMware" src="/vCAC/DXR.axd?r=1_9-kMs68" alt="|" style="position:absolute;visibility:hidden;top:-100px;"><img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_ViewCredentials_TopicPanel1_credentialGrid_IADU" class="dxGridView_gvDragAndDropArrowUp_VMware" src="/vCAC/DXR.axd?r=1_9-kMs68" alt="|" style="position:absolute;visibility:hidden;top:-100px;"><img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_ViewCredentials_TopicPanel1_credentialGrid_IDHF" class="dxGridView_gvDragAndDropHideColumn_VMware" src="/vCAC/DXR.axd?r=1_9-kMs68" alt="Hide" style="position:absolute;visibility:hidden;top:-100px;"><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_ViewCredentials_TopicPanel1_credentialGrid_LP" style="left:0px;top:0px;z-index:30000;display:none;" align="center">
+			<table class="dxgvLoadingPanel_VMware" style="height:100%;border-collapse:collapse;" border="0" cellpadding="0" cellspacing="0">
+				<tbody><tr>
+					<td class="dx" style="padding-right:5px;"><img src="../App_Themes/VMware/GridView/Loading.gif" alt="" align="middle"></td><td class="dx" style="padding-left:0px;"><span id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_ViewCredentials_TopicPanel1_credentialGrid_TL">Loading…</span></td>
+				</tr>
+			</tbody></table>
+		</div><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_ViewCredentials_TopicPanel1_credentialGrid_LD" class="dxgvLoadingDiv_VMware" style="display:none;z-index:29999;position:absolute;">
+
+		</div><input name="ctl00$ctl00$MasterContent$MainContentPlaceHolder$ViewCredentials$TopicPanel1$credentialGrid$DXSelInput" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_ViewCredentials_TopicPanel1_credentialGrid_DXSelInput" type="hidden"><input name="ctl00$ctl00$MasterContent$MainContentPlaceHolder$ViewCredentials$TopicPanel1$credentialGrid$DXKVInput" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_ViewCredentials_TopicPanel1_credentialGrid_DXKVInput" value="['fa9d318e-d520-4c25-8b6e-b5ceea4de1bc','3b3f88bc-d8b1-43a9-a783-bbb4533e7d08']" type="hidden"><table id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_ViewCredentials_TopicPanel1_credentialGrid_DXStyleTable" style="display:none;" border="0">
+			<tbody><tr>
+				<td></td>
+			</tr><tr class="dxgvEditingErrorRow_VMware">
+				<td class="dxgv" colspan="5" style="border-right-width:0px;"></td>
+			</tr><tr class="dxgvSelectedRow_VMware">
+				<td></td>
+			</tr><tr class="dxgvFocusedRow_VMware">
+				<td></td>
+			</tr><tr class="dxgvFocusedGroupRow_VMware">
+				<td></td>
+			</tr><tr class="dxgvDataRow_VMware">
+				<td></td>
+			</tr><tr class="dxgvDataRow_VMware dxgvDataRowAlt_VMware">
+				<td></td>
+			</tr>
+		</tbody></table><input name="ctl00$ctl00$MasterContent$MainContentPlaceHolder$ViewCredentials$TopicPanel1$credentialGrid$CallbackState" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_ViewCredentials_TopicPanel1_credentialGrid_CallbackState" value="BwMHAgIERGF0YQZoAQAAAAACAAAAAgAAAAAAAAACAAAAAAUAAAAMQ3JlZGVudGlhbElEDUNyZWRlbnRpYWwgSUQLAAAIVXNlck5hbWUJVXNlciBOYW1lBwAACFBhc3N3b3JkCFBhc3N3b3JkBwAADkNyZWRlbnRpYWxOYW1lD0NyZWRlbnRpYWwgTmFtZQcAABVDcmVkZW50aWFsRGVzY3JpcHRpb24WQ3JlZGVudGlhbCBEZXNjcmlwdGlvbgcAAAIAAAAGRG9tYWluC0NlcnRpZmljYXRlBwAHAAcABwAG//8LAo4xnfog1SVMi261zupN4bwHAgRyb290BwIYaUh1c2hSWi9BWmJGeGlUZ0t3NThCZz09BwIGaHlwZXJ2BwIEdGVzdAcABwAG//8LAryIPzux2KlDp4O7tFM+fQgHAgphdXRvbWF0aW9uBwIYWXNLN3lYZVlUOUJadS9sbUdVcG5Rdz09BwIHdmNsb3VkMQcCAAIFU3RhdGUHUgcFBwACAQcBAgEHAgIBBwMCAQcEAgEHAAcABwEHAAcBBwEHAAIABQAAAIAJAgxDcmVkZW50aWFsSUQJAgACAAMHBAIABwACAQcCBwACAQcABwACCFBhZ2VTaXplAwcZ" type="hidden"></td>
+	</tr>
+</tbody></table><script id="dxss_1670299352" type="text/javascript">
+<!--
+
+var dxo = new ASPxClientGridView('ctl00_ctl00_MasterContent_MainContentPlaceHolder_ViewCredentials_TopicPanel1_credentialGrid');
+window['credentialGrid'] = dxo;
+dxo.callBack = function(arg) { WebForm_DoCallback('ctl00$ctl00$MasterContent$MainContentPlaceHolder$ViewCredentials$TopicPanel1$credentialGrid',arg,aspxCallback,'ctl00_ctl00_MasterContent_MainContentPlaceHolder_ViewCredentials_TopicPanel1_credentialGrid',aspxCallbackError,true); };
+dxo.uniqueID = 'ctl00$ctl00$MasterContent$MainContentPlaceHolder$ViewCredentials$TopicPanel1$credentialGrid';
+dxo.Init.AddHandler(GridView_EndCallback);
+dxo.BeginCallback.AddHandler(GridView_BeginCallback);
+dxo.EndCallback.AddHandler(function(s, e) { GridView_EndCallback(s, e); });
+dxo.cpSetFocusOnNewRow=true;
+dxo.cphc='(2)';
+dxo.callBacksEnabled=true;
+dxo.pageRowCount=2;
+dxo.pageRowSize=25;
+dxo.pageIndex=0;
+dxo.pageCount=1;
+dxo.selectedWithoutPageRowCount=0;
+dxo.visibleStartIndex=0;
+dxo.focusedRowIndex=-1;
+dxo.allowFocusedRow=false;
+dxo.allowSelectByRowClick=false;
+dxo.allowSelectSingleRowOnly=false;
+dxo.indentColumnCount=0;
+dxo.callbackOnFocusedRowChanged=false;
+dxo.callbackOnSelectionChanged=false;
+dxo.autoFilterDelay='1200';
+dxo.confirmDelete='Are you sure you want to delete this row?';
+dxo.columns = [new ASPxClientGridViewColumn('CommandColumn',0,-1,null,1,'',0,0,0,1,0,0,0),
+new ASPxClientGridViewColumn('',1,-1,'CredentialName',1,'',0,1,1,1,0,0,0),
+new ASPxClientGridViewColumn('',2,-1,'CredentialDescription',1,'',0,1,1,1,0,0,0),
+new ASPxClientGridViewColumn('',3,-1,'UserName',1,'',0,1,1,1,0,0,0),
+new ASPxClientGridViewColumn('',4,-1,'Password',1,'',0,1,0,1,0,0,0)];
+dxo.editState=0;
+dxo.InlineInitialize();
+
+//-->
+</script>
+    </div></td></tr></tbody></table>
+
+
+    </div>
+
+            </div>
+        
+
+<script type="text/javascript">
+//<![CDATA[
+
+var callBackFrameUrl='/vCAC/WebResource.axd?d=s5GeBdeqTLGA8qINKrTLmioN4ZYnSFs2wVkDPagSIbTjp0lq7Uz-jBt2hNR8ZLplgTda8DujXS1lqWgsvbEPp3q5wQlIJu-L6uwgB2b8Q_I1&t=635086466580000000';
+WebForm_InitCallback();//]]>
+</script>
+<input value="1_142,1_80,1_135,1_128,1_133,1_119,1_90,1_113,1_98,1_105" id="DXScript" name="DXScript" type="hidden"></form>
+    
+
+</body>​​​​​</html>

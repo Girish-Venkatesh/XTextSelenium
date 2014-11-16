@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:elements name='Project'>
+    <xs:complexType name = "OverView">
+        <xs:element caption = 'Domain' type = '10'>domain</xs:element>
+		
+        <xs:element caption = 'Type'  type = '12'>type</xs:element>
+    </xs:complexType>
+    
+  </xs:elements>
+  
+ <xs:elements name='Issue'>
+    <xs:complexType name = "IssueOverView">
+        <xs:element  caption = 'Domain'  type = '10'>IssueDomain</xs:element>
+        <xs:element  caption = 'Type'  type = '22'>IssueType</xs:element>
+    </xs:complexType>
+    
+  </xs:elements>
+  
+</xs:schema>

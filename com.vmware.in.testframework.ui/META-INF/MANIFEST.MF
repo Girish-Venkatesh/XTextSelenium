@@ -1,0 +1,51 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+<<<<<<< HEAD
+Bundle-Name: com.vmware.in.testframework.ui
+Bundle-Vendor: My Company
+Bundle-Version: 1.0.0.qualifier
+Bundle-SymbolicName: com.vmware.in.testframework.ui; singleton:=true
+Bundle-ActivationPolicy: lazy
+Require-Bundle: com.vmware.in.testframework;visibility:=reexport,
+ org.eclipse.xtext.ui,
+ org.eclipse.ui.editors;bundle-version="3.5.0",
+ org.eclipse.ui.ide;bundle-version="3.5.0",
+ org.eclipse.xtext.ui.shared,
+ org.eclipse.ui,
+ org.eclipse.xtext.builder,
+ org.antlr.runtime,
+ org.eclipse.xtext.common.types.ui,
+ org.eclipse.xtext.ui.codetemplates.ui,
+ org.eclipse.compare
+Import-Package: org.apache.log4j,
+ org.eclipse.xtext.xbase.lib
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Export-Package: com.vmware.in.testframework.ui.quickfix,
+ com.vmware.in.testframework.ui.contentassist,
+ com.vmware.in.testframework.ui.contentassist.antlr,
+ com.vmware.in.testframework.ui.internal
+Bundle-Activator: com.vmware.in.testframework.ui.internal.TestFrameworkActivator
+Bundle-ClassPath: .,
+ src/lib/gson-2.1.jar
+=======
+Bundle-Name: com.vmware.in.testframework.tests
+Bundle-Vendor: My Company
+Bundle-Version: 1.0.0.qualifier
+Bundle-SymbolicName: com.vmware.in.testframework.tests; singleton:=true
+Bundle-ActivationPolicy: lazy
+Require-Bundle: com.vmware.in.testframework,
+ com.vmware.in.testframework.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.xtext.junit4,
+ org.eclipse.ui.workbench;resolution:=optional
+Import-Package: org.apache.log4j,
+ org.junit;version="4.5.0",
+ org.junit.runner;version="4.5.0",
+ org.junit.runner.manipulation;version="4.5.0",
+ org.junit.runner.notification;version="4.5.0",
+ org.junit.runners;version="4.5.0",
+ org.junit.runners.model;version="4.5.0",
+ org.hamcrest.core
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Export-Package: com.vmware.in.testframework
+>>>>>>> c544cab66c21da0ab6c39dcad0edc4b419456e64

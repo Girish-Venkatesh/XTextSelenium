@@ -1,0 +1,36 @@
+grammar com.vmware.in.testframework.TestFramework with org.eclipse.xtext.common.Terminals
+
+generate testFramework "http://www.vmware.com/in/testframework/TestFramework"
+
+Model:
+	greetings+=Greeting*;
+	
+Greeting:
+	'Testcase' (SPACE)? '=' (SPACE)? testcaseValue = INT
+	'Summary' (SPACE)? '=' (SPACE)? summaryDetails = STRING
+	action = FIRSTACTION;
+
+FIRSTACTION:
+	(checktableAction = 'Checktable') nextAction = TABLEACTION
+;
+
+TABLEACTION:
+	'Table' '{'
+		identifierAction = IDENTIFIER nextAction = LABEL
+		
+	'}'
+;
+
+
+
+IDENTIFIER:
+	'identifier' (SPACE)? '=' (SPACE)? identifiervalue = STRING
+;
+
+LABEL:
+	'label' (SPACE)? '=' (SPACE)? labelvalue = ID
+;
+	
+terminal SPACE : (' ')*;
+	
+	

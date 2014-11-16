@@ -1,0 +1,1 @@
+[{"recordToFieldMap":{"Issue":{"fieldToAttrMap":{"IssueType":{"caption":"Type","type":"22","tab":"IssueOverView"},"IssueDomain":{"caption":"Domain","type":"10","tab":"IssueOverView"}}},"Project":{"fieldToAttrMap":{"domain":{"caption":"Domain","type":"10","tab":"OverView"},"type":{"caption":"Type","type":"12","tab":"OverView"}}}}}]

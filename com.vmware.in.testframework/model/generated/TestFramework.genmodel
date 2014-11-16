@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/com.vmware.in.testframework/src-gen" editDirectory="/com.vmware.in.testframework.edit/src"
+    editorDirectory="/com.vmware.in.testframework.editor/src" modelPluginID="com.vmware.in.testframework"
+    forceOverwrite="true" modelName="TestFramework" updateClasspath="false" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    complianceLevel="5.0" copyrightFields="false" editPluginID="com.vmware.in.testframework.edit"
+    editorPluginID="com.vmware.in.testframework.editor" runtimeVersion="2.9">
+  <genPackages prefix="TestFramework" basePackage="com.vmware.in.testframework" disposableProviderFactory="true"
+      fileExtensions="rot" ecorePackage="TestFramework.ecore#/">
+    <genClasses ecoreClass="TestFramework.ecore#//Model">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference TestFramework.ecore#//Model/greetings"/>
+    </genClasses>
+    <genClasses ecoreClass="TestFramework.ecore#//Greeting">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute TestFramework.ecore#//Greeting/testcaseValue"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute TestFramework.ecore#//Greeting/summaryDetails"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference TestFramework.ecore#//Greeting/action"/>
+    </genClasses>
+    <genClasses ecoreClass="TestFramework.ecore#//FIRSTACTION">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute TestFramework.ecore#//FIRSTACTION/checktableAction"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference TestFramework.ecore#//FIRSTACTION/nextAction"/>
+    </genClasses>
+    <genClasses ecoreClass="TestFramework.ecore#//TABLEACTION">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference TestFramework.ecore#//TABLEACTION/identifierAction"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference TestFramework.ecore#//TABLEACTION/nextAction"/>
+    </genClasses>
+    <genClasses ecoreClass="TestFramework.ecore#//IDENTIFIER">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute TestFramework.ecore#//IDENTIFIER/identifiervalue"/>
+    </genClasses>
+    <genClasses ecoreClass="TestFramework.ecore#//LABEL">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute TestFramework.ecore#//LABEL/labelvalue"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

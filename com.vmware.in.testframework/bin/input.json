@@ -1,0 +1,22 @@
+[
+	{
+		"editrecord":
+			{ "caption":"Edit Record"}
+			
+	},
+	
+	{	"delete":
+			{ "caption":"Delete"}
+	},
+	
+	{		
+			
+		"editexamresults":
+			{ "caption":"Edit exam results"}
+	},
+	{			
+			
+		"editphonenumbers":
+			{ "caption":"Edit phone numbers"}
+	}
+]			

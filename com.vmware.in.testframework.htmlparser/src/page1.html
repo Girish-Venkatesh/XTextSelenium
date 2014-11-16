@@ -1,0 +1,1272 @@
+<html style="display: block;" xmlns="http://www.w3.org/1999/xhtml">​​​​​<head id="ctl00_ctl00_head"><link rel="stylesheet" type="text/css" href="App_Themes/VMware/Web/sprite.css"><link rel="stylesheet" type="text/css" href="App_Themes/VMware/Web/styles.css"><link rel="stylesheet" type="text/css" href="App_Themes/VMware/Editors/sprite.css"><link rel="stylesheet" type="text/css" href="App_Themes/VMware/Editors/styles.css"><link rel="stylesheet" type="text/css" href="App_Themes/VMware/GridView/sprite.css"><link rel="stylesheet" type="text/css" href="App_Themes/VMware/GridView/styles.css"><link rel="stylesheet" type="text/css" href="/vCAC/DXR.axd?r=1_8,1_4-kMs68">        <link href="/vCAC/App_Themes/VMware/Chart/styles.css" type="text/css" rel="stylesheet">
+        <link href="/vCAC/App_Themes/VMware/DCAC/Controls.css" type="text/css" rel="stylesheet">
+        <link href="/vCAC/App_Themes/VMware/DCAC/masthead.css" type="text/css" rel="stylesheet">
+        <link href="/vCAC/App_Themes/VMware/DCAC/VmpsWeb.css" type="text/css" rel="stylesheet">
+        <link href="/vCAC/App_Themes/VMware/Editors/sprite.css" type="text/css" rel="stylesheet">
+        <link href="/vCAC/App_Themes/VMware/Editors/styles.css" type="text/css" rel="stylesheet">
+        <link href="/vCAC/App_Themes/VMware/GridView/sprite.css" type="text/css" rel="stylesheet">
+        <link href="/vCAC/App_Themes/VMware/GridView/styles.css" type="text/css" rel="stylesheet">
+        <link href="/vCAC/App_Themes/VMware/HtmlEditor/sprite.css" type="text/css" rel="stylesheet">
+        <link href="/vCAC/App_Themes/VMware/HtmlEditor/styles.css" type="text/css" rel="stylesheet">
+        <link href="/vCAC/App_Themes/VMware/SpellChecker/styles.css" type="text/css" rel="stylesheet">
+        <link href="/vCAC/App_Themes/VMware/TreeList/sprite.css" type="text/css" rel="stylesheet">
+        <link href="/vCAC/App_Themes/VMware/TreeList/styles.css" type="text/css" rel="stylesheet">
+        <link href="/vCAC/App_Themes/VMware/Web/sprite.css" type="text/css" rel="stylesheet">
+        <link href="/vCAC/App_Themes/VMware/Web/styles.css" type="text/css" rel="stylesheet">
+        <title>Home - vCloud Automation Center</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="/vCAC/Images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+        <meta name="version" content="5.2.4 Build 13">
+        <meta name="copyright" content="Copyright © 2008-2014 VMware, Inc. All rights reserved.">
+        <meta name="trademark" content="This product is protected by U.S. and international copyright and intellectual property laws. VMware products are covered by one or more patents listed at http://www.vmware.com/go/patents.  VMware is a registered trademark or trademark of VMware, Inc. in the United States and/or other jurisdictions. All other marks and names mentioned herein may be trademarks of their respective companies.">
+<script src="/vCAC/WebResource.axd?d=sNfsy33qUBb83QLkbTMeRozQNEtMvTmg5wAZadNehgWQQ5knQEd1x50UepZko5X-DkY7ArkuvWjfh6ggrjv3bV21S-_XFG6Gz3HXlq-JWOZzjyWiKWXzHVrVT82MejcUD8taI4xL6ybqoPMLbfiI15NXG0bv_sJ7l2sQHkRgf6ilUrJL6PnDoRSgYpZYnKDV0&amp;t=635255107500000000" type="text/javascript"></script><style type="text/css">html { display:none; }</style><script type="text/javascript">if (top.location.hostname == self.location.hostname) { document.documentElement.style.display = 'block'; } else { top.location = self.location; }</script><style></style></head>
+    <body class="Default">
+        <form name="aspnetForm" method="post" action="" id="aspnetForm" onsubmit="return startWait(this)">
+<div>
+<input name="__EVENTTARGET" id="__EVENTTARGET" value="" type="hidden">
+<input name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" type="hidden">
+<input name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE2MDg3NDg0MTIPZBYCZg9kFgJmD2QWBGYQZGQWBAITEBYEHgNyZWwFDXNob3J0Y3V0IGljb24eBHR5cGUFDGltYWdlL3gtaWNvbmRkAhcPFgQeA3NyYwXuAS92Q0FDL1dlYlJlc291cmNlLmF4ZD9kPXNOZnN5MzNxVUJiODNRTGtiVE1lUm96UU5FdE12VG1nNXdBWmFkTmVoZ1dRUTVrblFFZDF4NTBVZXBaa281WC1Ea1k3QXJrdXZXamZoNmdncmp2M2JWMjFTLV9YRkc2R3ozSFhscS1KV09aemp5V2lLV1h6SFZyVlQ4Mk1lamNVRDh0YUk0eEw2eWJxb1BNTGJmaUkxNU5YRzBidl9zSjdsMnNRSGtSZ2Y2aWxVckpMNlBuRG9SU2dZcFpZbktEVjAmdD02MzUyNTUxMDc1MDAwMDAwMDAfAQUPdGV4dC9qYXZhc2NyaXB0ZAIBD2QWAgICD2QWAgIHD2QWCAIBD2QWAgIBD2QWAgIBDygphQFEeW5hbWljT3BzLldlYi5Db250cm9scy5MaXRlcmFsK0xpdGVyYWxTdGF0ZSwgRHluYW1pY09wcy5XZWIuTG9naWMsIFZlcnNpb249NS4yLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNmU1MWVhM2ViMWRlZWJjATFkAgMPZBYCAgEPZBYCAgEPKCsEATFkAgUPFgIeB1Zpc2libGVnFgICAQ9kFgICAQ8oKwQBMWQCBw9kFgJmD2QWBGYPZBYEAgEPZBYEAgEPKCsEATFkAgMPPCsABgEADxYCHgVWYWx1ZQUDQWxsZGQCAg9kFgQCAQ8oKwQBMWQCAw88KwAGAQAPFgIfBAUCMTBkZAIBD2QWAgIFD2QWAmYPZBYCAgEPPCsAGAQADxYCHg9EYXRhU291cmNlQm91bmRnZAYPZBAWAQIBFgE8KwALAQAWAh4JU29ydEluZGV4Zg8WAQIBFgEFjAFEZXZFeHByZXNzLldlYi5BU1B4R3JpZFZpZXcuR3JpZFZpZXdEYXRhRGF0ZUNvbHVtbiwgRGV2RXhwcmVzcy5XZWIudjEyLjIsIFZlcnNpb249MTIuMi43LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQo8KwAIAQAWAh4IUGFnZVNpemUCChU8KwAGAQUUKwACZGRkGAEFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYPBR9jdGwwMCRjdGwwMCRNYXN0ZXJDb250ZW50JGN0bDA1BR9jdGwwMCRjdGwwMCRNYXN0ZXJDb250ZW50JGN0bDA2BVVjdGwwMCRjdGwwMCRNYXN0ZXJDb250ZW50JE1haW5Db250ZW50UGxhY2VIb2xkZXIkdXNlckxvZyRUaXRsZVBhbmVsJGNtYkV2ZW50VHlwZXMkREREBVdjdGwwMCRjdGwwMCRNYXN0ZXJDb250ZW50JE1haW5Db250ZW50UGxhY2VIb2xkZXIkdXNlckxvZyRUaXRsZVBhbmVsJGNtYkl0ZW1zUGVyUGFnZSREREQFSWN0bDAwJGN0bDAwJE1hc3RlckNvbnRlbnQkTWFpbkNvbnRlbnRQbGFjZUhvbGRlciR1c2VyTG9nJFRpdGxlUGFuZWwkY3RsMDkFWmN0bDAwJGN0bDAwJE1hc3RlckNvbnRlbnQkTWFpbkNvbnRlbnRQbGFjZUhvbGRlciR1c2VyTG9nJFRpdGxlUGFuZWwkUmVjZW50RXZlbnRGaWx0ZXJQb3B1cAWBAWN0bDAwJGN0bDAwJE1hc3RlckNvbnRlbnQkTWFpbkNvbnRlbnRQbGFjZUhvbGRlciR1c2VyTG9nJFRpdGxlUGFuZWwkUmVjZW50RXZlbnRGaWx0ZXJQb3B1cCRSZWNlbnRFdmVudEZpbHRlckZpbHRlciRGaWVsZE5hbWVQb3B1cAWBAWN0bDAwJGN0bDAwJE1hc3RlckNvbnRlbnQkTWFpbkNvbnRlbnRQbGFjZUhvbGRlciR1c2VyTG9nJFRpdGxlUGFuZWwkUmVjZW50RXZlbnRGaWx0ZXJQb3B1cCRSZWNlbnRFdmVudEZpbHRlckZpbHRlciRPcGVyYXRpb25Qb3B1cAV9Y3RsMDAkY3RsMDAkTWFzdGVyQ29udGVudCRNYWluQ29udGVudFBsYWNlSG9sZGVyJHVzZXJMb2ckVGl0bGVQYW5lbCRSZWNlbnRFdmVudEZpbHRlclBvcHVwJFJlY2VudEV2ZW50RmlsdGVyRmlsdGVyJEdyb3VwUG9wdXAFSWN0bDAwJGN0bDAwJE1hc3RlckNvbnRlbnQkTWFpbkNvbnRlbnRQbGFjZUhvbGRlciR1c2VyTG9nJFRpdGxlUGFuZWwkY3RsMTAFTWN0bDAwJGN0bDAwJE1hc3RlckNvbnRlbnQkTWFpbkNvbnRlbnRQbGFjZUhvbGRlciR1c2VyTG9nJFRpdGxlUGFuZWwkZXZlbnRHcmlkBWFjdGwwMCRjdGwwMCRNYXN0ZXJDb250ZW50JE1haW5Db250ZW50UGxhY2VIb2xkZXIkdXNlckxvZyRUaXRsZVBhbmVsJGV2ZW50R3JpZCRjdGwwMCREWEVkaXRvcjEkREREBWdjdGwwMCRjdGwwMCRNYXN0ZXJDb250ZW50JE1haW5Db250ZW50UGxhY2VIb2xkZXIkdXNlckxvZyRUaXRsZVBhbmVsJGV2ZW50R3JpZCRjdGwwMCREWEVkaXRvcjEkREREJEMkRk5QBWBjdGwwMCRjdGwwMCRNYXN0ZXJDb250ZW50JE1haW5Db250ZW50UGxhY2VIb2xkZXIkdXNlckxvZyRUaXRsZVBhbmVsJGV2ZW50R3JpZCREWEZSRWRpdG9yY29sMSREREQFZmN0bDAwJGN0bDAwJE1hc3RlckNvbnRlbnQkTWFpbkNvbnRlbnRQbGFjZUhvbGRlciR1c2VyTG9nJFRpdGxlUGFuZWwkZXZlbnRHcmlkJERYRlJFZGl0b3Jjb2wxJERERCRDJEZOUCUJToRXDbFfd4O5pHbJm1Im5rwF9HQnOgQo+l6FMSqZ" type="hidden">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/vCAC/WebResource.axd?d=tnx3CP0oMxsmEbXMe8ST2dF-pRHyoCiDB6Is_MfdBEA7YRFGNJ1UNgHIqxK0c31IKPCvU7ElRI8eL81wQD9uxF5gh4H8W93E_WSFKDwUbCw1&amp;t=635086466580000000" type="text/javascript"></script>
+
+
+<script src="/vCAC/ScriptResource.axd?d=kDd_kzNZpzXgH5l-FW1U4h-25Ya6D2pqTDjmcWKZLW80bModHtrhLI1qBGB00Lo4uM8Dh_mevFt-0qCZJ7czpTTnvS7GmfrBZ7Jy121AfIlYqxKZ53dXRSxYHCUAPFzwRzkvEnVf66c8NMeax4tf5DhuTre9oYkHPc_SuLR7SeA1&amp;t=6119e399" type="text/javascript"></script>
+<script src="/vCAC/ScriptResource.axd?d=7mPYvyZAzYBWlYLo1HVsVwRQs4RggG1ykgiYTy9C6eVk-bc59p-gJFcDDUBbkaUCEQrOpI-aymvn5qTczKrYJrGLvYs-oJfAKd9QlDwNJqVtac4vWh6CMhLgW_86YYyrQvi27jEOCWgh3Z8rIFxZvkMQfyiak9bJ152tWwKPXgzKrvuLylUVuZjOyKOlLQiS0&amp;t=6119e399" type="text/javascript"></script>
+<script src="/vCAC/ScriptResource.axd?d=Y4gDu3Ex9yxvG5HifEkug3TiKOwzLodwgQLzM4LUtvAUBCJg0dBFT8IJBbNAleyAWKIt97ljC0AYPr_etHAzkMaMxF0e4HRfg3IBqSbImtUbmWFZoqrFsLNRRIOl1yQkiNqWXH6ohQzpvcSoiYC6XDjXaCimdL--AEOZyD4ZVf-67SqW-F3S2CCmG_VLdJNv0&amp;t=34a322f4" type="text/javascript"></script>
+<div>
+
+	<input name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAcFmqCnK3+g4FfnW588uVYTvU8guIQCW4orDqfTyqsPpZlW11B4bKQod/a/lXb0+4nk+p4fpg5vJXzU1W4xHkq/QfD8kKUT/3lSgZBDwBwPJeARsuBxehLSQU11bcEq4zzP32p0E3D2LVlJ9ZOVjVpKakdnlB9Q9NR7WusWXO5pTgdxQeRc3TiEsMkZtlL7XAs=" type="hidden">
+</div>
+            <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ctl00$ScriptManager1', 'aspnetForm', ['fctl00$ctl00$MasterContent$BannerPanel','','tctl00$ctl00$MasterContent$MainContentPlaceHolder$userLog$TitlePanel$RecentEventFilterUpdate','','tctl00$ctl00$MasterContent$MainContentPlaceHolder$userLog$TitlePanel$ctl05',''], ['ctl00$ctl00$MasterContent$MainContentPlaceHolder$userLog$TitlePanel$RecentEventFilterUpdateEx','','ctl00$ctl00$MasterContent$MainContentPlaceHolder$userLog$TitlePanel$cmbEventTypes','','ctl00$ctl00$MasterContent$MainContentPlaceHolder$userLog$TitlePanel$cmbItemsPerPage',''], [], 90, 'ctl00$ctl00');
+//]]>
+</script>
+
+            <script src="/vCAC/Scripts/VMPS.js" type="text/javascript"></script>
+            <script src="/vCAC/Scripts/Controls.js" type="text/javascript"></script>
+            <script src="/vCAC/Scripts/RoboHelp_CSH.js" type="text/javascript"></script>
+            <script type="text/javascript">
+                g_sGetPleaseWaitMessageUrl = "/vCAC/GetPleaseWaitMessage.ashx?SessionID=t0kiodhqhgipazrtjupdiu1i&Path=%2fvcac%2fDefault.aspx";
+                g_sSaveUserPreferenceUrl = "/vCAC/SaveUserPreference.ashx?ReturnUrl=%2fvcac%2f";
+                g_sHeartbeatUrl = "/vCAC/SessionKeepAlive.ashx";
+                g_iHeartbeatIntervalMin = 5;
+            </script>
+
+            <!-- Header -->
+            <div id="Header"><div class="masthead_outer_left"><div class="masthead_left"></div></div><div class="masthead_outer_right"><div class="masthead_right_middle"><div id="logo"><a href="/vCAC/Default.aspx" title="vCloud Automation Center announcements"><img src="/vCAC/App_Themes/VMware/DCAC/Images/nav_logo.png" id="imgLogo" height="64" border="0" width="200"></a></div><div class="appname">vCloud Automation Center</div><img class="PleaseWait" src="/vCAC/App_Themes/VMware/DCAC/Images/icon_loading.gif" title="Please wait..." height="16" width="16"><div class="masthead_links"><span class="Label">User: </span><span class="User">VCAC\administrator</span><a class="" href="/vCAC/Default.aspx"><span>Announcements</span></a><a href="javascript:RH_ShowHelp(0, &quot;/vCAC/WebHelp/VRM_Help.htm>NewWindow&quot;, HH_HELP_CONTEXT, 0)"><span>Help</span></a><a target="_blank" onclick="return !showPopup('wndAbout', this.href)" href="/vCAC/About.aspx"><span>About</span></a></div><img src="/vCAC/App_Themes/VMware/DCAC/images/nav_plain.gif" alt="" class="masthead_right"></div></div><div class="LogoLineFooter"><div></div></div></div>
+            
+            <!-- Content -->
+            <div id="MainContentArea">
+                
+    <!-- Sidebar -->
+    <div id="Sidebar">
+        <div id="SidebarDiv"><div class="SidebarTabs"><script id="dxis_43592592" src="/vCAC/DXR.axd?r=1_142,1_80,1_135,1_128,1_133,1_119,1_98,1_105,1_97,1_77,1_126,1_100,1_94,1_99,1_127,1_90,1_113,1_84,1_92-kMs68" type="text/javascript"></script><table id="ctl00_ctl00_MasterContent_ctl05" style="width:190px;border-collapse:collapse;border-collapse:separate;" border="0" cellpadding="0" cellspacing="0">
+	<tbody><tr>
+		<td class="dxmVerticalMenu_VMware" style="border-bottom-color:#CCCCCC;border-bottom-style:Dotted;border-bottom-width:1px;" valign="top"><table style="width:100%;border-collapse:collapse;border-collapse:separate;" border="0" cellpadding="0" cellspacing="0">
+			<tbody><tr id="ctl00_ctl00_MasterContent_ctl05_DXI0_" onclick="aspxMIClick(event, 'ctl00_ctl00_MasterContent_ctl05', '0')">
+				<td id="ctl00_ctl00_MasterContent_ctl05_DXI0_I" title="View reports." class="dxmMenuGutter_VMware dxmVerticalMenuItemWithImage_VMware" style="cursor:pointer;text-align:Left;white-space:normal;padding-right:3px!important;border-right:0px!important;"><a tabindex="-1" href="/vCAC/Reports/ViewReports.aspx"><img id="ctl00_ctl00_MasterContent_ctl05_DXI0_Img" title="View reports." src="images/toc_img_reports_sm.png" alt="" style="height:32px;width:32px;"></a></td><td id="ctl00_ctl00_MasterContent_ctl05_DXI0_N" title="View reports." class="dxmVerticalMenuItemWithImage_VMware dxmVerticalMenuItemLeftImageSpacing_VMware" style="cursor:pointer;"><div style="overflow:hidden;">
+
+				</div></td><td id="ctl00_ctl00_MasterContent_ctl05_DXI0_T" title="View reports." class="dxmVerticalMenuItemWithImage_VMware" style="color:#444444;font-family:Arial;width:100%;cursor:pointer;text-align:Left;white-space:normal;border-left:0px!important;padding-left:0px!important;"><a title="View reports." href="/vCAC/Reports/ViewReports.aspx" style="color:#444444;font-family:Arial;white-space:normal;">Reports</a></td>
+			</tr>
+		</tbody></table></td>
+	</tr>
+</tbody></table><script id="dxss_1660123581" type="text/javascript">
+<!--
+aspxAddHoverItems('ctl00_ctl00_MasterContent_ctl05',[[[''],[''],['DXM_']],[['dxmVerticalMenuItemHoverWithImage_VMware'],[''],['DXI0_'],['I','N','T','P'],[['']],['Img','PImg']]]);
+
+var dxo = new ASPxClientMenu('ctl00_ctl00_MasterContent_ctl05');
+window['ctl00_ctl00_MasterContent_ctl05'] = dxo;
+dxo.uniqueID = 'ctl00$ctl00$MasterContent$ctl05';
+dxo.disappearAfter=0;
+dxo.subMenuFIXOffset=2;
+dxo.subMenuLIXOffset=2;
+dxo.subMenuXOffset=2;
+dxo.isVertical=true;
+dxo.InlineInitialize();
+
+//-->
+</script><table id="ctl00_ctl00_MasterContent_ctl06" style="width:190px;border-collapse:collapse;border-collapse:separate;" border="0" cellpadding="0" cellspacing="0">
+	<tbody><tr>
+		<td class="dxmVerticalMenu_VMware" style="border-bottom-color:#CCCCCC;border-bottom-style:Dotted;border-bottom-width:1px;" valign="top"><table style="width:100%;border-collapse:collapse;border-collapse:separate;" border="0" cellpadding="0" cellspacing="0">
+			<tbody><tr id="ctl00_ctl00_MasterContent_ctl06_DXI0_" onclick="aspxMIClick(event, 'ctl00_ctl00_MasterContent_ctl06', '0')">
+				<td id="ctl00_ctl00_MasterContent_ctl06_DXI0_I" class="dxmMenuGutter_VMware dxmVerticalMenuItemWithImageWithPopOutImage_VMware" style="cursor:pointer;text-align:Left;white-space:normal;padding-right:3px!important;border-right:0px!important;"><a tabindex="-1" href="/vCAC/VMPSAdmin/ViewEntAdmins.aspx"><img id="ctl00_ctl00_MasterContent_ctl06_DXI0_Img" src="images/toc_img_support_sm.png" alt="" style="height:32px;width:32px;"></a></td><td id="ctl00_ctl00_MasterContent_ctl06_DXI0_N" class="dxmVerticalMenuItemWithImageWithPopOutImage_VMware dxmVerticalMenuItemLeftImageSpacing_VMware" style="cursor:pointer;"><div style="overflow:hidden;">
+
+				</div></td><td id="ctl00_ctl00_MasterContent_ctl06_DXI0_T" class="dxmVerticalMenuItemWithImageWithPopOutImage_VMware" style="color:#444444;font-family:Arial;width:100%;cursor:pointer;text-align:Left;white-space:normal;border-left:0px!important;padding-left:0px!important;border-right:0px!important;padding-right:10px!important;"><a href="/vCAC/VMPSAdmin/ViewEntAdmins.aspx" style="color:#444444;font-family:Arial;white-space:normal;">vCAC Administrator</a></td><td id="ctl00_ctl00_MasterContent_ctl06_DXI0_P" class="dxmVerticalMenuItemWithImageWithPopOutImage_VMware" style="cursor:pointer;padding-left:0px!important;border-left:0px!important;"><img id="ctl00_ctl00_MasterContent_ctl06_DXI0_PImg" src="App_Themes/VMware/DCAC/Images/menu_popout_vertical.gif" alt=">" style="height:8px;width:4px;"></td>
+			</tr>
+		</tbody></table></td>
+	</tr>
+</tbody></table><div id="ctl00_ctl00_MasterContent_ctl06_DXM0_" style="position:absolute;left:0px;top:0px;z-index:20000;visibility:hidden;display:none;">
+	<table id="ctl00_ctl00_MasterContent_ctl06_DXMST0_" style="border-collapse:collapse;border-collapse:separate;position:relative;" border="0" cellpadding="0" cellspacing="0">
+		<tbody><tr>
+			<td class="dxmSubMenu_VMware"><table style="border-collapse:collapse;border-collapse:separate;" border="0" cellpadding="0" cellspacing="0">
+				<tbody><tr id="ctl00_ctl00_MasterContent_ctl06_DXI0i0_" onclick="aspxMIClick(event, 'ctl00_ctl00_MasterContent_ctl06', '0i0')">
+					<td id="ctl00_ctl00_MasterContent_ctl06_DXI0i0_I" title="Assign access control administrators and vCAC administrators." class="dxmSubMenuGutter_VMware dxmSubMenuItemWithImage_VMware" style="width:13px;cursor:pointer;padding-right:3px!important;border-right:0px!important;"><a tabindex="-1" href="/vCAC/VMPSAdmin/ViewAppAdmins.aspx"><img id="ctl00_ctl00_MasterContent_ctl06_DXI0i0_Img" title="Assign access control administrators and vCAC administrators." src="App_Themes/VMware/DCAC/Images/li_yel2.gif" alt="" style="height:4px;width:9px;"></a></td><td id="ctl00_ctl00_MasterContent_ctl06_DXI0i0_N" title="Assign access control administrators and vCAC administrators." class="dxmSubMenuItemWithImage_VMware dxmSubMenuItemImageSpacing_VMware" style="cursor:pointer;"><div style="overflow:hidden;">
+
+					</div></td><td id="ctl00_ctl00_MasterContent_ctl06_DXI0i0_T" title="Assign access control administrators and vCAC administrators." class="dxmSubMenuItemWithImage_VMware" style="color:#444444;width:100%;cursor:pointer;border-left:0px!important;padding-left:0px!important;"><a title="Assign access control administrators and vCAC administrators." href="/vCAC/VMPSAdmin/ViewAppAdmins.aspx" style="color:#444444;">Administrators</a></td>
+				</tr><tr id="ctl00_ctl00_MasterContent_ctl06_DXI0i0_II" class="dxmSubMenuItemSpacing_VMware">
+					<td class="dxmSubMenuGutter_VMware" style="cursor:pointer;"></td><td></td><td colspan="1"></td>
+				</tr><tr id="ctl00_ctl00_MasterContent_ctl06_DXI0i1_" onclick="aspxMIClick(event, 'ctl00_ctl00_MasterContent_ctl06', '0i1')">
+					<td id="ctl00_ctl00_MasterContent_ctl06_DXI0i1_I" title="Configure agents compute resource discovery" class="dxmSubMenuGutter_VMware dxmSubMenuItemWithImage_VMware" style="width:13px;cursor:pointer;padding-right:3px!important;border-right:0px!important;"><a tabindex="-1" href="/vCAC/VMPSAdmin/AgentConfiguration.aspx"><img id="ctl00_ctl00_MasterContent_ctl06_DXI0i1_Img" title="Configure agents compute resource discovery" src="App_Themes/VMware/DCAC/Images/li_yel2.gif" alt="" style="height:4px;width:9px;"></a></td><td id="ctl00_ctl00_MasterContent_ctl06_DXI0i1_N" title="Configure agents compute resource discovery" class="dxmSubMenuItemWithImage_VMware dxmSubMenuItemImageSpacing_VMware" style="cursor:pointer;"><div style="overflow:hidden;">
+
+					</div></td><td id="ctl00_ctl00_MasterContent_ctl06_DXI0i1_T" title="Configure agents compute resource discovery" class="dxmSubMenuItemWithImage_VMware" style="color:#444444;width:100%;cursor:pointer;border-left:0px!important;padding-left:0px!important;"><a title="Configure agents compute resource discovery" href="/vCAC/VMPSAdmin/AgentConfiguration.aspx" style="color:#444444;">Agent Configuration</a></td>
+				</tr><tr id="ctl00_ctl00_MasterContent_ctl06_DXI0i1_II" class="dxmSubMenuItemSpacing_VMware">
+					<td class="dxmSubMenuGutter_VMware" style="cursor:pointer;"></td><td></td><td colspan="1"></td>
+				</tr><tr id="ctl00_ctl00_MasterContent_ctl06_DXI0i2_" onclick="aspxMIClick(event, 'ctl00_ctl00_MasterContent_ctl06', '0i2')">
+					<td id="ctl00_ctl00_MasterContent_ctl06_DXI0i2_I" title="View the audit logs." class="dxmSubMenuGutter_VMware dxmSubMenuItemWithImage_VMware" style="width:13px;cursor:pointer;padding-right:3px!important;border-right:0px!important;"><a tabindex="-1" href="/vCAC/VMPSAdmin/ViewAuditLog.aspx"><img id="ctl00_ctl00_MasterContent_ctl06_DXI0i2_Img" title="View the audit logs." src="App_Themes/VMware/DCAC/Images/li_yel2.gif" alt="" style="height:4px;width:9px;"></a></td><td id="ctl00_ctl00_MasterContent_ctl06_DXI0i2_N" title="View the audit logs." class="dxmSubMenuItemWithImage_VMware dxmSubMenuItemImageSpacing_VMware" style="cursor:pointer;"><div style="overflow:hidden;">
+
+					</div></td><td id="ctl00_ctl00_MasterContent_ctl06_DXI0i2_T" title="View the audit logs." class="dxmSubMenuItemWithImage_VMware" style="color:#444444;width:100%;cursor:pointer;border-left:0px!important;padding-left:0px!important;"><a title="View the audit logs." href="/vCAC/VMPSAdmin/ViewAuditLog.aspx" style="color:#444444;">Audit Log Viewer</a></td>
+				</tr><tr id="ctl00_ctl00_MasterContent_ctl06_DXI0i2_II" class="dxmSubMenuItemSpacing_VMware">
+					<td class="dxmSubMenuGutter_VMware" style="cursor:pointer;"></td><td></td><td colspan="1"></td>
+				</tr><tr id="ctl00_ctl00_MasterContent_ctl06_DXI0i3_" onclick="aspxMIClick(event, 'ctl00_ctl00_MasterContent_ctl06', '0i3')">
+					<td id="ctl00_ctl00_MasterContent_ctl06_DXI0i3_I" title="Manage the credentials associated with endpoints." class="dxmSubMenuGutter_VMware dxmSubMenuItemWithImage_VMware" style="width:13px;cursor:pointer;padding-right:3px!important;border-right:0px!important;"><a tabindex="-1" href="/vCAC/VmpsAdmin/EditCredentials.aspx"><img id="ctl00_ctl00_MasterContent_ctl06_DXI0i3_Img" title="Manage the credentials associated with endpoints." src="App_Themes/VMware/DCAC/Images/li_yel2.gif" alt="" style="height:4px;width:9px;"></a></td><td id="ctl00_ctl00_MasterContent_ctl06_DXI0i3_N" title="Manage the credentials associated with endpoints." class="dxmSubMenuItemWithImage_VMware dxmSubMenuItemImageSpacing_VMware" style="cursor:pointer;"><div style="overflow:hidden;">
+
+					</div></td><td id="ctl00_ctl00_MasterContent_ctl06_DXI0i3_T" title="Manage the credentials associated with endpoints." class="dxmSubMenuItemWithImage_VMware" style="color:#444444;width:100%;cursor:pointer;border-left:0px!important;padding-left:0px!important;"><a title="Manage the credentials associated with endpoints." href="/vCAC/VmpsAdmin/EditCredentials.aspx" style="color:#444444;">Credentials</a></td>
+				</tr><tr id="ctl00_ctl00_MasterContent_ctl06_DXI0i3_II" class="dxmSubMenuItemSpacing_VMware">
+					<td class="dxmSubMenuGutter_VMware" style="cursor:pointer;"></td><td></td><td colspan="1"></td>
+				</tr><tr id="ctl00_ctl00_MasterContent_ctl06_DXI0i4_" onclick="aspxMIClick(event, 'ctl00_ctl00_MasterContent_ctl06', '0i4')">
+					<td id="ctl00_ctl00_MasterContent_ctl06_DXI0i4_I" title="Change the announcements, application name, and logo seen by users of this application." class="dxmSubMenuGutter_VMware dxmSubMenuItemWithImage_VMware" style="width:13px;cursor:pointer;padding-right:3px!important;border-right:0px!important;"><a tabindex="-1" href="/vCAC/VMPSAdmin/Customize.aspx"><img id="ctl00_ctl00_MasterContent_ctl06_DXI0i4_Img" title="Change the announcements, application name, and logo seen by users of this application." src="App_Themes/VMware/DCAC/Images/li_yel2.gif" alt="" style="height:4px;width:9px;"></a></td><td id="ctl00_ctl00_MasterContent_ctl06_DXI0i4_N" title="Change the announcements, application name, and logo seen by users of this application." class="dxmSubMenuItemWithImage_VMware dxmSubMenuItemImageSpacing_VMware" style="cursor:pointer;"><div style="overflow:hidden;">
+
+					</div></td><td id="ctl00_ctl00_MasterContent_ctl06_DXI0i4_T" title="Change the announcements, application name, and logo seen by users of this application." class="dxmSubMenuItemWithImage_VMware" style="color:#444444;width:100%;cursor:pointer;border-left:0px!important;padding-left:0px!important;"><a title="Change the announcements, application name, and logo seen by users of this application." href="/vCAC/VMPSAdmin/Customize.aspx" style="color:#444444;">Customization</a></td>
+				</tr><tr id="ctl00_ctl00_MasterContent_ctl06_DXI0i4_II" class="dxmSubMenuItemSpacing_VMware">
+					<td class="dxmSubMenuGutter_VMware" style="cursor:pointer;"></td><td></td><td colspan="1"></td>
+				</tr><tr id="ctl00_ctl00_MasterContent_ctl06_DXI0i5_" onclick="aspxMIClick(event, 'ctl00_ctl00_MasterContent_ctl06', '0i5')">
+					<td id="ctl00_ctl00_MasterContent_ctl06_DXI0i5_I" title="View the status of all Distributed Execution Managers." class="dxmSubMenuGutter_VMware dxmSubMenuItemWithImage_VMware" style="width:13px;cursor:pointer;padding-right:3px!important;border-right:0px!important;"><a tabindex="-1" href="/vCAC/VMPSAdmin/WorkflowExecutionManagerStatus.aspx"><img id="ctl00_ctl00_MasterContent_ctl06_DXI0i5_Img" title="View the status of all Distributed Execution Managers." src="App_Themes/VMware/DCAC/Images/li_yel2.gif" alt="" style="height:4px;width:9px;"></a></td><td id="ctl00_ctl00_MasterContent_ctl06_DXI0i5_N" title="View the status of all Distributed Execution Managers." class="dxmSubMenuItemWithImage_VMware dxmSubMenuItemImageSpacing_VMware" style="cursor:pointer;"><div style="overflow:hidden;">
+
+					</div></td><td id="ctl00_ctl00_MasterContent_ctl06_DXI0i5_T" title="View the status of all Distributed Execution Managers." class="dxmSubMenuItemWithImage_VMware" style="color:#444444;width:100%;cursor:pointer;border-left:0px!important;padding-left:0px!important;"><a title="View the status of all Distributed Execution Managers." href="/vCAC/VMPSAdmin/WorkflowExecutionManagerStatus.aspx" style="color:#444444;">Distributed Execution Status</a></td>
+				</tr><tr id="ctl00_ctl00_MasterContent_ctl06_DXI0i5_II" class="dxmSubMenuItemSpacing_VMware">
+					<td class="dxmSubMenuGutter_VMware" style="cursor:pointer;"></td><td></td><td colspan="1"></td>
+				</tr><tr id="ctl00_ctl00_MasterContent_ctl06_DXI0i6_" onclick="aspxMIClick(event, 'ctl00_ctl00_MasterContent_ctl06', '0i6')">
+					<td id="ctl00_ctl00_MasterContent_ctl06_DXI0i6_I" title="Manage the endpoints representing virtualization platforms, cloud service accounts, physical machines and storage devices." class="dxmSubMenuGutter_VMware dxmSubMenuItemWithImage_VMware" style="width:13px;cursor:pointer;padding-right:3px!important;border-right:0px!important;"><a tabindex="-1" href="/vCAC/VmpsAdmin/ViewEndpoints.aspx"><img id="ctl00_ctl00_MasterContent_ctl06_DXI0i6_Img" title="Manage the endpoints representing virtualization platforms, cloud service accounts, physical machines and storage devices." src="App_Themes/VMware/DCAC/Images/li_yel2.gif" alt="" style="height:4px;width:9px;"></a></td><td id="ctl00_ctl00_MasterContent_ctl06_DXI0i6_N" title="Manage the endpoints representing virtualization platforms, cloud service accounts, physical machines and storage devices." class="dxmSubMenuItemWithImage_VMware dxmSubMenuItemImageSpacing_VMware" style="cursor:pointer;"><div style="overflow:hidden;">
+
+					</div></td><td id="ctl00_ctl00_MasterContent_ctl06_DXI0i6_T" title="Manage the endpoints representing virtualization platforms, cloud service accounts, physical machines and storage devices." class="dxmSubMenuItemWithImage_VMware" style="color:#444444;width:100%;cursor:pointer;border-left:0px!important;padding-left:0px!important;"><a title="Manage the endpoints representing virtualization platforms, cloud service accounts, physical machines and storage devices." href="/vCAC/VmpsAdmin/ViewEndpoints.aspx" style="color:#444444;">Endpoints</a></td>
+				</tr><tr id="ctl00_ctl00_MasterContent_ctl06_DXI0i6_II" class="dxmSubMenuItemSpacing_VMware">
+					<td class="dxmSubMenuGutter_VMware" style="cursor:pointer;"></td><td></td><td colspan="1"></td>
+				</tr><tr id="ctl00_ctl00_MasterContent_ctl06_DXI0i7_" onclick="aspxMIClick(event, 'ctl00_ctl00_MasterContent_ctl06', '0i7')">
+					<td id="ctl00_ctl00_MasterContent_ctl06_DXI0i7_I" title="Place compute resources in enterprise groups and assign enterprise administrators to manage them." class="dxmSubMenuGutter_VMware dxmSubMenuItemWithImage_VMware" style="width:13px;cursor:pointer;padding-right:3px!important;border-right:0px!important;"><a tabindex="-1" href="/vCAC/VMPSAdmin/ViewEntAdmins.aspx"><img id="ctl00_ctl00_MasterContent_ctl06_DXI0i7_Img" title="Place compute resources in enterprise groups and assign enterprise administrators to manage them." src="App_Themes/VMware/DCAC/Images/li_yel2.gif" alt="" style="height:4px;width:9px;"></a></td><td id="ctl00_ctl00_MasterContent_ctl06_DXI0i7_N" title="Place compute resources in enterprise groups and assign enterprise administrators to manage them." class="dxmSubMenuItemWithImage_VMware dxmSubMenuItemImageSpacing_VMware" style="cursor:pointer;"><div style="overflow:hidden;">
+
+					</div></td><td id="ctl00_ctl00_MasterContent_ctl06_DXI0i7_T" title="Place compute resources in enterprise groups and assign enterprise administrators to manage them." class="dxmSubMenuItemWithImage_VMware" style="color:#444444;width:100%;cursor:pointer;border-left:0px!important;padding-left:0px!important;"><a title="Place compute resources in enterprise groups and assign enterprise administrators to manage them." href="/vCAC/VMPSAdmin/ViewEntAdmins.aspx" style="color:#444444;">Enterprise Groups</a></td>
+				</tr><tr id="ctl00_ctl00_MasterContent_ctl06_DXI0i7_II" class="dxmSubMenuItemSpacing_VMware">
+					<td class="dxmSubMenuGutter_VMware" style="cursor:pointer;"></td><td></td><td colspan="1"></td>
+				</tr><tr id="ctl00_ctl00_MasterContent_ctl06_DXI0i8_" onclick="aspxMIClick(event, 'ctl00_ctl00_MasterContent_ctl06', '0i8')">
+					<td id="ctl00_ctl00_MasterContent_ctl06_DXI0i8_I" title="Manage global configuration settings." class="dxmSubMenuGutter_VMware dxmSubMenuItemWithImage_VMware" style="width:13px;cursor:pointer;padding-right:3px!important;border-right:0px!important;"><a tabindex="-1" href="/vCAC/VMPSAdmin/EditGlobalProperties.aspx"><img id="ctl00_ctl00_MasterContent_ctl06_DXI0i8_Img" title="Manage global configuration settings." src="App_Themes/VMware/DCAC/Images/li_yel2.gif" alt="" style="height:4px;width:9px;"></a></td><td id="ctl00_ctl00_MasterContent_ctl06_DXI0i8_N" title="Manage global configuration settings." class="dxmSubMenuItemWithImage_VMware dxmSubMenuItemImageSpacing_VMware" style="cursor:pointer;"><div style="overflow:hidden;">
+
+					</div></td><td id="ctl00_ctl00_MasterContent_ctl06_DXI0i8_T" title="Manage global configuration settings." class="dxmSubMenuItemWithImage_VMware" style="color:#444444;width:100%;cursor:pointer;border-left:0px!important;padding-left:0px!important;"><a title="Manage global configuration settings." href="/vCAC/VMPSAdmin/EditGlobalProperties.aspx" style="color:#444444;">Global Properties</a></td>
+				</tr><tr id="ctl00_ctl00_MasterContent_ctl06_DXI0i8_II" class="dxmSubMenuItemSpacing_VMware">
+					<td class="dxmSubMenuGutter_VMware" style="cursor:pointer;"></td><td></td><td colspan="1"></td>
+				</tr><tr id="ctl00_ctl00_MasterContent_ctl06_DXI0i9_" onclick="aspxMIClick(event, 'ctl00_ctl00_MasterContent_ctl06', '0i9')">
+					<td id="ctl00_ctl00_MasterContent_ctl06_DXI0i9_I" title="Manage the instance types associated with Amazon machine images." class="dxmSubMenuGutter_VMware dxmSubMenuItemWithImage_VMware" style="width:13px;cursor:pointer;padding-right:3px!important;border-right:0px!important;"><a tabindex="-1" href="/vCAC/VMPSAdmin/EditInstanceTypes.aspx"><img id="ctl00_ctl00_MasterContent_ctl06_DXI0i9_Img" title="Manage the instance types associated with Amazon machine images." src="App_Themes/VMware/DCAC/Images/li_yel2.gif" alt="" style="height:4px;width:9px;"></a></td><td id="ctl00_ctl00_MasterContent_ctl06_DXI0i9_N" title="Manage the instance types associated with Amazon machine images." class="dxmSubMenuItemWithImage_VMware dxmSubMenuItemImageSpacing_VMware" style="cursor:pointer;"><div style="overflow:hidden;">
+
+					</div></td><td id="ctl00_ctl00_MasterContent_ctl06_DXI0i9_T" title="Manage the instance types associated with Amazon machine images." class="dxmSubMenuItemWithImage_VMware" style="color:#444444;width:100%;cursor:pointer;border-left:0px!important;padding-left:0px!important;"><a title="Manage the instance types associated with Amazon machine images." href="/vCAC/VMPSAdmin/EditInstanceTypes.aspx" style="color:#444444;">Instance Types</a></td>
+				</tr><tr id="ctl00_ctl00_MasterContent_ctl06_DXI0i9_II" class="dxmSubMenuItemSpacing_VMware">
+					<td class="dxmSubMenuGutter_VMware" style="cursor:pointer;"></td><td></td><td colspan="1"></td>
+				</tr><tr id="ctl00_ctl00_MasterContent_ctl06_DXI0i10_" onclick="aspxMIClick(event, 'ctl00_ctl00_MasterContent_ctl06', '0i10')">
+					<td id="ctl00_ctl00_MasterContent_ctl06_DXI0i10_I" title="View license information." class="dxmSubMenuGutter_VMware dxmSubMenuItemWithImage_VMware" style="width:13px;cursor:pointer;padding-right:3px!important;border-right:0px!important;"><a tabindex="-1" href="/vCAC/VMPSAdmin/LicenseInfo.aspx"><img id="ctl00_ctl00_MasterContent_ctl06_DXI0i10_Img" title="View license information." src="App_Themes/VMware/DCAC/Images/li_yel2.gif" alt="" style="height:4px;width:9px;"></a></td><td id="ctl00_ctl00_MasterContent_ctl06_DXI0i10_N" title="View license information." class="dxmSubMenuItemWithImage_VMware dxmSubMenuItemImageSpacing_VMware" style="cursor:pointer;"><div style="overflow:hidden;">
+
+					</div></td><td id="ctl00_ctl00_MasterContent_ctl06_DXI0i10_T" title="View license information." class="dxmSubMenuItemWithImage_VMware" style="color:#444444;width:100%;cursor:pointer;border-left:0px!important;padding-left:0px!important;"><a title="View license information." href="/vCAC/VMPSAdmin/LicenseInfo.aspx" style="color:#444444;">License Info</a></td>
+				</tr><tr id="ctl00_ctl00_MasterContent_ctl06_DXI0i10_II" class="dxmSubMenuItemSpacing_VMware">
+					<td class="dxmSubMenuGutter_VMware" style="cursor:pointer;"></td><td></td><td colspan="1"></td>
+				</tr><tr id="ctl00_ctl00_MasterContent_ctl06_DXI0i11_" onclick="aspxMIClick(event, 'ctl00_ctl00_MasterContent_ctl06', '0i11')">
+					<td id="ctl00_ctl00_MasterContent_ctl06_DXI0i11_I" title="Review vCAC Logs" class="dxmSubMenuGutter_VMware dxmSubMenuItemWithImage_VMware" style="width:13px;cursor:pointer;padding-right:3px!important;border-right:0px!important;"><a tabindex="-1" href="/vCAC/VMPSAdmin/ViewTrackingLog.aspx"><img id="ctl00_ctl00_MasterContent_ctl06_DXI0i11_Img" title="Review vCAC Logs" src="App_Themes/VMware/DCAC/Images/li_yel2.gif" alt="" style="height:4px;width:9px;"></a></td><td id="ctl00_ctl00_MasterContent_ctl06_DXI0i11_N" title="Review vCAC Logs" class="dxmSubMenuItemWithImage_VMware dxmSubMenuItemImageSpacing_VMware" style="cursor:pointer;"><div style="overflow:hidden;">
+
+					</div></td><td id="ctl00_ctl00_MasterContent_ctl06_DXI0i11_T" title="Review vCAC Logs" class="dxmSubMenuItemWithImage_VMware" style="color:#444444;width:100%;cursor:pointer;border-left:0px!important;padding-left:0px!important;"><a title="Review vCAC Logs" href="/vCAC/VMPSAdmin/ViewTrackingLog.aspx" style="color:#444444;">Log Viewer</a></td>
+				</tr><tr id="ctl00_ctl00_MasterContent_ctl06_DXI0i11_II" class="dxmSubMenuItemSpacing_VMware">
+					<td class="dxmSubMenuGutter_VMware" style="cursor:pointer;"></td><td></td><td colspan="1"></td>
+				</tr><tr id="ctl00_ctl00_MasterContent_ctl06_DXI0i12_" onclick="aspxMIClick(event, 'ctl00_ctl00_MasterContent_ctl06', '0i12')">
+					<td id="ctl00_ctl00_MasterContent_ctl06_DXI0i12_I" title="Review a user's provisioning group memberships, access to machine blueprints and administrator assignments." class="dxmSubMenuGutter_VMware dxmSubMenuItemWithImage_VMware" style="width:13px;cursor:pointer;padding-right:3px!important;border-right:0px!important;"><a tabindex="-1" href="/vCAC/VMPSAdmin/ViewUserRights.aspx"><img id="ctl00_ctl00_MasterContent_ctl06_DXI0i12_Img" title="Review a user's provisioning group memberships, access to machine blueprints and administrator assignments." src="App_Themes/VMware/DCAC/Images/li_yel2.gif" alt="" style="height:4px;width:9px;"></a></td><td id="ctl00_ctl00_MasterContent_ctl06_DXI0i12_N" title="Review a user's provisioning group memberships, access to machine blueprints and administrator assignments." class="dxmSubMenuItemWithImage_VMware dxmSubMenuItemImageSpacing_VMware" style="cursor:pointer;"><div style="overflow:hidden;">
+
+					</div></td><td id="ctl00_ctl00_MasterContent_ctl06_DXI0i12_T" title="Review a user's provisioning group memberships, access to machine blueprints and administrator assignments." class="dxmSubMenuItemWithImage_VMware" style="color:#444444;width:100%;cursor:pointer;border-left:0px!important;padding-left:0px!important;"><a title="Review a user's provisioning group memberships, access to machine blueprints and administrator assignments." href="/vCAC/VMPSAdmin/ViewUserRights.aspx" style="color:#444444;">User Rights</a></td>
+				</tr><tr id="ctl00_ctl00_MasterContent_ctl06_DXI0i12_II" class="dxmSubMenuItemSpacing_VMware">
+					<td class="dxmSubMenuGutter_VMware" style="cursor:pointer;"></td><td></td><td colspan="1"></td>
+				</tr><tr id="ctl00_ctl00_MasterContent_ctl06_DXI0i13_" onclick="aspxMIClick(event, 'ctl00_ctl00_MasterContent_ctl06', '0i13')">
+					<td id="ctl00_ctl00_MasterContent_ctl06_DXI0i13_I" title="View the workflow execution history." class="dxmSubMenuGutter_VMware dxmSubMenuItemWithImage_VMware" style="width:13px;cursor:pointer;padding-right:3px!important;border-right:0px!important;"><a tabindex="-1" href="/vCAC/VMPSAdmin/WorkflowHistory.aspx"><img id="ctl00_ctl00_MasterContent_ctl06_DXI0i13_Img" title="View the workflow execution history." src="App_Themes/VMware/DCAC/Images/li_yel2.gif" alt="" style="height:4px;width:9px;"></a></td><td id="ctl00_ctl00_MasterContent_ctl06_DXI0i13_N" title="View the workflow execution history." class="dxmSubMenuItemWithImage_VMware dxmSubMenuItemImageSpacing_VMware" style="cursor:pointer;"><div style="overflow:hidden;">
+
+					</div></td><td id="ctl00_ctl00_MasterContent_ctl06_DXI0i13_T" title="View the workflow execution history." class="dxmSubMenuItemWithImage_VMware" style="color:#444444;width:100%;cursor:pointer;border-left:0px!important;padding-left:0px!important;"><a title="View the workflow execution history." href="/vCAC/VMPSAdmin/WorkflowHistory.aspx" style="color:#444444;">Workflow History</a></td>
+				</tr>
+			</tbody></table></td><td style="background:url('/vCAC/DXR.axd?r=1_62-kMs68') no-repeat left top;"></td>
+		</tr><tr>
+			<td style="background:url('/vCAC/DXR.axd?r=1_61-kMs68') no-repeat left top;"></td><td style="background:url('/vCAC/DXR.axd?r=1_63-kMs68') no-repeat left top;"><div style="height:5px;width:5px;">
+
+			</div></td>
+		</tr>
+	</tbody></table>
+</div><div id="ctl00_ctl00_MasterContent_ctl06_DXMBC0_" class="dxmSubMenu_VMware dxmSubMenuBorderCorrector_VMware" style="height:1px;width:1px;visibility:hidden;display:none;z-index:20001;overflow:hidden;">
+
+</div><script id="dxss_1200213397" type="text/javascript">
+<!--
+aspxAddHoverItems('ctl00_ctl00_MasterContent_ctl06',[[[''],[''],['DXM_','DXM0_','DXMBC0_']],[['dxmVerticalMenuItemHoverWithImageWithPopOutImage_VMware'],[''],['DXI0_'],['I','N','T','P'],[['','App_Themes/VMware/DCAC/Images/blank.gif']],['Img','PImg']],[['dxmSubMenuItemHoverWithImage_VMware'],['color:White;'],['DXI0i0_','DXI0i1_','DXI0i2_','DXI0i3_','DXI0i4_','DXI0i5_','DXI0i6_','DXI0i7_','DXI0i8_','DXI0i9_','DXI0i10_','DXI0i11_','DXI0i12_','DXI0i13_'],['I','N','T','P'],[[''],[''],[''],[''],[''],[''],[''],[''],[''],[''],[''],[''],[''],['']],['Img','PImg']]]);
+
+var dxo = new ASPxClientMenu('ctl00_ctl00_MasterContent_ctl06');
+window['ctl00_ctl00_MasterContent_ctl06'] = dxo;
+dxo.uniqueID = 'ctl00$ctl00$MasterContent$ctl06';
+dxo.disappearAfter=0;
+dxo.subMenuFIXOffset=2;
+dxo.subMenuLIXOffset=2;
+dxo.subMenuXOffset=2;
+dxo.isVertical=true;
+dxo.InlineInitialize();
+
+//-->
+</script></div></div>
+        
+    </div>
+    <!-- Page Content -->
+    <div id="Content">
+        <div id="ctl00_ctl00_MasterContent_BannerPanel">
+	
+                <div class="Banner">  <div class="BannerHeader"><div></div></div>  <div class="BannerBody">    <ul><li class="warning">vCAC Server License is using a temporary license and has 7 days remaining.</li><li class="warning">vCAC Desktop License is using a temporary license and has 7 days remaining.</li>    </ul>  </div>  <div class="Footer"><div><div></div></div></div></div>
+            
+</div>
+        
+    <!-- Welcome -->
+    <table class="ContentPanel" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_pnlWelcome" cellpadding="0" cellspacing="0"><tbody><tr><td><table class="ContentPanelHeader" cellspacing="0"><thead><tr><th class="Header Left"></th><th class="TitleHeader">Welcome</th>
+<th class="Header Right"></th></tr>
+</thead></table></td></tr><tr><td class="ContentPanelBodyCell"><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_pnlWelcome_Body" class="Body PaddedContent">
+        <span><p>Welcome to vCloud Automation Center.<br>&nbsp;<br>You are logged on as <span style="font-weight:bold; font-size:12px;">VCAC\administrator</span>. If this is not you, please contact your administrator.</p></span>
+    </div></td></tr></tbody></table>
+    <!-- NoAccessAvailable -->
+    
+    <!-- SupportInfo -->
+    <table class="ContentPanel" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_pnlSupportInfo" cellpadding="0" cellspacing="0"><tbody><tr><td><table class="ContentPanelHeader" cellspacing="0"><thead><tr><th class="Header Left"></th><th class="TitleHeader">Support Information</th>
+<th class="Header Right"></th></tr>
+</thead></table></td></tr><tr><td class="ContentPanelBodyCell"><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_pnlSupportInfo_Body" class="Body PaddedContent">
+        <span><div>If you have not already been setup with access, contact the following teams for new requests: </div>
+<ul>
+    <li>Virtual Servers - Contact your IT Relationship Manager</li>
+    <li>Virtual Workstations - Contact Project Management</li>
+</ul></span>
+    </div></td></tr></tbody></table>
+    <!-- Events -->
+    <table class="ContentPanel" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel" cellpadding="0" cellspacing="0"><tbody><tr><td><table class="ContentPanelHeader" cellspacing="0"><thead><tr id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl00"><th class="Header Left"></th><th class="TitleHeader">Recent Events <span class="Count">(0)</span></th>
+<th class="Header" align="right" nowrap="nowrap">
+        <table border="0" cellpadding="0" cellspacing="0">
+            <tbody><tr>
+                <td nowrap="nowrap"><span>Event types: </span></td>
+                <td style="padding:0 0 0 5px;">
+                    <table class="dxeButtonEditSys dxeButtonEdit_VMware" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbEventTypes" style="width:160px;border-collapse:collapse;border-collapse:collapse;" border="0" cellpadding="0" cellspacing="0">
+	<tbody><tr>
+		<td style="display:none;"><input id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbEventTypes_VI" name="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbEventTypes_VI" value="All" type="hidden"></td><td class="dxic" onmousedown="return aspxDDDropDown('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbEventTypes', event)" style="width:100%;"><input autocomplete="off" class="dxeEditArea_VMware dxeEditAreaSys" name="ctl00$ctl00$MasterContent$MainContentPlaceHolder$userLog$TitlePanel$cmbEventTypes" value="All" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbEventTypes_I" onchange="aspxETextChanged('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbEventTypes')" onblur="aspxELostFocus('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbEventTypes')" onfocus="aspxEGotFocus('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbEventTypes')" readonly="readonly" style="cursor:default;" type="text"></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbEventTypes_B-1" class="dxeButtonEditButton_VMware" onmousedown="return aspxDDDropDown('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbEventTypes', event)" style="width:13px;-moz-user-select:none;"><table class="dxbebt" style="width:13px;border-collapse:collapse;border-collapse:separate;" border="0" cellpadding="0" cellspacing="0">
+			<tbody><tr>
+				<td class="dx"><img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbEventTypes_B-1Img" class="dxEditors_edtDropDown_VMware" src="/vCAC/DXR.axd?r=1_9-kMs68" alt="v"></td>
+			</tr>
+		</tbody></table></td>
+	</tr>
+</tbody></table><input id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbEventTypes_DDDWS" name="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbEventTypes_DDDWS" value="0:0:-1:-10000:-10000:0:-10000:-10000:1:0:0:0" type="hidden"><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbEventTypes_DDD_PW-1" style="position:absolute;left:0px;top:0px;z-index:10000;visibility:hidden;display:none;">
+	<table id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbEventTypes_DDD_PWST-1" style="border-collapse:collapse;border-collapse:separate;position:relative;" border="0" cellpadding="0" cellspacing="0">
+		<tbody><tr>
+			<td onmousedown="aspxPWMDown(event,'ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbEventTypes_DDD',-1,false)" style="width:200px;cursor:default;"><table id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbEventTypes_DDD_CLW-1" style="width:200px;border-collapse:collapse;border-collapse:separate;" border="0" cellpadding="0" cellspacing="0">
+				<tbody><tr>
+					<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbEventTypes_DDD_PWC-1" style="height:100%;"><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbEventTypes_DDD_CSD-1">
+						<table class="dxeListBox_VMware" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbEventTypes_DDD_L" style="border-collapse:collapse;border-collapse:separate;" border="0" cellpadding="0" cellspacing="0">
+							<tbody><tr>
+								<td valign="top"><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbEventTypes_DDD_L_D" class="dxlbd" style="width: 100%; overflow: hidden;">
+									<input value="All" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbEventTypes_DDD_L_VI" name="ctl00$ctl00$MasterContent$MainContentPlaceHolder$userLog$TitlePanel$cmbEventTypes$DDD$L" type="hidden"><table id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbEventTypes_DDD_L_LBT" style="width:100%;border-collapse:collapse;border-collapse:separate;" border="0" cellpadding="0" cellspacing="0">
+										<tbody><tr class="dxeListBoxItemRow_VMware">
+											<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbEventTypes_DDD_L_LBI0I" class="dxeListBoxItem_VMware dxeI dxeListBoxItemSelected_VMware" style="padding-right: 4px ! important;"><img src="images/icon_errorwarninfo.png" alt=""></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbEventTypes_DDD_L_LBI0T1" class="dxeListBoxItem_VMware dxeT dxeListBoxItemSelected_VMware">All</td>
+										</tr><tr class="dxeListBoxItemRow_VMware">
+											<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbEventTypes_DDD_L_LBI1I" class="dxeListBoxItem_VMware dxeI" style="padding-right: 4px ! important;"><img src="images/icon_errorwarn.png" alt=""></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbEventTypes_DDD_L_LBI1T1" class="dxeListBoxItem_VMware dxeT">Errors &amp; warnings</td>
+										</tr><tr class="dxeListBoxItemRow_VMware">
+											<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbEventTypes_DDD_L_LBI2I" class="dxeListBoxItem_VMware dxeI" style="padding-right: 4px ! important;"><img src="images/icon_error.png" alt=""></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbEventTypes_DDD_L_LBI2T1" class="dxeListBoxItem_VMware dxeT">Errors</td>
+										</tr><tr class="dxeListBoxItemRow_VMware">
+											<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbEventTypes_DDD_L_LBI3I" class="dxeListBoxItem_VMware dxeI" style="padding-right: 4px ! important;"><img src="images/icon_warning.png" alt=""></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbEventTypes_DDD_L_LBI3T1" class="dxeListBoxItem_VMware dxeT">Warnings</td>
+										</tr><tr class="dxeListBoxItemRow_VMware">
+											<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbEventTypes_DDD_L_LBI4I" class="dxeListBoxItem_VMware dxeI" style="padding-right: 4px ! important;"><img src="images/icon_info.png" alt=""></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbEventTypes_DDD_L_LBI4T1" class="dxeListBoxItem_VMware dxeT">Informational notices</td>
+										</tr>
+									</tbody></table>
+								</div></td>
+							</tr>
+						</tbody></table><script id="dxss_72922709" type="text/javascript">
+<!--
+aspxAddDisabledItems('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbEventTypes_DDD_L',[[['dxeDisabled_VMware'],[''],['']]]);
+
+var dxo = new ASPxClientListBox('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbEventTypes_DDD_L');
+window['ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbEventTypes_DDD_L'] = dxo;
+dxo.uniqueID = 'ctl00$ctl00$MasterContent$MainContentPlaceHolder$userLog$TitlePanel$cmbEventTypes$DDD$L';
+dxo.SelectedIndexChanged.AddHandler(function (s, e) { aspxCBLBSelectedIndexChanged('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbEventTypes', e); });
+dxo.ItemClick.AddHandler(function (s, e) { aspxCBLBItemMouseUp('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbEventTypes', e); });
+dxo.RequireStyleDecoration();
+dxo.styleDecoration.AddStyle('F','dxeFocused_VMware','');
+dxo.savedSelectedIndex = 0;
+dxo.itemsValue=['All','ErrorOrWarning','Error','Warning','Info'];
+dxo.isComboBoxList = true;
+dxo.imageCellExists = true;
+dxo.hoverClasses=['dxeListBoxItemHover_VMware'];
+dxo.selectedClasses=['dxeListBoxItemSelected_VMware'];
+dxo.disabledClasses=['dxeDisabled_VMware'];
+dxo.InlineInitialize();
+
+//-->
+</script>
+					</div></td>
+				</tr>
+			</tbody></table></td><td style="background:url('/vCAC/DXR.axd?r=1_62-kMs68') no-repeat left top;"></td>
+		</tr><tr>
+			<td style="background:url('/vCAC/DXR.axd?r=1_61-kMs68') no-repeat left top;"></td><td style="background:url('/vCAC/DXR.axd?r=1_63-kMs68') no-repeat left top;"><div style="height:5px;width:5px;">
+
+			</div></td>
+		</tr>
+	</tbody></table>
+</div><script id="dxss_162440906" type="text/javascript">
+<!--
+
+var dxo = new ASPxClientPopupControl('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbEventTypes_DDD');
+window['ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbEventTypes_DDD'] = dxo;
+dxo.uniqueID = 'ctl00$ctl00$MasterContent$MainContentPlaceHolder$userLog$TitlePanel$cmbEventTypes$DDD';
+dxo.Shown.AddHandler(function (s, e) { aspxDDBPCShown('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbEventTypes', e); });
+dxo.adjustInnerControlsSizeOnShow=false;
+dxo.popupAnimationType='slide';
+dxo.closeAction='CloseButton';
+dxo.popupHorizontalAlign='LeftSides';
+dxo.popupVerticalAlign='Below';
+dxo.isPopupPositionCorrectionOn=false;
+dxo.width=0;
+dxo.height=0;
+aspxAddSelectedItems('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbEventTypes_DDD',[[[''],[''],['HPB-1','HMNB-1','HMXB-1'],,[[''],[''],['']],['Img']]]);
+dxo.InlineInitialize();
+
+//-->
+</script><script id="dxss_767512574" type="text/javascript">
+<!--
+aspxAddHoverItems('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbEventTypes',[[['dxeButtonEditButtonHover_VMware'],[''],['B-1'],,[['']],['Img']]]);
+aspxAddPressedItems('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbEventTypes',[[['dxeButtonEditButtonPressed_VMware'],[''],['B-1'],,[['']],['Img']]]);
+document.getElementById("ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbEventTypes_I").setAttribute("autocomplete", "off");
+
+var dxo = new ASPxClientComboBox('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbEventTypes');
+window['ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbEventTypes'] = dxo;
+dxo.autoPostBack = true;
+dxo.uniqueID = 'ctl00$ctl00$MasterContent$MainContentPlaceHolder$userLog$TitlePanel$cmbEventTypes';
+dxo.RequireStyleDecoration();
+dxo.styleDecoration.AddStyle('F','dxeFocused_VMware','');
+dxo.lastSuccessValue = 'All';
+dxo.islastSuccessValueInit = true;
+dxo.InlineInitialize();
+
+//-->
+</script>
+                </td>
+            </tr>
+        </tbody></table>
+    </th>
+<th class="Header" align="right">
+        <table border="0" cellpadding="0" cellspacing="0">
+            <tbody><tr>
+                <td><span>Items per page: </span></td>
+                <td style="padding:0 0 0 5px;">
+                    <table class="dxeButtonEditSys dxeButtonEdit_VMware" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbItemsPerPage" style="width:50px;border-collapse:collapse;border-collapse:collapse;" border="0" cellpadding="0" cellspacing="0">
+	<tbody><tr>
+		<td style="display:none;"><input id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbItemsPerPage_VI" name="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbItemsPerPage_VI" value="10" type="hidden"></td><td class="dxic" onmousedown="return aspxDDMC_MD('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbItemsPerPage', event)" style="width:100%;"><input autocomplete="off" class="dxeEditArea_VMware dxeEditAreaSys" name="ctl00$ctl00$MasterContent$MainContentPlaceHolder$userLog$TitlePanel$cmbItemsPerPage" value="10" maxlength="3" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbItemsPerPage_I" onchange="aspxETextChanged('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbItemsPerPage')" onblur="aspxELostFocus('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbItemsPerPage')" onfocus="aspxEGotFocus('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbItemsPerPage')" type="text"></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbItemsPerPage_B-1" class="dxeButtonEditButton_VMware" onmousedown="return aspxDDDropDown('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbItemsPerPage', event)" style="width:13px;-moz-user-select:none;"><table class="dxbebt" style="width:13px;border-collapse:collapse;border-collapse:separate;" border="0" cellpadding="0" cellspacing="0">
+			<tbody><tr>
+				<td class="dx"><img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbItemsPerPage_B-1Img" class="dxEditors_edtDropDown_VMware" src="/vCAC/DXR.axd?r=1_9-kMs68" alt="v"></td>
+			</tr>
+		</tbody></table></td>
+	</tr>
+</tbody></table><input id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbItemsPerPage_DDDWS" name="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbItemsPerPage_DDDWS" value="0:0:-1:-10000:-10000:0:-10000:-10000:1:0:0:0" type="hidden"><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbItemsPerPage_DDD_PW-1" style="position:absolute;left:0px;top:0px;z-index:10000;visibility:hidden;display:none;">
+	<table id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbItemsPerPage_DDD_PWST-1" style="border-collapse:collapse;border-collapse:separate;position:relative;" border="0" cellpadding="0" cellspacing="0">
+		<tbody><tr>
+			<td onmousedown="aspxPWMDown(event,'ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbItemsPerPage_DDD',-1,false)" style="width:200px;cursor:default;"><table id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbItemsPerPage_DDD_CLW-1" style="width:200px;border-collapse:collapse;border-collapse:separate;" border="0" cellpadding="0" cellspacing="0">
+				<tbody><tr>
+					<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbItemsPerPage_DDD_PWC-1" style="height:100%;"><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbItemsPerPage_DDD_CSD-1">
+						<table class="dxeListBox_VMware" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbItemsPerPage_DDD_L" style="border-collapse:collapse;border-collapse:separate;" border="0" cellpadding="0" cellspacing="0">
+							<tbody><tr>
+								<td valign="top"><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbItemsPerPage_DDD_L_D" class="dxlbd" style="width: 100%; overflow: hidden;">
+									<input value="10" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbItemsPerPage_DDD_L_VI" name="ctl00$ctl00$MasterContent$MainContentPlaceHolder$userLog$TitlePanel$cmbItemsPerPage$DDD$L" type="hidden"><table id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbItemsPerPage_DDD_L_LBT" style="width:100%;border-collapse:collapse;border-collapse:separate;" border="0" cellpadding="0" cellspacing="0">
+										<tbody><tr class="dxeListBoxItemRow_VMware">
+											<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbItemsPerPage_DDD_L_LBI0T0" class="dxeListBoxItem_VMware">5</td>
+										</tr><tr class="dxeListBoxItemRow_VMware">
+											<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbItemsPerPage_DDD_L_LBI1T0" class="dxeListBoxItem_VMware dxeListBoxItemSelected_VMware">10</td>
+										</tr><tr class="dxeListBoxItemRow_VMware">
+											<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbItemsPerPage_DDD_L_LBI2T0" class="dxeListBoxItem_VMware">25</td>
+										</tr><tr class="dxeListBoxItemRow_VMware">
+											<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbItemsPerPage_DDD_L_LBI3T0" class="dxeListBoxItem_VMware">50</td>
+										</tr>
+									</tbody></table>
+								</div></td>
+							</tr>
+						</tbody></table><script id="dxss_799722326" type="text/javascript">
+<!--
+aspxAddDisabledItems('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbItemsPerPage_DDD_L',[[['dxeDisabled_VMware'],[''],['']]]);
+
+var dxo = new ASPxClientListBox('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbItemsPerPage_DDD_L');
+window['ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbItemsPerPage_DDD_L'] = dxo;
+dxo.uniqueID = 'ctl00$ctl00$MasterContent$MainContentPlaceHolder$userLog$TitlePanel$cmbItemsPerPage$DDD$L';
+dxo.SelectedIndexChanged.AddHandler(function (s, e) { aspxCBLBSelectedIndexChanged('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbItemsPerPage', e); });
+dxo.ItemClick.AddHandler(function (s, e) { aspxCBLBItemMouseUp('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbItemsPerPage', e); });
+dxo.RequireStyleDecoration();
+dxo.styleDecoration.AddStyle('F','dxeFocused_VMware','');
+dxo.savedSelectedIndex = 1;
+dxo.itemsValue=['5','10','25','50'];
+dxo.isComboBoxList = true;
+dxo.hoverClasses=['dxeListBoxItemHover_VMware'];
+dxo.selectedClasses=['dxeListBoxItemSelected_VMware'];
+dxo.disabledClasses=['dxeDisabled_VMware'];
+dxo.InlineInitialize();
+
+//-->
+</script>
+					</div></td>
+				</tr>
+			</tbody></table></td><td style="background:url('/vCAC/DXR.axd?r=1_62-kMs68') no-repeat left top;"></td>
+		</tr><tr>
+			<td style="background:url('/vCAC/DXR.axd?r=1_61-kMs68') no-repeat left top;"></td><td style="background:url('/vCAC/DXR.axd?r=1_63-kMs68') no-repeat left top;"><div style="height:5px;width:5px;">
+
+			</div></td>
+		</tr>
+	</tbody></table>
+</div><script id="dxss_674587305" type="text/javascript">
+<!--
+
+var dxo = new ASPxClientPopupControl('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbItemsPerPage_DDD');
+window['ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbItemsPerPage_DDD'] = dxo;
+dxo.uniqueID = 'ctl00$ctl00$MasterContent$MainContentPlaceHolder$userLog$TitlePanel$cmbItemsPerPage$DDD';
+dxo.Shown.AddHandler(function (s, e) { aspxDDBPCShown('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbItemsPerPage', e); });
+dxo.adjustInnerControlsSizeOnShow=false;
+dxo.popupAnimationType='slide';
+dxo.closeAction='CloseButton';
+dxo.popupHorizontalAlign='LeftSides';
+dxo.popupVerticalAlign='Below';
+dxo.isPopupPositionCorrectionOn=false;
+dxo.width=0;
+dxo.height=0;
+aspxAddSelectedItems('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbItemsPerPage_DDD',[[[''],[''],['HPB-1','HMNB-1','HMXB-1'],,[[''],[''],['']],['Img']]]);
+dxo.InlineInitialize();
+
+//-->
+</script><script id="dxss_188911970" type="text/javascript">
+<!--
+aspxAddHoverItems('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbItemsPerPage',[[['dxeButtonEditButtonHover_VMware'],[''],['B-1'],,[['']],['Img']]]);
+aspxAddPressedItems('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbItemsPerPage',[[['dxeButtonEditButtonPressed_VMware'],[''],['B-1'],,[['']],['Img']]]);
+document.getElementById("ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbItemsPerPage_I").setAttribute("autocomplete", "off");
+
+var dxo = new ASPxClientComboBox('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbItemsPerPage');
+window['ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_cmbItemsPerPage'] = dxo;
+dxo.autoPostBack = true;
+dxo.uniqueID = 'ctl00$ctl00$MasterContent$MainContentPlaceHolder$userLog$TitlePanel$cmbItemsPerPage';
+dxo.RequireStyleDecoration();
+dxo.styleDecoration.AddStyle('F','dxeFocused_VMware','');
+dxo.isDropDownListStyle=false;
+dxo.lastSuccessValue = '10';
+dxo.islastSuccessValueInit = true;
+dxo.InlineInitialize();
+
+//-->
+</script>
+                </td>
+            </tr>
+        </tbody></table>
+    </th>
+<th id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilter" class="Header"><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterUpdate">
+	<table id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09" style="border-collapse:collapse;border-collapse:separate;" border="0" cellpadding="0" cellspacing="0">
+		<tbody><tr>
+			<td class="dxmMenu_VMware" style="padding-left:0px;padding-right:0px;padding-top:0px;padding-bottom:0px;" valign="top"><table style="height: 22px; border-collapse: separate;" border="0" cellpadding="0" cellspacing="0">
+				<tbody><tr>
+					<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09_DXI0_I" class="dxmMenuItemWithImageWithPopOutImage_VMware dxmMenuItemLeftImageSpacing_VMware dxmIFC" onclick="aspxMIClick(event, 'ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09', '0')" style="border-width:0px;cursor:pointer;padding-left:3px;padding-right:4px!important;padding-top:3px;padding-bottom:3px;border-right:0px!important;"><img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09_DXI0_Img" src="/vCAC/Images/icon_filter_off.png" alt=""></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09_DXI0_T" class="dxmMenuItemWithImageWithPopOutImage_VMware" onclick="aspxMIClick(event, 'ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09', '0')" style="color:Black;border-width:0px;cursor:pointer;padding-left:0px!important;padding-right:4px!important;padding-top:3px;padding-bottom:3px;border-left:0px!important;border-right:0px!important;"><span style="color:Black;cursor:pointer;">Filters</span></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09_DXI0_P" class="dxmMenuItemWithImageWithPopOutImage_VMware dxmILC" onclick="aspxMIClick(event, 'ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09', '0')" style="border-width:0px;cursor:pointer;padding-left:0px!important;padding-right:3px;padding-top:3px;padding-bottom:3px;border-left:0px!important;"><img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09_DXI0_PImg" class="dxWeb_mHorizontalPopOut_VMware" src="/vCAC/DXR.axd?r=1_9-kMs68" alt="v"></td>
+				</tr>
+			</tbody></table></td>
+		</tr>
+	</tbody></table><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09_DXM0_" style="position:absolute;left:0px;top:0px;z-index:20000;visibility:hidden;display:none;">
+		<table id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09_DXMST0_" style="border-collapse:collapse;border-collapse:separate;position:relative;" border="0" cellpadding="0" cellspacing="0">
+			<tbody><tr>
+				<td class="dxmSubMenu_VMware"><table style="border-collapse:collapse;border-collapse:separate;" border="0" cellpadding="0" cellspacing="0">
+					<tbody><tr id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09_DXI0i0_" onclick="aspxMIClick(event, 'ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09', '0i0')">
+						<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09_DXI0i0_I" class="dxmSubMenuGutter_VMware dxmSubMenuItemWithImageWithPopOutImage_VMware" style="width:13px;cursor:pointer;padding-right:0px!important;border-right:0px!important;"><img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09_DXI0i0_Img" src="Images/icon_filter_bolt.png" alt=""></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09_DXI0i0_N" class="dxmSubMenuItemWithImageWithPopOutImage_VMware dxmSubMenuItemImageSpacing_VMware" style="cursor:pointer;"><div style="overflow:hidden;">
+
+						</div></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09_DXI0i0_T" class="dxmSubMenuItemWithImageWithPopOutImage_VMware" style="color:Black;width:100%;cursor:pointer;border-left:0px!important;padding-left:0px!important;border-right:0px!important;padding-right:18px!important;"><span style="color:Black;cursor:pointer;">Built-in Filters</span></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09_DXI0i0_P" class="dxmSubMenuItemWithImageWithPopOutImage_VMware" style="cursor:pointer;padding-left:0px!important;border-left:0px!important;"><img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09_DXI0i0_PImg" src="App_Themes/VMware/DCAC/Images/menu_popout_black.gif" alt=">" style="height:8px;width:4px;"></td>
+					</tr><tr id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09_DXI0i0_II" class="dxmSubMenuItemSpacing_VMware">
+						<td class="dxmSubMenuGutter_VMware" style="cursor:pointer;"></td><td></td><td colspan="2"></td>
+					</tr><tr id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09_DXI0i1_" onclick="aspxMIClick(event, 'ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09', '0i1')">
+						<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09_DXI0i1_I" class="dxmSubMenuGutter_VMware dxmSubMenuItemWithImageWithPopOutImage_VMware" style="width:13px;cursor:pointer;padding-right:0px!important;border-right:0px!important;"><img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09_DXI0i1_Img" src="Images/icon_filter_user.png" alt=""></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09_DXI0i1_N" class="dxmSubMenuItemWithImageWithPopOutImage_VMware dxmSubMenuItemImageSpacing_VMware" style="cursor:pointer;"><div style="overflow:hidden;">
+
+						</div></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09_DXI0i1_T" class="dxmSubMenuItemWithImageWithPopOutImage_VMware" style="color:Black;width:100%;cursor:pointer;border-left:0px!important;padding-left:0px!important;border-right:0px!important;padding-right:18px!important;"><span style="color:Black;cursor:pointer;">My Filters</span></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09_DXI0i1_P" class="dxmSubMenuItemWithImageWithPopOutImage_VMware" style="cursor:pointer;padding-left:0px!important;border-left:0px!important;"><img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09_DXI0i1_PImg" src="App_Themes/VMware/DCAC/Images/menu_popout_black.gif" alt=">" style="height:8px;width:4px;"></td>
+					</tr><tr id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09_DXI0i1_II" class="dxmSubMenuItemSpacing_VMware">
+						<td class="dxmSubMenuGutter_VMware" style="cursor:pointer;"></td><td></td><td colspan="2"></td>
+					</tr><tr id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09_DXI0i2_" onclick="aspxMIClick(event, 'ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09', '0i2')">
+						<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09_DXI0i2_I" class="dxmSubMenuGutter_VMware dxmSubMenuItemWithImageWithPopOutImage_VMware" style="width:13px;cursor:pointer;padding-right:0px!important;border-right:0px!important;"><img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09_DXI0i2_Img" src="Images/icon_filter_off.png" alt=""></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09_DXI0i2_N" class="dxmSubMenuItemWithImageWithPopOutImage_VMware dxmSubMenuItemImageSpacing_VMware" style="cursor:pointer;"><div style="overflow:hidden;">
+
+						</div></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09_DXI0i2_T" class="dxmSubMenuItemWithImageWithPopOutImage_VMware" style="color:Black;width:100%;cursor:pointer;border-left:0px!important;padding-left:0px!important;border-right:0px!important;padding-right:18px!important;"><span style="color:Black;cursor:pointer;">Clear</span></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09_DXI0i2_P" class="dxmSubMenuItemWithImageWithPopOutImage_VMware" style="cursor:pointer;padding-left:0px!important;border-left:0px!important;"><div style="height:1px;width:1px;overflow:hidden;">
+
+						</div></td>
+					</tr><tr id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09_DXI0i2_II" class="dxmSubMenuItemSeparatorSpacing_VMware">
+						<td class="dxmSubMenuGutter_VMware" style="cursor:pointer;"></td><td></td><td colspan="2"></td>
+					</tr><tr id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09_DXI0i3_IS">
+						<td class="dxmSubMenuGutter_VMware" style="cursor:pointer;"></td><td></td><td colspan="2" style="height:1px;" align="center"><table class="dxmSubMenuSeparator_VMware" style="border-collapse:collapse;" border="0" cellpadding="0" cellspacing="0">
+							<tbody><tr>
+								<td></td>
+							</tr>
+						</tbody></table></td>
+					</tr><tr id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09_DXI0i3_ISI" class="dxmSubMenuItemSeparatorSpacing_VMware">
+						<td class="dxmSubMenuGutter_VMware" style="cursor:pointer;"></td><td></td><td colspan="2"></td>
+					</tr><tr id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09_DXI0i3_" onclick="aspxMIClick(event, 'ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09', '0i3')">
+						<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09_DXI0i3_I" class="dxmSubMenuGutter_VMware dxmSubMenuItemWithImageWithPopOutImage_VMware" style="width:13px;cursor:pointer;padding-right:0px!important;border-right:0px!important;"><img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09_DXI0i3_Img" src="Images/icon_edit.png" alt=""></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09_DXI0i3_N" class="dxmSubMenuItemWithImageWithPopOutImage_VMware dxmSubMenuItemImageSpacing_VMware" style="cursor:pointer;"><div style="overflow:hidden;">
+
+						</div></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09_DXI0i3_T" class="dxmSubMenuItemWithImageWithPopOutImage_VMware" style="color:Black;width:100%;cursor:pointer;border-left:0px!important;padding-left:0px!important;border-right:0px!important;padding-right:18px!important;"><span style="color:Black;cursor:pointer;">Edit...</span></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09_DXI0i3_P" class="dxmSubMenuItemWithImageWithPopOutImage_VMware" style="cursor:pointer;padding-left:0px!important;border-left:0px!important;"><div style="height:1px;width:1px;overflow:hidden;">
+
+						</div></td>
+					</tr><tr id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09_DXI0i3_II" class="dxmSubMenuItemSpacing_VMware">
+						<td class="dxmSubMenuGutter_VMware" style="cursor:pointer;"></td><td></td><td colspan="2"></td>
+					</tr><tr id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09_DXI0i4_" onclick="aspxMIClick(event, 'ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09', '0i4')">
+						<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09_DXI0i4_I" class="dxmSubMenuGutter_VMware dxmSubMenuItemWithImageWithPopOutImage_VMware" style="width:13px;cursor:pointer;padding-right:0px!important;border-right:0px!important;"><img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09_DXI0i4_Img" src="Images/icon_save.png" alt=""></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09_DXI0i4_N" class="dxmSubMenuItemWithImageWithPopOutImage_VMware dxmSubMenuItemImageSpacing_VMware" style="cursor:pointer;"><div style="overflow:hidden;">
+
+						</div></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09_DXI0i4_T" class="dxmSubMenuItemWithImageWithPopOutImage_VMware" style="color:Black;width:100%;cursor:pointer;border-left:0px!important;padding-left:0px!important;border-right:0px!important;padding-right:18px!important;"><span style="color:Black;cursor:pointer;">Save As...</span></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09_DXI0i4_P" class="dxmSubMenuItemWithImageWithPopOutImage_VMware" style="cursor:pointer;padding-left:0px!important;border-left:0px!important;"><div style="height:1px;width:1px;overflow:hidden;">
+
+						</div></td>
+					</tr>
+				</tbody></table></td><td style="background:url('/vCAC/DXR.axd?r=1_62-kMs68') no-repeat left top;"></td>
+			</tr><tr>
+				<td style="background:url('/vCAC/DXR.axd?r=1_61-kMs68') no-repeat left top;"></td><td style="background:url('/vCAC/DXR.axd?r=1_63-kMs68') no-repeat left top;"><div style="height:5px;width:5px;">
+
+				</div></td>
+			</tr>
+		</tbody></table>
+	</div><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09_DXMBC0_" class="dxmSubMenu_VMware dxmSubMenuBorderCorrector_VMware" style="height:1px;width:1px;visibility:hidden;display:none;z-index:20001;overflow:hidden;">
+
+	</div><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09_DXM0i0_" style="position:absolute;left:0px;top:0px;z-index:20002;visibility:hidden;display:none;">
+		<table id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09_DXMST0i0_" style="border-collapse:collapse;border-collapse:separate;position:relative;" border="0" cellpadding="0" cellspacing="0">
+			<tbody><tr>
+				<td class="dxmSubMenu_VMware"><table style="border-collapse:collapse;border-collapse:separate;" border="0" cellpadding="0" cellspacing="0">
+					<tbody><tr>
+						<td class="dxmSubMenuGutter_VMware dxmSubMenuItemWithImage_VMware dxmDisabled_VMware" style="width:13px;cursor:default;padding-right:0px!important;border-right:0px!important;"><div style="height:1px;width:13px;overflow:hidden;">
+
+						</div></td><td class="dxmSubMenuItemWithImage_VMware dxmDisabled_VMware dxmSubMenuItemImageSpacing_VMware" style="cursor:default;"><div style="overflow:hidden;">
+
+						</div></td><td class="dxmSubMenuItemWithImage_VMware dxmDisabled_VMware" style="color:Black;width:100%;cursor:default;border-left:0px!important;padding-left:0px!important;"><span style="color:Black;cursor:default;">(No filters saved)</span></td>
+					</tr>
+				</tbody></table></td><td style="background:url('/vCAC/DXR.axd?r=1_62-kMs68') no-repeat left top;"></td>
+			</tr><tr>
+				<td style="background:url('/vCAC/DXR.axd?r=1_61-kMs68') no-repeat left top;"></td><td style="background:url('/vCAC/DXR.axd?r=1_63-kMs68') no-repeat left top;"><div style="height:5px;width:5px;">
+
+				</div></td>
+			</tr>
+		</tbody></table>
+	</div><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09_DXMBC0i0_" class="dxmSubMenu_VMware dxmSubMenuBorderCorrector_VMware" style="height:1px;width:1px;visibility:hidden;display:none;z-index:20003;overflow:hidden;">
+
+	</div><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09_DXM0i1_" style="position:absolute;left:0px;top:0px;z-index:20002;visibility:hidden;display:none;">
+		<table id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09_DXMST0i1_" style="border-collapse:collapse;border-collapse:separate;position:relative;" border="0" cellpadding="0" cellspacing="0">
+			<tbody><tr>
+				<td class="dxmSubMenu_VMware"><table style="border-collapse:collapse;border-collapse:separate;" border="0" cellpadding="0" cellspacing="0">
+					<tbody><tr>
+						<td class="dxmSubMenuGutter_VMware dxmSubMenuItemWithImage_VMware dxmDisabled_VMware" style="width:13px;cursor:default;padding-right:0px!important;border-right:0px!important;"><div style="height:1px;width:13px;overflow:hidden;">
+
+						</div></td><td class="dxmSubMenuItemWithImage_VMware dxmDisabled_VMware dxmSubMenuItemImageSpacing_VMware" style="cursor:default;"><div style="overflow:hidden;">
+
+						</div></td><td class="dxmSubMenuItemWithImage_VMware dxmDisabled_VMware" style="color:Black;width:100%;cursor:default;border-left:0px!important;padding-left:0px!important;"><span style="color:Black;cursor:default;">(No filters saved)</span></td>
+					</tr>
+				</tbody></table></td><td style="background:url('/vCAC/DXR.axd?r=1_62-kMs68') no-repeat left top;"></td>
+			</tr><tr>
+				<td style="background:url('/vCAC/DXR.axd?r=1_61-kMs68') no-repeat left top;"></td><td style="background:url('/vCAC/DXR.axd?r=1_63-kMs68') no-repeat left top;"><div style="height:5px;width:5px;">
+
+				</div></td>
+			</tr>
+		</tbody></table>
+	</div><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09_DXMBC0i1_" class="dxmSubMenu_VMware dxmSubMenuBorderCorrector_VMware" style="height:1px;width:1px;visibility:hidden;display:none;z-index:20003;overflow:hidden;">
+
+	</div><script id="dxss_1158033159" type="text/javascript">
+<!--
+aspxAddHoverItems('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09',[[[''],[''],['DXM_','DXM0_','DXMBC0_','DXM0i0_','DXMBC0i0_','DXM0i1_','DXMBC0i1_']],[['dxmMenuItemHoverWithImageWithPopOutImage_VMware','dxmMenuItemHoverWithImageWithPopOutImage_VMware'],['padding-left:2px;padding-top:2px;padding-right:2px;padding-bottom:2px;border-width:1px;border-style:solid;','border-bottom-width:1px;border-top-width:1px;padding-top:2px;padding-bottom:2px;'],['DXI0_'],['I','N','T','P'],[['','']],['Img','PImg']],[['dxmSubMenuItemHoverWithImageWithPopOutImage_VMware'],['color:White;'],['DXI0i0_','DXI0i1_','DXI0i2_','DXI0i3_','DXI0i4_'],['I','N','T','P'],[['','App_Themes/VMware/DCAC/Images/vertical_popout_hover.gif'],['','App_Themes/VMware/DCAC/Images/vertical_popout_hover.gif'],['','App_Themes/VMware/DCAC/Images/vertical_popout_hover.gif'],['','App_Themes/VMware/DCAC/Images/vertical_popout_hover.gif'],['','App_Themes/VMware/DCAC/Images/vertical_popout_hover.gif']],['Img','PImg']]]);
+aspxRemoveHoverItems('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09',[[['DXI0i0i0_','DXI0i1i0_']]]);
+aspxAddDisabledItems('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09',[[['dxmDisabled_VMware'],[''],['DXI0_','DXI0i0_','DXI0i1_','DXI0i2_','DXI0i3_','DXI0i4_'],['I','N','T','P'],[['',''],['',''],['',''],['',''],['',''],['','']],['Img','PImg']]]);
+aspxRemoveDisabledItems('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09',[[['DXI0i0i0_','DXI0i1i0_']]]);
+
+var dxo = new ASPxClientMenu('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl09');
+window['ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilter'] = dxo;
+dxo.uniqueID = 'ctl00$ctl00$MasterContent$MainContentPlaceHolder$userLog$TitlePanel$ctl09';
+dxo.ItemClick.AddHandler(ContentPanelHeaderGridFilterSelectorCell_MenuClickLambda('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilter', 'ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid', 'VMware', 'Are you sure you want to delete this filter?', '\047Name\047 is a required field.'));
+dxo.subMenuFIXOffset=2;
+dxo.subMenuLIXOffset=2;
+dxo.subMenuXOffset=2;
+dxo.CreateItems([['Edit',,,,,[['',,,,,[['',false,,,,[]]]],['',,,,,[['',false,,,,[]]]],['Clear',,,,,[]],['Edit',,,,,[]],['SaveAs',,,,,[]]]]]);
+dxo.InlineInitialize();
+
+//-->
+</script><input id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopupWS" name="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopupWS" value="0:0:-1:-10000:-10000:0:399px:200px:1:0:0:0" type="hidden"><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_PW-1" class="dxpcLite_VMware dxpclW" style="height:200px;width:399px;z-index:10000;display:none;">
+		<div class="dxpc-mainDiv dxpc-shadow" style="cursor:default;">
+			<div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_PWH-1" class="dxpc-header dxpc-withBtn" style="cursor:move;padding-left:7px;-moz-user-select:none;">
+				<div class="dxpc-headerContent">
+					<span id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_PWH-1T" class="dxpc-headerText">Filter Builder</span>
+				</div><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_HCB-1" class="dxpc-closeBtn" style="cursor:pointer;">
+					<img class="dxWeb_pcCloseButton_VMware" src="/vCAC/DXR.axd?r=1_9-kMs68" alt="[Close]">
+				</div><b class="dx-clear"></b>
+			</div><div class="dxpc-contentWrapper">
+				<div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_PWC-1" class="dxpc-content">
+					<table class="Form" cellspacing="0"><tbody><tr id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterNameRow"><td class="Label"><div class="IconRequired "><span title="Required"><img src="/vCAC/Images/icon_required.png" height="16" width="8">Name: </span></div></td><td class="Field"><table errorframe="errorFrame" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterName_ET" style="border-collapse:collapse;" border="0" cellpadding="0" cellspacing="0">
+						<tbody><tr>
+							<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterName_CC"><table class="dxeTextBoxSys dxeTextBox_VMware" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterName" style="width:200px;border-collapse:collapse;" border="0" cellpadding="0" cellspacing="0">
+								<tbody><tr>
+									<td class="dxic" style="width:100%;"><input class="dxeEditArea_VMware dxeEditAreaSys" name="ctl00$ctl00$MasterContent$MainContentPlaceHolder$userLog$TitlePanel$RecentEventFilterPopup$RecentEventFilterName" onkeyup="aspxEKeyUp('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterName', event)" maxlength="128" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterName_I" onchange="aspxEValueChanged('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterName')" onblur="aspxELostFocus('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterName')" onfocus="aspxEGotFocus('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterName')" onkeydown="aspxEKeyDown('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterName', event)" type="text"></td>
+								</tr>
+							</tbody></table><input value="" name="ctl00$ctl00$MasterContent$MainContentPlaceHolder$userLog$TitlePanel$RecentEventFilterPopup$RecentEventFilterName$CVS" type="hidden"></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterName_EC" class="dxeErrorCell_VMware" style="vertical-align:middle;display:none;white-space:nowrap;"><table style="width:100%;border-collapse:collapse;" border="0" cellpadding="0" cellspacing="0">
+								<tbody><tr>
+									<td style="padding-right:5px;"><img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterName_EI" title="Invalid value" class="dxEditors_edtError_VMware" src="/vCAC/DXR.axd?r=1_9-kMs68" alt="Invalid value"></td>
+								</tr>
+							</tbody></table></td>
+						</tr>
+					</tbody></table><script id="dxss_38293446" type="text/javascript">
+<!--
+aspxAddDisabledItems('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterName',[[['dxeDisabled_VMware'],[''],['','I']]]);
+document.getElementById("ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterName_ET").setAttribute("errorFrame", "errorFrame");
+
+var dxo = new ASPxClientTextBox('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterName');
+window['ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterName'] = dxo;
+dxo.uniqueID = 'ctl00$ctl00$MasterContent$MainContentPlaceHolder$userLog$TitlePanel$RecentEventFilterPopup$RecentEventFilterName';
+dxo.KeyDown.AddHandler(ContentPanelHeaderGridFilterSelectorCell_PopupKeyDownLambda('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilter'));
+dxo.customValidationEnabled = true;
+dxo.isValid = true;
+dxo.errorText = 'Invalid value';
+dxo.validationPatterns = [ new ASPxRequiredFieldValidationPattern('A name is required. Please enter a name.') ];
+dxo.setFocusOnError = true;
+dxo.display = "Dynamic";
+dxo.errorDisplayMode = "i";
+dxo.errorImageIsAssigned = true;
+dxo.errorFrameStyles = { errorFrame: { cssClass: 'dxeErrorFrame_VMware', style: '' }, controlCell: { cssClass: 'dxeControlsCell_VMware', style: '' } };
+dxo.RequireStyleDecoration();
+dxo.styleDecoration.AddStyle('I','dxeInvalid_VMware','');
+dxo.styleDecoration.AddStyle('F','dxeFocused_VMware','');
+dxo.InlineInitialize();
+
+//-->
+</script><table class="dxeBase_VMware Checkbox" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterDate" style="border-collapse:collapse;margin-top:10px;" border="0" cellpadding="0" cellspacing="0">
+						<tbody><tr>
+							<td><input id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterDate_I" value="" onclick="aspxChkOnClick('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterDate')" type="checkbox"><input id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterDate_S" name="ctl00$ctl00$MasterContent$MainContentPlaceHolder$userLog$TitlePanel$RecentEventFilterPopup$ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterDate" value="U" type="hidden"></td><td style="padding-left:0px;padding-right:0px;padding-top:0px;padding-bottom:1px;"><label for="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterDate_I" style="margin-left:2px;">Automatically advance dates over time (for "X days ago" filtering)</label></td>
+						</tr>
+					</tbody></table><script id="dxss_1969051996" type="text/javascript">
+<!--
+aspxAddDisabledItems('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterDate',[[['dxeDisabled_VMware'],[''],['']]]);
+
+var dxo = new ASPxClientCheckBox('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterDate');
+window['ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterDate'] = dxo;
+dxo.uniqueID = 'ctl00$ctl00$MasterContent$MainContentPlaceHolder$userLog$TitlePanel$RecentEventFilterPopup$ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterDate';
+dxo.InlineInitialize();
+
+//-->
+</script></td></tr><tr id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterFilterRow"><td class="Label"><span>Filters: </span></td><td class="Field"><div class="dxmLite_VMware dxm-ltr">
+						<div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_FieldNamePopup" style="z-index: 19998; display: none; position: absolute;">
+							<div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_FieldNamePopup_DXME_" class="dxm-popupMain dxm-shadow dxm-popup">
+								<ul class="dx dxm-gutter">
+									<li style="cursor: pointer;" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_FieldNamePopup_DXI0_" class="dxm-item"><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_FieldNamePopup_DXI0_T" class="dxm-content dxm-hasText">
+										<img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_FieldNamePopup_DXI0_Img" class="dxm-image" src="Images/icon_column.png" alt="" style="margin-right:8px;">Date
+									</div><b class="dx-clear"></b></li><li id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_FieldNamePopup_DXI0_II" class="dxm-spacing"></li><li style="cursor: pointer;" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_FieldNamePopup_DXI1_" class="dxm-item"><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_FieldNamePopup_DXI1_T" class="dxm-content dxm-hasText">
+										<img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_FieldNamePopup_DXI1_Img" class="dxm-image" src="Images/icon_column.png" alt="" style="margin-right:8px;">Message
+									</div><b class="dx-clear"></b></li>
+								</ul>
+							</div>
+						</div>
+					</div><script id="dxss_449077692" type="text/javascript">
+<!--
+aspxAddHoverItems('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_FieldNamePopup',[[[''],[''],['DXME_']],[['dxm-hovered',''],['',''],['DXI0_','DXI1_'],['','T'],[[''],['']],['Img','PImg']]]);
+aspxAddDisabledItems('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_FieldNamePopup',[[['dxm-disabled'],[''],['DXI0_','DXI1_'],['','T'],[[''],['']],['Img','PImg']]]);
+
+var dxo = new ASPxClientPopupMenu('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_FieldNamePopup');
+window['ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_FieldNamePopup'] = dxo;
+dxo.uniqueID = 'ctl00$ctl00$MasterContent$MainContentPlaceHolder$userLog$TitlePanel$RecentEventFilterPopup$RecentEventFilterFilter$FieldNamePopup';
+dxo.ItemClick.AddHandler(GridViewFilterControl_FieldItemClickLambda('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter'));
+dxo.liteRender=true;
+dxo.liteRenderData={'':[[0],[1]]};
+dxo.subMenuFIXOffset=2;
+dxo.subMenuLIXOffset=2;
+dxo.subMenuXOffset=2;
+dxo.rootSubMenuFIXOffset=2;
+dxo.rootSubMenuLIXOffset=2;
+dxo.rootSubMenuXOffset=2;
+dxo.shadowVisible=false;
+dxo.CreateItems([['Timestamp',,,,,[]],['Message',,,,,[]]]);
+dxo.popupVerticalAlign='Below';
+dxo.InlineInitialize();
+
+//-->
+</script><div class="dxmLite_VMware dxm-ltr">
+						<div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup" style="z-index: 19998; display: none; position: absolute;">
+							<div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXME_" class="dxm-popupMain dxm-shadow dxm-popup">
+								<ul class="dx dxm-gutter">
+									<li style="cursor: pointer;" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI0_" class="dxm-item"><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI0_T" class="dxm-content dxm-hasText">
+										<img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI0_Img" class="dxEditors_fcopequal_VMware dxm-image" src="/vCAC/DXR.axd?r=1_9-kMs68" alt="">Equals
+									</div><b class="dx-clear"></b></li><li id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI0_II" class="dxm-spacing"></li><li style="cursor: pointer;" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI1_" class="dxm-item"><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI1_T" class="dxm-content dxm-hasText">
+										<img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI1_Img" class="dxEditors_fcopnotequal_VMware dxm-image" src="/vCAC/DXR.axd?r=1_9-kMs68" alt="">Does not equal
+									</div><b class="dx-clear"></b></li><li id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI1_II" class="dxm-spacing"></li><li style="cursor: pointer;" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI2_" class="dxm-item"><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI2_T" class="dxm-content dxm-hasText">
+										<img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI2_Img" class="dxEditors_fcopgreater_VMware dxm-image" src="/vCAC/DXR.axd?r=1_9-kMs68" alt="">Is greater than
+									</div><b class="dx-clear"></b></li><li id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI2_II" class="dxm-spacing"></li><li style="cursor: pointer;" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI3_" class="dxm-item"><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI3_T" class="dxm-content dxm-hasText">
+										<img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI3_Img" class="dxEditors_fcopgreaterorequal_VMware dxm-image" src="/vCAC/DXR.axd?r=1_9-kMs68" alt="">Is greater than or equal to
+									</div><b class="dx-clear"></b></li><li id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI3_II" class="dxm-spacing"></li><li style="cursor: pointer;" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI4_" class="dxm-item"><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI4_T" class="dxm-content dxm-hasText">
+										<img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI4_Img" class="dxEditors_fcopless_VMware dxm-image" src="/vCAC/DXR.axd?r=1_9-kMs68" alt="">Is less than
+									</div><b class="dx-clear"></b></li><li id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI4_II" class="dxm-spacing"></li><li style="cursor: pointer;" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI5_" class="dxm-item"><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI5_T" class="dxm-content dxm-hasText">
+										<img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI5_Img" class="dxEditors_fcoplessorequal_VMware dxm-image" src="/vCAC/DXR.axd?r=1_9-kMs68" alt="">Is less than or equal to
+									</div><b class="dx-clear"></b></li><li id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI5_II" class="dxm-spacing"></li><li style="cursor: pointer;" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI6_" class="dxm-item"><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI6_T" class="dxm-content dxm-hasText">
+										<img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI6_Img" class="dxEditors_fcopbetween_VMware dxm-image" src="/vCAC/DXR.axd?r=1_9-kMs68" alt="">Is between
+									</div><b class="dx-clear"></b></li><li id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI6_II" class="dxm-spacing"></li><li style="cursor: pointer;" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI7_" class="dxm-item"><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI7_T" class="dxm-content dxm-hasText">
+										<img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI7_Img" class="dxEditors_fcopnotbetween_VMware dxm-image" src="/vCAC/DXR.axd?r=1_9-kMs68" alt="">Is not between
+									</div><b class="dx-clear"></b></li><li id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI7_II" class="dxm-spacing"></li><li style="cursor: pointer;" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI8_" class="dxm-item"><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI8_T" class="dxm-content dxm-hasText">
+										<img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI8_Img" class="dxEditors_fcopcontain_VMware dxm-image" src="/vCAC/DXR.axd?r=1_9-kMs68" alt="">Contains
+									</div><b class="dx-clear"></b></li><li id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI8_II" class="dxm-spacing"></li><li style="cursor: pointer;" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI9_" class="dxm-item"><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI9_T" class="dxm-content dxm-hasText">
+										<img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI9_Img" class="dxEditors_fcopnotcontain_VMware dxm-image" src="/vCAC/DXR.axd?r=1_9-kMs68" alt="">Does not contain
+									</div><b class="dx-clear"></b></li><li id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI9_II" class="dxm-spacing"></li><li style="cursor: pointer;" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI10_" class="dxm-item"><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI10_T" class="dxm-content dxm-hasText">
+										<img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI10_Img" class="dxEditors_fcopbegin_VMware dxm-image" src="/vCAC/DXR.axd?r=1_9-kMs68" alt="">Begins with
+									</div><b class="dx-clear"></b></li><li id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI10_II" class="dxm-spacing"></li><li style="cursor: pointer;" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI11_" class="dxm-item"><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI11_T" class="dxm-content dxm-hasText">
+										<img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI11_Img" class="dxEditors_fcopend_VMware dxm-image" src="/vCAC/DXR.axd?r=1_9-kMs68" alt="">Ends with
+									</div><b class="dx-clear"></b></li><li id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI11_II" class="dxm-spacing"></li><li style="cursor: pointer;" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI12_" class="dxm-item"><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI12_T" class="dxm-content dxm-hasText">
+										<img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI12_Img" class="dxEditors_fcoplike_VMware dxm-image" src="/vCAC/DXR.axd?r=1_9-kMs68" alt="">Is like
+									</div><b class="dx-clear"></b></li><li id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI12_II" class="dxm-spacing"></li><li style="cursor: pointer;" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI13_" class="dxm-item"><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI13_T" class="dxm-content dxm-hasText">
+										<img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI13_Img" class="dxEditors_fcopnotlike_VMware dxm-image" src="/vCAC/DXR.axd?r=1_9-kMs68" alt="">Is not like
+									</div><b class="dx-clear"></b></li><li id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI13_II" class="dxm-spacing"></li><li style="cursor: pointer;" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI14_" class="dxm-item"><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI14_T" class="dxm-content dxm-hasText">
+										<img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI14_Img" class="dxEditors_fcopblank_VMware dxm-image" src="/vCAC/DXR.axd?r=1_9-kMs68" alt="">Is blank
+									</div><b class="dx-clear"></b></li><li id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI14_II" class="dxm-spacing"></li><li style="cursor: pointer;" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI15_" class="dxm-item"><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI15_T" class="dxm-content dxm-hasText">
+										<img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI15_Img" class="dxEditors_fcopnotblank_VMware dxm-image" src="/vCAC/DXR.axd?r=1_9-kMs68" alt="">Is not blank
+									</div><b class="dx-clear"></b></li><li id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI15_II" class="dxm-spacing"></li><li style="cursor: pointer;" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI16_" class="dxm-item"><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI16_T" class="dxm-content dxm-hasText">
+										<img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI16_Img" class="dxEditors_fcopany_VMware dxm-image" src="/vCAC/DXR.axd?r=1_9-kMs68" alt="">Is any of
+									</div><b class="dx-clear"></b></li><li id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI16_II" class="dxm-spacing"></li><li style="cursor: pointer;" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI17_" class="dxm-item"><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI17_T" class="dxm-content dxm-hasText">
+										<img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup_DXI17_Img" class="dxEditors_fcopnotany_VMware dxm-image" src="/vCAC/DXR.axd?r=1_9-kMs68" alt="">Is none of
+									</div><b class="dx-clear"></b></li>
+								</ul>
+							</div>
+						</div>
+					</div><script id="dxss_343942166" type="text/javascript">
+<!--
+aspxAddHoverItems('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup',[[[''],[''],['DXME_']],[['dxm-hovered',''],['',''],['DXI0_','DXI1_','DXI2_','DXI3_','DXI4_','DXI5_','DXI6_','DXI7_','DXI8_','DXI9_','DXI10_','DXI11_','DXI12_','DXI13_','DXI14_','DXI15_','DXI16_','DXI17_'],['','T'],[[''],[''],[''],[''],[''],[''],[''],[''],[''],[''],[''],[''],[''],[''],[''],[''],[''],['']],['Img','PImg']]]);
+aspxAddDisabledItems('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup',[[['dxm-disabled'],[''],['DXI0_','DXI1_','DXI2_','DXI3_','DXI4_','DXI5_','DXI6_','DXI7_','DXI8_','DXI9_','DXI10_','DXI11_','DXI12_','DXI13_','DXI14_','DXI15_','DXI16_','DXI17_'],['','T'],[[''],[''],[''],[''],[''],[''],[''],[''],[''],[''],[''],[''],[''],[''],[''],[''],[''],['']],['Img','PImg']]]);
+
+var dxo = new ASPxClientPopupMenu('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup');
+window['ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OperationPopup'] = dxo;
+dxo.uniqueID = 'ctl00$ctl00$MasterContent$MainContentPlaceHolder$userLog$TitlePanel$RecentEventFilterPopup$RecentEventFilterFilter$OperationPopup';
+dxo.ItemClick.AddHandler(function(s, e) { aspxFCChangeOperation('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter', e.item.name); });
+dxo.liteRender=true;
+dxo.liteRenderData={'':[[0],[1],[2],[3],[4],[5],[6],[7],[8],[9],[10],[11],[12],[13],[14],[15],[16],[17]]};
+dxo.shadowVisible=false;
+dxo.CreateItems([['GDSL|Equals',,,,,[]],['GDSL|DoesNotEqual',,,,,[]],['GDS|Greater',,,,,[]],['GDS|GreaterOrEqual',,,,,[]],['GDS|Less',,,,,[]],['GDS|LessOrEqual',,,,,[]],['GDS|Between',,,,,[]],['GDS|NotBetween',,,,,[]],['S|Contains',,,,,[]],['S|DoesNotContain',,,,,[]],['S|BeginsWith',,,,,[]],['S|EndsWith',,,,,[]],['S|Like',,,,,[]],['S|NotLike',,,,,[]],['GDSLB|IsNull',,,,,[]],['GDSLB|IsNotNull',,,,,[]],['GDSL|AnyOf',,,,,[]],['GDSL|NoneOf',,,,,[]]]);
+dxo.popupVerticalAlign='Below';
+dxo.InlineInitialize();
+
+//-->
+</script><div class="dxmLite_VMware dxm-ltr">
+						<div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_GroupPopup" style="z-index: 19998; display: none; position: absolute;">
+							<div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_GroupPopup_DXME_" class="dxm-popupMain dxm-shadow dxm-popup">
+								<ul class="dx dxm-gutter">
+									<li style="cursor: pointer;" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_GroupPopup_DXI0_" class="dxm-item"><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_GroupPopup_DXI0_T" class="dxm-content dxm-hasText">
+										<img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_GroupPopup_DXI0_Img" class="dxEditors_fcgroupand_VMware dxm-image" src="/vCAC/DXR.axd?r=1_9-kMs68" alt="">And
+									</div><b class="dx-clear"></b></li><li id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_GroupPopup_DXI0_II" class="dxm-spacing"></li><li style="cursor: pointer;" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_GroupPopup_DXI1_" class="dxm-item"><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_GroupPopup_DXI1_T" class="dxm-content dxm-hasText">
+										<img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_GroupPopup_DXI1_Img" class="dxEditors_fcgroupor_VMware dxm-image" src="/vCAC/DXR.axd?r=1_9-kMs68" alt="">Or
+									</div><b class="dx-clear"></b></li><li id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_GroupPopup_DXI1_II" class="dxm-spacing"></li><li style="cursor: pointer;" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_GroupPopup_DXI2_" class="dxm-item"><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_GroupPopup_DXI2_T" class="dxm-content dxm-hasText">
+										<img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_GroupPopup_DXI2_Img" class="dxEditors_fcgroupnotand_VMware dxm-image" src="/vCAC/DXR.axd?r=1_9-kMs68" alt="">Not And
+									</div><b class="dx-clear"></b></li><li id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_GroupPopup_DXI2_II" class="dxm-spacing"></li><li style="cursor: pointer;" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_GroupPopup_DXI3_" class="dxm-item"><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_GroupPopup_DXI3_T" class="dxm-content dxm-hasText">
+										<img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_GroupPopup_DXI3_Img" class="dxEditors_fcgroupnotor_VMware dxm-image" src="/vCAC/DXR.axd?r=1_9-kMs68" alt="">Not Or
+									</div><b class="dx-clear"></b></li><li id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_GroupPopup_DXI4_IS" class="dxm-separator"><b></b></li><li style="cursor: pointer;" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_GroupPopup_DXI4_" class="dxm-item"><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_GroupPopup_DXI4_T" class="dxm-content dxm-hasText">
+										<img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_GroupPopup_DXI4_Img" class="dxEditors_fcgroupaddgroup_VMware dxm-image" src="/vCAC/DXR.axd?r=1_9-kMs68" alt="">Add Group
+									</div><b class="dx-clear"></b></li><li id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_GroupPopup_DXI4_II" class="dxm-spacing"></li><li style="cursor: pointer;" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_GroupPopup_DXI5_" class="dxm-item"><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_GroupPopup_DXI5_T" class="dxm-content dxm-hasText">
+										<img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_GroupPopup_DXI5_Img" class="dxEditors_fcgroupaddcondition_VMware dxm-image" src="/vCAC/DXR.axd?r=1_9-kMs68" alt="">Add Condition
+									</div><b class="dx-clear"></b></li><li id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_GroupPopup_DXI6_IS" class="dxm-separator"><b></b></li><li style="cursor: pointer;" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_GroupPopup_DXI6_" class="dxm-item"><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_GroupPopup_DXI6_T" class="dxm-content dxm-hasText">
+										<img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_GroupPopup_DXI6_Img" class="dxEditors_fcgroupremove_VMware dxm-image" src="/vCAC/DXR.axd?r=1_9-kMs68" alt="">Remove
+									</div><b class="dx-clear"></b></li>
+								</ul>
+							</div>
+						</div>
+					</div><script id="dxss_732955621" type="text/javascript">
+<!--
+aspxAddHoverItems('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_GroupPopup',[[[''],[''],['DXME_']],[['dxm-hovered',''],['',''],['DXI0_','DXI1_','DXI2_','DXI3_','DXI4_','DXI5_','DXI6_'],['','T'],[[''],[''],[''],[''],[''],[''],['']],['Img','PImg']]]);
+aspxAddDisabledItems('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_GroupPopup',[[['dxm-disabled'],[''],['DXI0_','DXI1_','DXI2_','DXI3_','DXI4_','DXI5_','DXI6_'],['','T'],[[''],[''],[''],[''],[''],[''],['']],['Img','PImg']]]);
+
+var dxo = new ASPxClientPopupMenu('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_GroupPopup');
+window['ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_GroupPopup'] = dxo;
+dxo.uniqueID = 'ctl00$ctl00$MasterContent$MainContentPlaceHolder$userLog$TitlePanel$RecentEventFilterPopup$RecentEventFilterFilter$GroupPopup';
+dxo.ItemClick.AddHandler(function(s, e) { aspxFCChangeGroup('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter', e.item.name); });
+dxo.liteRender=true;
+dxo.liteRenderData={'':[[0],[1],[2],[3],[4],[5],[6]]};
+dxo.shadowVisible=false;
+dxo.CreateItems([['And',,,,,[]],['Or',,,,,[]],['NotAnd',,,,,[]],['NotOr',,,,,[]],['|AddGroup',,,,,[]],['|AddCondition',,,,,[]],['|Remove',,,,,[]]]);
+dxo.popupVerticalAlign='Below';
+dxo.InlineInitialize();
+
+//-->
+</script><table id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter" style="border-collapse:collapse;border-collapse:separate;" border="0" cellpadding="0" cellspacing="0">
+						<tbody><tr>
+							<td class="dxfcControl_VMware" align="left" valign="top"><input id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_E" name="ctl00$ctl00$MasterContent$MainContentPlaceHolder$userLog$TitlePanel$RecentEventFilterPopup$RecentEventFilterFilter" value="['','','AgEHAAcA',true]" type="hidden"><table class="dxfcTable_VMware" style="width:100%;" border="0">
+								<tbody><tr>
+									<td class="dxfc"><a class="dxfcGroupType_VMware" onclick="aspxFCShowGroupPopup('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter',event,0)" href="javascript:;">And</a><script id="dxss_1205816873" type="text/javascript">
+<!--
+aspxAddHoverItems('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter',[[[''],[''],['OPIC0'],,[[{'spriteCssClass':'dxEditors_fcaddhot_VMware'}]],['']]]);
+
+//-->
+</script><img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_OPIC0" title="Adds a new condition to this group" class="dxEditors_fcadd_VMware" onclick="aspxFCAddConditionNode('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter',0)" src="/vCAC/DXR.axd?r=1_9-kMs68" alt=""></td>
+								</tr>
+							</tbody></table></td>
+						</tr>
+					</tbody></table><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_LP" style="left:0px;top:0px;z-index:30000;display:none;" align="center">
+						<table class="dxfcLoadingPanel_VMware" style="height:100%;border-collapse:collapse;" border="0" cellpadding="0" cellspacing="0">
+							<tbody><tr>
+								<td class="dx" style="padding-right:5px;"><img src="App_Themes/VMware/Editors/Loading.gif" alt="" align="middle"></td><td class="dx" style="padding-left:0px;"><span id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_TL">Loading…</span></td>
+							</tr>
+						</tbody></table>
+					</div><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter_LD" class="dxfcLoadingDiv_VMware" style="left:0px;top:0px;z-index:29999;display:none;position:absolute;">
+
+					</div><script id="dxss_430820681" type="text/javascript">
+<!--
+
+var dxo = new ASPxClientFilterControl('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter');
+window['ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterFilter'] = dxo;
+dxo.callBack = function(arg) { WebForm_DoCallback('ctl00$ctl00$MasterContent$MainContentPlaceHolder$userLog$TitlePanel$RecentEventFilterPopup$RecentEventFilterFilter',arg,aspxCallback,'ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_RecentEventFilterFilter',aspxCallbackError,true); };
+dxo.uniqueID = 'ctl00$ctl00$MasterContent$MainContentPlaceHolder$userLog$TitlePanel$RecentEventFilterPopup$RecentEventFilterFilter';
+dxo.EndCallback.AddHandler(ContentPanelHeaderGridFilterSelectorCell_EndCallback);
+dxo.callBacksEnabled=true;
+dxo.standAlone=true;
+dxo.InlineInitialize();
+
+//-->
+</script></td></tr></tbody></table>
+				</div>
+			</div><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_PWF-1" class="dxpc-footer" style="padding-left:5px;padding-right:5px;padding-top:5px;padding-bottom:5px;">
+				<table style="padding-left:5px;" cellspacing="0"><tbody><tr><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterApply" align="center"><a href="#" ondragend="this.blur();return false;" type="button" name="ctl00$ctl00$MasterContent$MainContentPlaceHolder$userLog$TitlePanel$RecentEventFilterPopup$TPCFm1$ctl00" value="OK" onclick="this.blur();return ContentPanelHeaderGridFilterSelectorCell_ButtonClick('Apply', 'ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilter');if (!buttonValidate(this)) return false;WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl00$MasterContent$MainContentPlaceHolder$userLog$TitlePanel$RecentEventFilterPopup$TPCFm1$ctl00&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))" class="CoolButton" validationgroup="" style="width:75px;"><span>OK</span></a></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterSave"><a href="#" ondragend="this.blur();return false;" type="button" name="ctl00$ctl00$MasterContent$MainContentPlaceHolder$userLog$TitlePanel$RecentEventFilterPopup$TPCFm1$ctl01" value="Save" onclick="this.blur();return ContentPanelHeaderGridFilterSelectorCell_ButtonClick('Save', 'ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilter');if (!buttonValidate(this)) return false;WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl00$MasterContent$MainContentPlaceHolder$userLog$TitlePanel$RecentEventFilterPopup$TPCFm1$ctl01&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))" class="CoolButton" validationgroup="" style="width:75px;"><span>Save</span></a></td><td><a href="#" ondragend="this.blur();return false;" type="button" name="ctl00$ctl00$MasterContent$MainContentPlaceHolder$userLog$TitlePanel$RecentEventFilterPopup$TPCFm1$ctl02" value="Cancel" onclick="this.blur();return ContentPanelHeaderGridFilterSelectorCell_ButtonClick('Cancel', 'ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilter');__doPostBack('ctl00$ctl00$MasterContent$MainContentPlaceHolder$userLog$TitlePanel$RecentEventFilterPopup$TPCFm1$ctl02','')" class="CoolButton" style="width:75px;"><span>Cancel</span></a></td></tr></tbody></table>
+			</div>
+		</div>
+	</div><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_DXPWMB-1" class="dxpcModalBackLite_VMware" style="opacity:0.9;z-index:9999;">
+
+	</div><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_LP" style="left:0px;top:0px;z-index:30000;display:none;" align="center">
+		<table class="dxpcLoadingPanel_VMware" style="height:100%;border-collapse:collapse;" border="0" cellpadding="0" cellspacing="0">
+			<tbody><tr>
+				<td class="dx" style="padding-right:5px;"><img src="App_Themes/VMware/Web/Loading.gif" alt="" align="middle"></td><td class="dx" style="padding-left:0px;"><span id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_TL">Loading…</span></td>
+			</tr>
+		</tbody></table>
+	</div><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup_LD" class="dxpcLoadingDiv_VMware" style="left:0px;top:0px;z-index:29999;display:none;position:absolute;">
+
+	</div><script id="dxss_1979783336" type="text/javascript">
+<!--
+
+var dxo = new ASPxClientPopupControl('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup');
+window['ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup'] = dxo;
+dxo.callBack = function(arg) { WebForm_DoCallback('ctl00$ctl00$MasterContent$MainContentPlaceHolder$userLog$TitlePanel$RecentEventFilterPopup',arg,aspxCallback,'ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup',aspxCallbackError,true); };
+dxo.uniqueID = 'ctl00$ctl00$MasterContent$MainContentPlaceHolder$userLog$TitlePanel$RecentEventFilterPopup';
+dxo.Shown.AddHandler(ContentPanelHeaderGridFilterSelectorCell_PopupShownLambda('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilter'));
+dxo.popupAnimationType='slide';
+dxo.allowResize=true;
+dxo.popupAction='None';
+dxo.closeAction='CloseButton';
+dxo.popupHorizontalAlign='Center';
+dxo.popupVerticalAlign='Below';
+dxo.isPopupPositionCorrectionOn=false;
+dxo.liteRender=true;
+dxo.allowDragging=true;
+dxo.width=399;
+dxo.height=200;
+dxo.defaultWindowPopupElementIDList=['ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl00'];
+aspxAddSelectedItems('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterPopup',[[['dxpc-pinBtnChecked'],[''],['HPB-1'],,[['']],['Img']],[['dxpc-collapseBtnChecked'],[''],['HMNB-1'],,[['']],['Img']],[['dxpc-maximizeBtnChecked'],[''],['HMXB-1'],,[['']],['Img']]]);
+dxo.InlineInitialize();
+
+//-->
+</script>
+</div><span id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterUpdateEx" style="display:none;"></span></th>
+<th id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_mnuUserLogExport" class="Header" width="80"><table id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl10" style="border-collapse:collapse;border-collapse:separate;" border="0" cellpadding="0" cellspacing="0">
+	<tbody><tr>
+		<td class="dxmMenu_VMware" style="padding-left:0px;padding-right:0px;padding-top:0px;padding-bottom:0px;" valign="top"><table style="height: 22px; border-collapse: separate;" border="0" cellpadding="0" cellspacing="0">
+			<tbody><tr>
+				<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl10_DXI0_I" class="dxmMenuItemWithImageWithPopOutImage_VMware dxmMenuItemLeftImageSpacing_VMware dxmIFC" onclick="aspxMIClick(event, 'ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl10', '0')" style="border-width:0px;cursor:pointer;padding-left:3px;padding-right:4px!important;padding-top:3px;padding-bottom:3px;border-right:0px!important;"><a tabindex="-1" href="javascript:"><img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl10_DXI0_Img" src="Images/icon_export.gif" alt=""></a></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl10_DXI0_T" class="dxmMenuItemWithImageWithPopOutImage_VMware" onclick="aspxMIClick(event, 'ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl10', '0')" style="color:Black;border-width:0px;cursor:pointer;padding-left:0px!important;padding-right:4px!important;padding-top:3px;padding-bottom:3px;border-left:0px!important;border-right:0px!important;"><a href="javascript:" style="color:Black;">Export</a></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl10_DXI0_P" class="dxmMenuItemWithImageWithPopOutImage_VMware dxmILC" onclick="aspxMIClick(event, 'ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl10', '0')" style="border-width:0px;cursor:pointer;padding-left:0px!important;padding-right:3px;padding-top:3px;padding-bottom:3px;border-left:0px!important;"><img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl10_DXI0_PImg" class="dxWeb_mHorizontalPopOut_VMware" src="/vCAC/DXR.axd?r=1_9-kMs68" alt="v"></td>
+			</tr>
+		</tbody></table></td>
+	</tr>
+</tbody></table><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl10_DXM0_" style="position:absolute;left:0px;top:0px;z-index:20000;visibility:hidden;display:none;">
+	<table id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl10_DXMST0_" style="border-collapse:collapse;border-collapse:separate;position:relative;" border="0" cellpadding="0" cellspacing="0">
+		<tbody><tr>
+			<td class="dxmSubMenu_VMware"><table style="border-collapse:collapse;border-collapse:separate;" border="0" cellpadding="0" cellspacing="0">
+				<tbody><tr id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl10_DXI0i0_" onclick="aspxMIClick(event, 'ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl10', '0i0')">
+					<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl10_DXI0i0_I" class="dxmSubMenuGutter_VMware dxmSubMenuItemWithImage_VMware" style="width:13px;cursor:pointer;padding-right:0px!important;border-right:0px!important;"><img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl10_DXI0i0_Img" src="Images/icon_format_pdf.gif" alt=""></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl10_DXI0i0_N" class="dxmSubMenuItemWithImage_VMware dxmSubMenuItemImageSpacing_VMware" style="cursor:pointer;"><div style="overflow:hidden;">
+
+					</div></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl10_DXI0i0_T" class="dxmSubMenuItemWithImage_VMware" style="color:Black;width:100%;cursor:pointer;border-left:0px!important;padding-left:0px!important;"><span style="color:Black;cursor:pointer;">Acrobat Reader (PDF)</span></td>
+				</tr><tr id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl10_DXI0i0_II" class="dxmSubMenuItemSpacing_VMware">
+					<td class="dxmSubMenuGutter_VMware" style="cursor:pointer;"></td><td></td><td colspan="1"></td>
+				</tr><tr id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl10_DXI0i1_" onclick="aspxMIClick(event, 'ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl10', '0i1')">
+					<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl10_DXI0i1_I" class="dxmSubMenuGutter_VMware dxmSubMenuItemWithImage_VMware" style="width:13px;cursor:pointer;padding-right:0px!important;border-right:0px!important;"><img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl10_DXI0i1_Img" src="Images/icon_format_csv.gif" alt=""></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl10_DXI0i1_N" class="dxmSubMenuItemWithImage_VMware dxmSubMenuItemImageSpacing_VMware" style="cursor:pointer;"><div style="overflow:hidden;">
+
+					</div></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl10_DXI0i1_T" class="dxmSubMenuItemWithImage_VMware" style="color:Black;width:100%;cursor:pointer;border-left:0px!important;padding-left:0px!important;"><span style="color:Black;cursor:pointer;">Excel (CSV)</span></td>
+				</tr><tr id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl10_DXI0i1_II" class="dxmSubMenuItemSpacing_VMware">
+					<td class="dxmSubMenuGutter_VMware" style="cursor:pointer;"></td><td></td><td colspan="1"></td>
+				</tr><tr id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl10_DXI0i2_" onclick="aspxMIClick(event, 'ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl10', '0i2')">
+					<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl10_DXI0i2_I" class="dxmSubMenuGutter_VMware dxmSubMenuItemWithImage_VMware" style="width:13px;cursor:pointer;padding-right:0px!important;border-right:0px!important;"><img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl10_DXI0i2_Img" src="Images/icon_format_xls.gif" alt=""></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl10_DXI0i2_N" class="dxmSubMenuItemWithImage_VMware dxmSubMenuItemImageSpacing_VMware" style="cursor:pointer;"><div style="overflow:hidden;">
+
+					</div></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl10_DXI0i2_T" class="dxmSubMenuItemWithImage_VMware" style="color:Black;width:100%;cursor:pointer;border-left:0px!important;padding-left:0px!important;"><span style="color:Black;cursor:pointer;">Excel (XLS)</span></td>
+				</tr><tr id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl10_DXI0i2_II" class="dxmSubMenuItemSpacing_VMware">
+					<td class="dxmSubMenuGutter_VMware" style="cursor:pointer;"></td><td></td><td colspan="1"></td>
+				</tr><tr id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl10_DXI0i3_" onclick="aspxMIClick(event, 'ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl10', '0i3')">
+					<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl10_DXI0i3_I" class="dxmSubMenuGutter_VMware dxmSubMenuItemWithImage_VMware" style="width:13px;cursor:pointer;padding-right:0px!important;border-right:0px!important;"><img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl10_DXI0i3_Img" src="Images/icon_format_xls.gif" alt=""></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl10_DXI0i3_N" class="dxmSubMenuItemWithImage_VMware dxmSubMenuItemImageSpacing_VMware" style="cursor:pointer;"><div style="overflow:hidden;">
+
+					</div></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl10_DXI0i3_T" class="dxmSubMenuItemWithImage_VMware" style="color:Black;width:100%;cursor:pointer;border-left:0px!important;padding-left:0px!important;"><span style="color:Black;cursor:pointer;">Excel (XLSX)</span></td>
+				</tr><tr id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl10_DXI0i3_II" class="dxmSubMenuItemSpacing_VMware">
+					<td class="dxmSubMenuGutter_VMware" style="cursor:pointer;"></td><td></td><td colspan="1"></td>
+				</tr><tr id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl10_DXI0i4_" onclick="aspxMIClick(event, 'ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl10', '0i4')">
+					<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl10_DXI0i4_I" class="dxmSubMenuGutter_VMware dxmSubMenuItemWithImage_VMware" style="width:13px;cursor:pointer;padding-right:0px!important;border-right:0px!important;"><img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl10_DXI0i4_Img" src="Images/icon_format_rtf.gif" alt=""></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl10_DXI0i4_N" class="dxmSubMenuItemWithImage_VMware dxmSubMenuItemImageSpacing_VMware" style="cursor:pointer;"><div style="overflow:hidden;">
+
+					</div></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl10_DXI0i4_T" class="dxmSubMenuItemWithImage_VMware" style="color:Black;width:100%;cursor:pointer;border-left:0px!important;padding-left:0px!important;"><span style="color:Black;cursor:pointer;">Word (RTF)</span></td>
+				</tr>
+			</tbody></table></td><td style="background:url('/vCAC/DXR.axd?r=1_62-kMs68') no-repeat left top;"></td>
+		</tr><tr>
+			<td style="background:url('/vCAC/DXR.axd?r=1_61-kMs68') no-repeat left top;"></td><td style="background:url('/vCAC/DXR.axd?r=1_63-kMs68') no-repeat left top;"><div style="height:5px;width:5px;">
+
+			</div></td>
+		</tr>
+	</tbody></table>
+</div><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl10_DXMBC0_" class="dxmSubMenu_VMware dxmSubMenuBorderCorrector_VMware" style="height:1px;width:1px;visibility:hidden;display:none;z-index:20001;overflow:hidden;">
+
+</div><script id="dxss_1038813245" type="text/javascript">
+<!--
+aspxAddHoverItems('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl10',[[[''],[''],['DXM_','DXM0_','DXMBC0_']],[['dxmMenuItemHoverWithImageWithPopOutImage_VMware','dxmMenuItemHoverWithImageWithPopOutImage_VMware'],['padding-left:2px;padding-top:2px;padding-right:2px;padding-bottom:2px;border-width:1px;border-style:solid;','border-bottom-width:1px;border-top-width:1px;padding-top:2px;padding-bottom:2px;'],['DXI0_'],['I','N','T','P'],[['','']],['Img','PImg']],[['dxmSubMenuItemHoverWithImage_VMware'],['color:White;'],['DXI0i0_','DXI0i1_','DXI0i2_','DXI0i3_','DXI0i4_'],['I','N','T','P'],[[''],[''],[''],[''],['']],['Img','PImg']]]);
+aspxAddDisabledItems('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl10',[[['dxmDisabled_VMware'],[''],['DXI0_','DXI0i0_','DXI0i1_','DXI0i2_','DXI0i3_','DXI0i4_'],['I','N','T','P'],[['',''],[''],[''],[''],[''],['']],['Img','PImg']]]);
+
+var dxo = new ASPxClientMenu('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl10');
+window['mnuUserLogExport'] = dxo;
+dxo.uniqueID = 'ctl00$ctl00$MasterContent$MainContentPlaceHolder$userLog$TitlePanel$ctl10';
+dxo.ItemClick.AddHandler(noWait);
+dxo.RegisterServerEventAssigned(['ItemClick']);
+dxo.subMenuFIXOffset=2;
+dxo.subMenuLIXOffset=2;
+dxo.subMenuXOffset=2;
+dxo.CreateItems([['',,,,,[['pdf',,,,,[]],['csv',,,,,[]],['xls',,,,,[]],['xlsx',,,,,[]],['rtf',,,,,[]]]]]);
+dxo.InlineInitialize();
+
+//-->
+</script></th>
+<th class="Header RightExpanded" onclick="ContentPanel_expand(this);" title="Expand/collapse this panel"></th></tr>
+</thead></table></td></tr><tr><td class="ContentPanelBodyCell"><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_Body" class="Body">
+    
+    
+    
+    
+    <div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_ctl05">
+	
+            <table class="dxgvControl_VMware" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid" style="width:100%;border-collapse:collapse;border-collapse:separate;" border="0" cellpadding="0" cellspacing="0">
+		<tbody><tr>
+			<td><table id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXMainTable" class="dxgvTable_VMware" onclick="aspxGVTableClick('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid', event);" style="width:100%;border-collapse:collapse;empty-cells:show;" border="0" cellpadding="0" cellspacing="0">
+				<tbody><tr id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXHeadersRow0">
+					<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_col0" class="dxgvHeader_VMware" onmousedown="aspxGVHeaderMouseDown('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid', this, event);" style="width:30px;white-space:normal;border-top-width:0px;border-left-width:0px;"><table style="width:100%;border-collapse:collapse;" border="0" cellpadding="0" cellspacing="0">
+						<tbody><tr>
+							<td style="white-space:normal;">&nbsp;</td>
+						</tr>
+					</tbody></table></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_col1" class="dxgvHeader_VMware" onmousedown="aspxGVHeaderMouseDown('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid', this, event);" style="width:160px;white-space:normal;border-top-width:0px;border-left-width:0px;"><table style="width:100%;border-collapse:collapse;" border="0" cellpadding="0" cellspacing="0">
+						<tbody><tr>
+							<td style="width:100%;white-space:normal;">Date</td><td style="padding-left:5px;"><img class="dxGridView_gvHeaderSortDown_VMware" src="/vCAC/DXR.axd?r=1_9-kMs68" alt="(Descending)"></td>
+						</tr>
+					</tbody></table></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_col2" class="dxgvHeader_VMware" onmousedown="aspxGVHeaderMouseDown('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid', this, event);" style="white-space:normal;border-top-width:0px;border-left-width:0px;border-right-width:0px;"><table style="width:100%;border-collapse:collapse;" border="0" cellpadding="0" cellspacing="0">
+						<tbody><tr>
+							<td style="white-space:normal;">Message</td>
+						</tr>
+					</tbody></table></td>
+				</tr><tr class="dxgvFilterRow_VMware">
+					<td class="dxgv" style="text-align:Right;">&nbsp;</td><td class="dxgv"><input id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_Raw" name="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_Raw" value="N" type="hidden"><table class="dxeButtonEditSys dxeButtonEdit_VMware" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1" style="width:100%;border-collapse:collapse;border-collapse:collapse;" border="0" cellpadding="0" cellspacing="0">
+						<tbody><tr>
+							<td class="dxic" onmousedown="return aspxDDMC_MD('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1', event)" style="width:100%;"><input autocomplete="off" class="dxeEditArea_VMware dxeEditAreaSys" name="ctl00$ctl00$MasterContent$MainContentPlaceHolder$userLog$TitlePanel$eventGrid$DXFREditorcol1" onkeyup="aspxEKeyUp('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1', event)" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_I" onchange="aspxETextChanged('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1')" onblur="aspxELostFocus('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1')" onfocus="aspxEGotFocus('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1')" onkeydown="aspxEKeyDown('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1', event)" type="text"></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_B-1" class="dxeButtonEditButton_VMware" onmousedown="return aspxDDDropDown('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1', event)" style="-moz-user-select:none;"><table class="dxbebt" style="border-collapse:collapse;border-collapse:separate;" border="0" cellpadding="0" cellspacing="0">
+								<tbody><tr>
+									<td class="dx"><img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_B-1Img" class="dxEditors_edtDropDown_VMware" src="/vCAC/DXR.axd?r=1_9-kMs68" alt="v"></td>
+								</tr>
+							</tbody></table></td>
+						</tr>
+					</tbody></table><input id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDDWS" name="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDDWS" value="0:0:-1:-10000:-10000:0:-10000:-10000:1:0:0:0" type="hidden"><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_PW-1" style="position:absolute;left:0px;top:0px;z-index:10000;visibility:hidden;display:none;">
+						<table id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_PWST-1" style="border-collapse:collapse;border-collapse:separate;position:relative;" border="0" cellpadding="0" cellspacing="0">
+							<tbody><tr>
+								<td onmousedown="aspxPWMDown(event,'ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD',-1,false)" style="width:200px;cursor:default;"><table id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_CLW-1" style="width:200px;border-collapse:collapse;border-collapse:separate;" border="0" cellpadding="0" cellspacing="0">
+									<tbody><tr>
+										<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_PWC-1" style="height:100%;"><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_CSD-1">
+											<table style="display:none;" border="0">
+												<tbody><tr>
+													<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_EC_D" class="dxeCalendarDay_VMware"></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_EC_DS" class="dxeCalendarSelected_VMware"></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_EC_DA" class="dxeCalendarOtherMonth_VMware"></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_EC_DW" class="dxeCalendarWeekend_VMware"></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_EC_DO" class="dxeCalendarOutOfRange_VMware"></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_EC_DT" class="dxeCalendarToday_VMware"></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_EC_DD" class="dxeDisabled_VMware"></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_EC_FNM" class="dxeCalendarFastNavMonth_VMware"></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_EC_FNMS" class="dxeCalendarFastNavMonthSelected_VMware"></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_EC_FNY" class="dxeCalendarFastNavYear_VMware"></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_EC_FNYS" class="dxeCalendarFastNavYearSelected_VMware"></td>
+												</tr>
+											</tbody></table><table class="dxeCalendar_VMware" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C" style="border-collapse: separate;" border="0" cellpadding="0" cellspacing="0">
+												<tbody><tr>
+													<td valign="top"><table style="width:100%;border-collapse:collapse;" border="0" cellpadding="0">
+														<tbody><tr>
+															<td class="dxeCalendarHeader_VMware" style="border-top:0;"><table style="width:100%;border-collapse:collapse;" border="0" cellpadding="0">
+																<tbody><tr>
+																	<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_PYC" class="dxe" onclick="aspxCalShiftMonth('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C', -12);"><img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_PYCImg" class="dxEditors_edtCalendarPrevYear_VMware" src="/vCAC/DXR.axd?r=1_9-kMs68" alt="<<"></td><td><div style="width:10px;font-size:0px;">
+
+																	</div></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_PMC" class="dxe" onclick="aspxCalShiftMonth('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C', -1);"><img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_PMCImg" class="dxEditors_edtCalendarPrevMonth_VMware" src="/vCAC/DXR.axd?r=1_9-kMs68" alt="<"></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_TC" class="dxe" style="width:100%;cursor:default;"><span id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_T" onclick="aspxCalTitleClick('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C', 0, 0)" style="cursor:pointer;">February, 2014</span></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_NMC" class="dxe" onclick="aspxCalShiftMonth('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C', 1);"><img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_NMCImg" class="dxEditors_edtCalendarNextMonth_VMware" src="/vCAC/DXR.axd?r=1_9-kMs68" alt=">"></td><td><div style="width:10px;font-size:0px;">
+
+																	</div></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_NYC" class="dxe" onclick="aspxCalShiftMonth('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C', 12);"><img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_NYCImg" class="dxEditors_edtCalendarNextYear_VMware" src="/vCAC/DXR.axd?r=1_9-kMs68" alt=">>"></td>
+																</tr>
+															</tbody></table></td>
+														</tr><tr>
+															<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_mc" class="dxMonthGrid" style="-moz-user-select:none;"><table id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_mt" style="width:100%;border-collapse:collapse;border-collapse:separate;" border="0" cellpadding="0" cellspacing="0">
+																<tbody><tr align="center">
+																	<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_AUX_0_0_0" class="dxeCalendarDayHeader_VMware">Sun</td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_AUX_0_0_1" class="dxeCalendarDayHeader_VMware">Mon</td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_AUX_0_0_2" class="dxeCalendarDayHeader_VMware">Tue</td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_AUX_0_0_3" class="dxeCalendarDayHeader_VMware">Wed</td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_AUX_0_0_4" class="dxeCalendarDayHeader_VMware">Thu</td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_AUX_0_0_5" class="dxeCalendarDayHeader_VMware">Fri</td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_AUX_0_0_6" class="dxeCalendarDayHeader_VMware">Sat</td>
+																</tr><tr>
+																	<td style="cursor: pointer;" savedcursor="[object Object]" class="dxeCalendarDay_VMware dxeCalendarWeekend_VMware dxeCalendarOtherMonth_VMware">26</td><td style="cursor: pointer;" savedcursor="[object Object]" class="dxeCalendarDay_VMware dxeCalendarOtherMonth_VMware">27</td><td style="cursor: pointer;" savedcursor="[object Object]" class="dxeCalendarDay_VMware dxeCalendarOtherMonth_VMware">28</td><td style="cursor: pointer;" savedcursor="[object Object]" class="dxeCalendarDay_VMware dxeCalendarOtherMonth_VMware">29</td><td style="cursor: pointer;" savedcursor="[object Object]" class="dxeCalendarDay_VMware dxeCalendarOtherMonth_VMware">30</td><td style="cursor: pointer;" savedcursor="[object Object]" class="dxeCalendarDay_VMware dxeCalendarOtherMonth_VMware">31</td><td style="cursor: pointer;" savedcursor="[object Object]" class="dxeCalendarDay_VMware dxeCalendarWeekend_VMware">1</td>
+																</tr><tr>
+																	<td style="cursor: pointer;" savedcursor="[object Object]" class="dxeCalendarDay_VMware dxeCalendarWeekend_VMware">2</td><td style="cursor: pointer;" savedcursor="[object Object]" class="dxeCalendarDay_VMware">3</td><td style="cursor: pointer;" savedcursor="[object Object]" class="dxeCalendarDay_VMware">4</td><td style="cursor: pointer;" savedcursor="[object Object]" class="dxeCalendarDay_VMware">5</td><td style="cursor: pointer;" savedcursor="[object Object]" class="dxeCalendarDay_VMware">6</td><td style="cursor: pointer;" savedcursor="[object Object]" class="dxeCalendarDay_VMware">7</td><td style="cursor: pointer;" savedcursor="[object Object]" class="dxeCalendarDay_VMware dxeCalendarWeekend_VMware">8</td>
+																</tr><tr>
+																	<td style="cursor: pointer;" savedcursor="[object Object]" class="dxeCalendarDay_VMware dxeCalendarWeekend_VMware">9</td><td style="cursor: pointer;" savedcursor="[object Object]" class="dxeCalendarDay_VMware">10</td><td style="cursor: pointer;" savedcursor="[object Object]" class="dxeCalendarDay_VMware">11</td><td style="cursor: pointer;" savedcursor="[object Object]" class="dxeCalendarDay_VMware">12</td><td style="cursor: pointer;" savedcursor="[object Object]" class="dxeCalendarDay_VMware">13</td><td style="cursor: pointer;" savedcursor="[object Object]" class="dxeCalendarDay_VMware">14</td><td style="cursor: pointer;" savedcursor="[object Object]" class="dxeCalendarDay_VMware dxeCalendarWeekend_VMware dxeCalendarToday_VMware">15</td>
+																</tr><tr>
+																	<td style="cursor: pointer;" savedcursor="[object Object]" class="dxeCalendarDay_VMware dxeCalendarWeekend_VMware">16</td><td style="cursor: pointer;" savedcursor="[object Object]" class="dxeCalendarDay_VMware">17</td><td style="cursor: pointer;" savedcursor="[object Object]" class="dxeCalendarDay_VMware">18</td><td style="cursor: pointer;" savedcursor="[object Object]" class="dxeCalendarDay_VMware">19</td><td style="cursor: pointer;" savedcursor="[object Object]" class="dxeCalendarDay_VMware">20</td><td style="cursor: pointer;" savedcursor="[object Object]" class="dxeCalendarDay_VMware">21</td><td style="cursor: pointer;" savedcursor="[object Object]" class="dxeCalendarDay_VMware dxeCalendarWeekend_VMware">22</td>
+																</tr><tr>
+																	<td style="cursor: pointer;" savedcursor="[object Object]" class="dxeCalendarDay_VMware dxeCalendarWeekend_VMware">23</td><td style="cursor: pointer;" savedcursor="[object Object]" class="dxeCalendarDay_VMware">24</td><td style="cursor: pointer;" savedcursor="[object Object]" class="dxeCalendarDay_VMware">25</td><td style="cursor: pointer;" savedcursor="[object Object]" class="dxeCalendarDay_VMware">26</td><td style="cursor: pointer;" savedcursor="[object Object]" class="dxeCalendarDay_VMware">27</td><td style="cursor: pointer;" savedcursor="[object Object]" class="dxeCalendarDay_VMware">28</td><td style="cursor: pointer;" savedcursor="[object Object]" class="dxeCalendarDay_VMware dxeCalendarWeekend_VMware dxeCalendarOtherMonth_VMware">1</td>
+																</tr><tr>
+																	<td style="cursor: pointer;" savedcursor="[object Object]" class="dxeCalendarDay_VMware dxeCalendarWeekend_VMware dxeCalendarOtherMonth_VMware">2</td><td style="cursor: pointer;" savedcursor="[object Object]" class="dxeCalendarDay_VMware dxeCalendarOtherMonth_VMware">3</td><td style="cursor: pointer;" savedcursor="[object Object]" class="dxeCalendarDay_VMware dxeCalendarOtherMonth_VMware">4</td><td style="cursor: pointer;" savedcursor="[object Object]" class="dxeCalendarDay_VMware dxeCalendarOtherMonth_VMware">5</td><td style="cursor: pointer;" savedcursor="[object Object]" class="dxeCalendarDay_VMware dxeCalendarOtherMonth_VMware">6</td><td style="cursor: pointer;" savedcursor="[object Object]" class="dxeCalendarDay_VMware dxeCalendarOtherMonth_VMware">7</td><td style="cursor: pointer;" savedcursor="[object Object]" class="dxeCalendarDay_VMware dxeCalendarWeekend_VMware dxeCalendarOtherMonth_VMware">8</td>
+																</tr>
+															</tbody></table></td>
+														</tr>
+													</tbody></table></td>
+												</tr><tr>
+													<td class="dxeCalendarFooter_VMware"><table style="border-collapse:collapse;" align="center" border="0" cellpadding="0">
+														<tbody><tr>
+															<td><table style="border-collapse:collapse;" border="0" cellpadding="0" cellspacing="0">
+																<tbody><tr>
+																	<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_BT" class="dxeCalendarButton_VMware" onclick="aspxCalTodayClick('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C');" style="width:37px;"><table class="dxbebt" style="width:37px;border-collapse:collapse;border-collapse:separate;" border="0" cellpadding="0" cellspacing="0">
+																		<tbody><tr>
+																			<td class="dx" style="width:100%;">Today</td>
+																		</tr>
+																	</tbody></table></td>
+																</tr>
+															</tbody></table></td><td><div style="width:12px;font-size:0px;">
+
+															</div></td><td><table style="border-collapse:collapse;" border="0" cellpadding="0" cellspacing="0">
+																<tbody><tr>
+																	<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_BC" class="dxeCalendarButton_VMware" onclick="aspxCalClearClick('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C');" style="width:37px;"><table class="dxbebt" style="width:37px;border-collapse:collapse;border-collapse:separate;" border="0" cellpadding="0" cellspacing="0">
+																		<tbody><tr>
+																			<td class="dx" style="width:100%;">Clear</td>
+																		</tr>
+																	</tbody></table></td>
+																</tr>
+															</tbody></table></td>
+														</tr>
+													</tbody></table></td>
+												</tr>
+											</tbody></table><input id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_FNPWS" name="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_FNPWS" value="0:0:-1:-10000:-10000:0:0px:-10000:1:0:0:0" type="hidden"><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_FNP_PW-1" style="position:absolute;left:0px;top:0px;z-index:10000;visibility:hidden;display:none;">
+												<table id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_FNP_PWST-1" style="border-collapse:collapse;border-collapse:separate;position:relative;" border="0" cellpadding="0" cellspacing="0">
+													<tbody><tr>
+														<td onmousedown="aspxPWMDown(event,'ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_FNP',-1,false)" style="width:0px;cursor:default;"><table id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_FNP_CLW-1" style="width:0px;border-collapse:collapse;border-collapse:separate;" border="0" cellpadding="0" cellspacing="0">
+															<tbody><tr>
+																<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_FNP_PWC-1" style="height:100%;"><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_FNP_CSD-1">
+																	<div class="dxeCalendarFastNav_VMware">
+																		<div class="dxeCalendarFastNavMonthArea_VMware">
+																			<table id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_FNP_m" style="width:100%;border-collapse:collapse;border-collapse:separate;" border="0" cellpadding="0" cellspacing="0">
+																				<tbody><tr>
+																					<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_FNP_M0" class="dxeCalendarFastNavMonth_VMware">Jan</td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_FNP_M1" class="dxeCalendarFastNavMonth_VMware">Feb</td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_FNP_M2" class="dxeCalendarFastNavMonth_VMware">Mar</td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_FNP_M3" class="dxeCalendarFastNavMonth_VMware">Apr</td>
+																				</tr><tr>
+																					<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_FNP_M4" class="dxeCalendarFastNavMonth_VMware">May</td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_FNP_M5" class="dxeCalendarFastNavMonth_VMware">Jun</td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_FNP_M6" class="dxeCalendarFastNavMonth_VMware">Jul</td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_FNP_M7" class="dxeCalendarFastNavMonth_VMware">Aug</td>
+																				</tr><tr>
+																					<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_FNP_M8" class="dxeCalendarFastNavMonth_VMware">Sep</td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_FNP_M9" class="dxeCalendarFastNavMonth_VMware">Oct</td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_FNP_M10" class="dxeCalendarFastNavMonth_VMware">Nov</td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_FNP_M11" class="dxeCalendarFastNavMonth_VMware">Dec</td>
+																				</tr>
+																			</tbody></table>
+																		</div><div class="dxeCalendarFastNavYearArea_VMware">
+																			<table id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_FNP_y" style="width:100%;border-collapse:collapse;border-collapse:separate;margin-top:8px;" border="0" cellpadding="0" cellspacing="0">
+																				<tbody><tr>
+																					<td onclick="aspxCalFNYShuffle('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C', -10)" rowspan="2" style="padding-right:8px;cursor:pointer;"><img class="dxEditors_edtCalendarFNPrevYear_VMware" src="/vCAC/DXR.axd?r=1_9-kMs68" alt="<"></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_FNP_Y0" class="dxeCalendarFastNavYear_VMware"></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_FNP_Y1" class="dxeCalendarFastNavYear_VMware"></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_FNP_Y2" class="dxeCalendarFastNavYear_VMware"></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_FNP_Y3" class="dxeCalendarFastNavYear_VMware"></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_FNP_Y4" class="dxeCalendarFastNavYear_VMware"></td><td onclick="aspxCalFNYShuffle('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C', 10)" rowspan="2" style="padding-left:8px;cursor:pointer;"><img class="dxEditors_edtCalendarFNNextYear_VMware" src="/vCAC/DXR.axd?r=1_9-kMs68" alt=">"></td>
+																				</tr><tr>
+																					<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_FNP_Y5" class="dxeCalendarFastNavYear_VMware"></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_FNP_Y6" class="dxeCalendarFastNavYear_VMware"></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_FNP_Y7" class="dxeCalendarFastNavYear_VMware"></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_FNP_Y8" class="dxeCalendarFastNavYear_VMware"></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_FNP_Y9" class="dxeCalendarFastNavYear_VMware"></td>
+																				</tr>
+																			</tbody></table>
+																		</div>
+																	</div><div class="dxeCalendarFastNavFooter_VMware" style="text-align:center;">
+																		<table style="border-collapse:collapse;" align="center" border="0" cellpadding="0" cellspacing="0">
+																			<tbody><tr>
+																				<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_FNP_BO" class="dxeCalendarButton_VMware" onclick="aspxCalFNBClick('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C', 'ok')" style="width:37px;"><table class="dxbebt" style="width:37px;border-collapse:collapse;border-collapse:separate;" border="0" cellpadding="0" cellspacing="0">
+																					<tbody><tr>
+																						<td class="dx" style="width:100%;">OK</td>
+																					</tr>
+																				</tbody></table></td><td><div style="width:11px;">
+
+																				</div></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_FNP_BC" class="dxeCalendarButton_VMware" onclick="aspxCalFNBClick('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C', 'cancel')" style="width:37px;"><table class="dxbebt" style="width:37px;border-collapse:collapse;border-collapse:separate;" border="0" cellpadding="0" cellspacing="0">
+																					<tbody><tr>
+																						<td class="dx" style="width:100%;">Cancel</td>
+																					</tr>
+																				</tbody></table></td>
+																			</tr>
+																		</tbody></table>
+																	</div>
+																</div></td>
+															</tr>
+														</tbody></table></td><td style="background:url('/vCAC/DXR.axd?r=1_62-kMs68') no-repeat left top;"></td>
+													</tr><tr>
+														<td style="background:url('/vCAC/DXR.axd?r=1_61-kMs68') no-repeat left top;"></td><td style="background:url('/vCAC/DXR.axd?r=1_63-kMs68') no-repeat left top;"><div style="height:5px;width:5px;">
+
+														</div></td>
+													</tr>
+												</tbody></table>
+											</div><script id="dxss_1277022909" type="text/javascript">
+<!--
+
+var dxo = new ASPxClientPopupControl('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_FNP');
+window['ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_FNP'] = dxo;
+dxo.uniqueID = 'ctl00$ctl00$MasterContent$MainContentPlaceHolder$userLog$TitlePanel$eventGrid$DXFREditorcol1$DDD$C$FNP';
+dxo.adjustInnerControlsSizeOnShow=false;
+dxo.popupAnimationType='fade';
+dxo.isPopupPositionCorrectionOn=false;
+dxo.height=0;
+aspxAddSelectedItems('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_FNP',[[[''],[''],['HPB-1','HMNB-1','HMXB-1'],,[[''],[''],['']],['Img']]]);
+dxo.InlineInitialize();
+
+//-->
+</script><input value="02/15/2014" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C_STATE" name="ctl00$ctl00$MasterContent$MainContentPlaceHolder$userLog$TitlePanel$eventGrid$DXFREditorcol1$DDD$C" type="hidden"><script id="dxss_323792416" type="text/javascript">
+<!--
+aspxAddHoverItems('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C',[[['dxeCalendarButtonHover_VMware'],[''],['BT','BC','BO','BCN','FNP_BO','FNP_BC']],[['dxeCalendarFastNavMonthHover_VMware'],[''],['FNP_M0','FNP_M1','FNP_M2','FNP_M3','FNP_M4','FNP_M5','FNP_M6','FNP_M7','FNP_M8','FNP_M9','FNP_M10','FNP_M11']],[['dxeCalendarFastNavYearHover_VMware'],[''],['FNP_Y0','FNP_Y1','FNP_Y2','FNP_Y3','FNP_Y4','FNP_Y5','FNP_Y6','FNP_Y7','FNP_Y8','FNP_Y9']]]);
+aspxAddPressedItems('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C',[[['dxeCalendarButtonPressed_VMware'],[''],['BT','BC','BO','BCN','FNP_BO','FNP_BC']]]);
+
+var dxo = new ASPxClientCalendar('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C');
+window['ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD_C'] = dxo;
+dxo.uniqueID = 'ctl00$ctl00$MasterContent$MainContentPlaceHolder$userLog$TitlePanel$eventGrid$DXFREditorcol1$DDD$C';
+dxo.RequireStyleDecoration();
+dxo.styleDecoration.AddStyle('F','dxeFocused_VMware','');
+dxo.visibleDate = new Date(2014,1,15);
+dxo.showWeekNumbers = false;
+dxo.isDateEditCalendar = true;
+dxo.InlineInitialize();
+
+//-->
+</script>
+										</div></td>
+									</tr>
+								</tbody></table></td><td style="background:url('/vCAC/DXR.axd?r=1_62-kMs68') no-repeat left top;"></td>
+							</tr><tr>
+								<td style="background:url('/vCAC/DXR.axd?r=1_61-kMs68') no-repeat left top;"></td><td style="background:url('/vCAC/DXR.axd?r=1_63-kMs68') no-repeat left top;"><div style="height:5px;width:5px;">
+
+								</div></td>
+							</tr>
+						</tbody></table>
+					</div><script id="dxss_2064774195" type="text/javascript">
+<!--
+
+var dxo = new ASPxClientPopupControl('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD');
+window['ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD'] = dxo;
+dxo.uniqueID = 'ctl00$ctl00$MasterContent$MainContentPlaceHolder$userLog$TitlePanel$eventGrid$DXFREditorcol1$DDD';
+dxo.Shown.AddHandler(function (s, e) { aspxDDBPCShown('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1', e); });
+dxo.adjustInnerControlsSizeOnShow=false;
+dxo.popupAnimationType='slide';
+dxo.closeAction='CloseButton';
+dxo.popupHorizontalAlign='LeftSides';
+dxo.popupVerticalAlign='Below';
+dxo.isPopupPositionCorrectionOn=false;
+dxo.width=0;
+dxo.height=0;
+aspxAddSelectedItems('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_DDD',[[[''],[''],['HPB-1','HMNB-1','HMXB-1'],,[[''],[''],['']],['Img']]]);
+dxo.InlineInitialize();
+
+//-->
+</script><script id="dxss_1818453257" type="text/javascript">
+<!--
+aspxAddHoverItems('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1',[[['dxeButtonEditButtonHover_VMware'],[''],['B-1'],,[['']],['Img']]]);
+aspxAddPressedItems('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1',[[['dxeButtonEditButtonPressed_VMware'],[''],['B-1'],,[['']],['Img']]]);
+aspxAddDisabledItems('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1',[[['dxeDisabled_VMware'],[''],['','I']],[['dxeDisabled_VMware dxeButtonDisabled_VMware'],[''],['B-1'],,[[{'spriteCssClass':'dxEditors_edtDropDownDisabled_VMware'}]],['Img']]]);
+document.getElementById("ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1_I").setAttribute("autocomplete", "off");
+
+var dxo = new ASPxClientDateEdit('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1');
+window['ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol1'] = dxo;
+dxo.uniqueID = 'ctl00$ctl00$MasterContent$MainContentPlaceHolder$userLog$TitlePanel$eventGrid$DXFREditorcol1';
+dxo.ValueChanged.AddHandler(function(s, event) { aspxGVFilterChanged('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid',s);; });
+dxo.KeyDown.AddHandler(function(s, event) { aspxGVFilterSpecKeyPress('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid',s,event);; });
+dxo.RequireStyleDecoration();
+dxo.styleDecoration.AddStyle('F','dxeFocused_VMware','');
+dxo.dateFormatter = ASPxDateFormatter.Create('M/d/yyyy');
+dxo.InlineInitialize();
+
+//-->
+</script></td><td class="dxgv" style="border-right-width:0px;"><table class="dxeTextBoxSys dxeTextBox_VMware" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol2" style="width:100%;border-collapse:collapse;" border="0" cellpadding="0" cellspacing="0">
+						<tbody><tr>
+							<td class="dxic" style="width:100%;"><input class="dxeEditArea_VMware dxeEditAreaSys" name="ctl00$ctl00$MasterContent$MainContentPlaceHolder$userLog$TitlePanel$eventGrid$DXFREditorcol2" onkeyup="aspxEKeyUp('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol2', event)" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol2_I" onchange="aspxEValueChanged('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol2')" onblur="aspxELostFocus('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol2')" onfocus="aspxEGotFocus('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol2')" onkeydown="aspxEKeyDown('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol2', event)" type="text"></td>
+						</tr>
+					</tbody></table><script id="dxss_583439201" type="text/javascript">
+<!--
+aspxAddDisabledItems('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol2',[[['dxeDisabled_VMware'],[''],['','I']]]);
+
+var dxo = new ASPxClientTextBox('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol2');
+window['ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXFREditorcol2'] = dxo;
+dxo.uniqueID = 'ctl00$ctl00$MasterContent$MainContentPlaceHolder$userLog$TitlePanel$eventGrid$DXFREditorcol2';
+dxo.ValueChanged.AddHandler(function(s, event) { aspxGVFilterChanged('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid',s);; });
+dxo.KeyDown.AddHandler(function(s, event) { aspxGVFilterKeyPress('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid',s,event);; });
+dxo.RequireStyleDecoration();
+dxo.styleDecoration.AddStyle('F','dxeFocused_VMware','');
+dxo.InlineInitialize();
+
+//-->
+</script></td>
+				</tr><tr class="dxgvEmptyDataRow_VMware">
+					<td class="dxgv" colspan="3" style="border-bottom-width:0px;"><div>
+						There is no data to display.
+					</div></td>
+				</tr>
+			</tbody></table><img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_IADD" class="dxGridView_gvDragAndDropArrowDown_VMware" src="/vCAC/DXR.axd?r=1_9-kMs68" alt="|" style="position:absolute;visibility:hidden;top:-100px;"><img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_IADU" class="dxGridView_gvDragAndDropArrowUp_VMware" src="/vCAC/DXR.axd?r=1_9-kMs68" alt="|" style="position:absolute;visibility:hidden;top:-100px;"><img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_IDHF" class="dxGridView_gvDragAndDropHideColumn_VMware" src="/vCAC/DXR.axd?r=1_9-kMs68" alt="Hide" style="position:absolute;visibility:hidden;top:-100px;"><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_LP" style="left:0px;top:0px;z-index:30000;display:none;" align="center">
+				<table class="dxgvLoadingPanel_VMware" style="height:100%;border-collapse:collapse;" border="0" cellpadding="0" cellspacing="0">
+					<tbody><tr>
+						<td class="dx" style="padding-right:5px;"><img src="App_Themes/VMware/GridView/Loading.gif" alt="" align="middle"></td><td class="dx" style="padding-left:0px;"><span id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_TL">Loading…</span></td>
+					</tr>
+				</tbody></table>
+			</div><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_LD" class="dxgvLoadingDiv_VMware" style="display:none;z-index:29999;position:absolute;">
+
+			</div><input name="ctl00$ctl00$MasterContent$MainContentPlaceHolder$userLog$TitlePanel$eventGrid$DXSelInput" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXSelInput" type="hidden"><input name="ctl00$ctl00$MasterContent$MainContentPlaceHolder$userLog$TitlePanel$eventGrid$DXKVInput" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXKVInput" value="[]" type="hidden"><table id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_DXStyleTable" style="display:none;" border="0">
+				<tbody><tr>
+					<td></td>
+				</tr><tr class="dxgvEditingErrorRow_VMware">
+					<td class="dxgv" colspan="3" style="border-right-width:0px;"></td>
+				</tr><tr class="dxgvSelectedRow_VMware">
+					<td></td>
+				</tr><tr class="dxgvFocusedRow_VMware">
+					<td></td>
+				</tr><tr class="dxgvFocusedGroupRow_VMware">
+					<td></td>
+				</tr>
+			</tbody></table><input name="ctl00$ctl00$MasterContent$MainContentPlaceHolder$userLog$TitlePanel$eventGrid$CallbackState" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid_CallbackState" value="BwMHAgIERGF0YQd9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAlUaW1lc3RhbXAJVGltZXN0YW1wCAAABFR5cGUEVHlwZQEAAAdNZXNzYWdlB01lc3NhZ2UHAAADAAAACVVzZXJMb2dJZAhVc2VyTmFtZRFQcm92aXNpb25pbmdHcm91cAcABwACBVN0YXRlBz4HAwcAAgEHAQIBBwICAQcABwAHAQcABwEHAgcAAgAFAAAAgAkCAAkCAAIBAwcEAgAHAAIBBwAHAAIBBwAHAAIIUGFnZVNpemUDBwo=" type="hidden"></td>
+		</tr>
+	</tbody></table><script id="dxss_410623865" type="text/javascript">
+<!--
+
+var dxo = new ASPxClientGridView('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid');
+window['ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid'] = dxo;
+dxo.callBack = function(arg) { WebForm_DoCallback('ctl00$ctl00$MasterContent$MainContentPlaceHolder$userLog$TitlePanel$eventGrid',arg,aspxCallback,'ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGrid',aspxCallbackError,true); };
+dxo.uniqueID = 'ctl00$ctl00$MasterContent$MainContentPlaceHolder$userLog$TitlePanel$eventGrid';
+dxo.Init.AddHandler(GridView_EndCallback);
+dxo.BeginCallback.AddHandler(GridView_BeginCallback);
+dxo.EndCallback.AddHandler(function(s, e) { GridView_EndCallback(s, e); });
+dxo.cpfs='ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilter|/vCAC/Images/icon_filter_off.png|Filters';
+dxo.cphc='(0)';
+dxo.callBacksEnabled=true;
+dxo.pageRowCount=0;
+dxo.pageRowSize=10;
+dxo.pageIndex=0;
+dxo.pageCount=0;
+dxo.selectedWithoutPageRowCount=0;
+dxo.visibleStartIndex=0;
+dxo.focusedRowIndex=-1;
+dxo.allowFocusedRow=false;
+dxo.allowSelectByRowClick=false;
+dxo.allowSelectSingleRowOnly=false;
+dxo.indentColumnCount=0;
+dxo.callbackOnFocusedRowChanged=false;
+dxo.callbackOnSelectionChanged=false;
+dxo.autoFilterDelay='1200';
+dxo.confirmDelete='Are you sure you want to delete this row?';
+dxo.columns = [new ASPxClientGridViewColumn('',0,-1,'Type',1,'',0,1,0,1,0,0,0),
+new ASPxClientGridViewColumn('',1,-1,'Timestamp',1,'',0,1,1,1,0,0,0),
+new ASPxClientGridViewColumn('',2,-1,'Message',1,'',0,1,1,1,0,0,0)];
+dxo.editState=0;
+dxo.InlineInitialize();
+
+//-->
+</script>
+        
+</div>
+</div></td></tr></tbody></table>
+
+
+    </div>
+
+            </div>
+        
+
+<script type="text/javascript">
+//<![CDATA[
+window['ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_eventGridFilterControl'] = 'ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilter';
+var callBackFrameUrl='/vCAC/WebResource.axd?d=s5GeBdeqTLGA8qINKrTLmioN4ZYnSFs2wVkDPagSIbTjp0lq7Uz-jBt2hNR8ZLplgTda8DujXS1lqWgsvbEPp3q5wQlIJu-L6uwgB2b8Q_I1&t=635086466580000000';
+WebForm_InitCallback();Sys.Application.add_init(function() {
+    $create(DynamicOps.Web.Controls.UpdatePanelExtender, {"causesValidation":false,"id":"ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterUpdateEx"}, {"endRequest":ContentPanelHeaderGridFilterSelectorCell_AjaxCompleteLambda('ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilter')}, null, $get("ctl00_ctl00_MasterContent_MainContentPlaceHolder_userLog_TitlePanel_RecentEventFilterUpdate"));
+});
+//]]>
+</script>
+<input value="1_142,1_80,1_135,1_128,1_133,1_119,1_98,1_105,1_97,1_77,1_126,1_100,1_94,1_99,1_127,1_90,1_113,1_84,1_92" id="DXScript" name="DXScript" type="hidden"></form>
+    
+
+</body>​​​​​</html>

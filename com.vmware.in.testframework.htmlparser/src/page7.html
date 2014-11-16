@@ -1,0 +1,597 @@
+<html style="display: block;" xmlns="http://www.w3.org/1999/xhtml">​​​​​<head id="ctl00_ctl00_head"><link rel="stylesheet" type="text/css" href="../App_Themes/VMware/Web/sprite.css"><link rel="stylesheet" type="text/css" href="../App_Themes/VMware/Web/styles.css"><link rel="stylesheet" type="text/css" href="../App_Themes/VMware/Editors/sprite.css"><link rel="stylesheet" type="text/css" href="../App_Themes/VMware/Editors/styles.css"><link rel="stylesheet" type="text/css" href="../App_Themes/VMware/GridView/sprite.css"><link rel="stylesheet" type="text/css" href="../App_Themes/VMware/GridView/styles.css"><link rel="stylesheet" type="text/css" href="/vCAC/DXR.axd?r=1_8,1_4-kMs68">        <link href="/vCAC/App_Themes/VMware/Chart/styles.css" type="text/css" rel="stylesheet">
+        <link href="/vCAC/App_Themes/VMware/DCAC/Controls.css" type="text/css" rel="stylesheet">
+        <link href="/vCAC/App_Themes/VMware/DCAC/masthead.css" type="text/css" rel="stylesheet">
+        <link href="/vCAC/App_Themes/VMware/DCAC/VmpsWeb.css" type="text/css" rel="stylesheet">
+        <link href="/vCAC/App_Themes/VMware/Editors/sprite.css" type="text/css" rel="stylesheet">
+        <link href="/vCAC/App_Themes/VMware/Editors/styles.css" type="text/css" rel="stylesheet">
+        <link href="/vCAC/App_Themes/VMware/GridView/sprite.css" type="text/css" rel="stylesheet">
+        <link href="/vCAC/App_Themes/VMware/GridView/styles.css" type="text/css" rel="stylesheet">
+        <link href="/vCAC/App_Themes/VMware/HtmlEditor/sprite.css" type="text/css" rel="stylesheet">
+        <link href="/vCAC/App_Themes/VMware/HtmlEditor/styles.css" type="text/css" rel="stylesheet">
+        <link href="/vCAC/App_Themes/VMware/SpellChecker/styles.css" type="text/css" rel="stylesheet">
+        <link href="/vCAC/App_Themes/VMware/TreeList/sprite.css" type="text/css" rel="stylesheet">
+        <link href="/vCAC/App_Themes/VMware/TreeList/styles.css" type="text/css" rel="stylesheet">
+        <link href="/vCAC/App_Themes/VMware/Web/sprite.css" type="text/css" rel="stylesheet">
+        <link href="/vCAC/App_Themes/VMware/Web/styles.css" type="text/css" rel="stylesheet">
+        <title>New Endpoint - vCloud Automation Center</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="/vCAC/Images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+        <meta name="version" content="5.2.4 Build 13">
+        <meta name="copyright" content="Copyright © 2008-2014 VMware, Inc. All rights reserved.">
+        <meta name="trademark" content="This product is protected by U.S. and international copyright and intellectual property laws. VMware products are covered by one or more patents listed at http://www.vmware.com/go/patents.  VMware is a registered trademark or trademark of VMware, Inc. in the United States and/or other jurisdictions. All other marks and names mentioned herein may be trademarks of their respective companies.">
+<script src="/vCAC/WebResource.axd?d=sNfsy33qUBb83QLkbTMeRozQNEtMvTmg5wAZadNehgWQQ5knQEd1x50UepZko5X-DkY7ArkuvWjfh6ggrjv3bV21S-_XFG6Gz3HXlq-JWOZzjyWiKWXzHVrVT82MejcUD8taI4xL6ybqoPMLbfiI15NXG0bv_sJ7l2sQHkRgf6ilUrJL6PnDoRSgYpZYnKDV0&amp;t=635255107500000000" type="text/javascript"></script><style type="text/css">html { display:none; }</style><script type="text/javascript">if (top.location.hostname == self.location.hostname) { document.documentElement.style.display = 'block'; } else { top.location = self.location; }</script><style></style></head>
+    <body class="Default">
+        <form name="aspnetForm" method="post" action="EditEndpoint.aspx?Type=Scvmm&amp;ReturnUrl=%2fvCAC%2fVmpsAdmin%2fViewEndpoints.aspx" onkeypress="javascript:return WebForm_FireDefaultButton(event, 'ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointVCNSCredential_pupPopupControl_PopupControl_TPCFm1_ctl02')" id="aspnetForm" onsubmit="return startWait(this)">
+<div>
+<input name="__EVENTTARGET" id="__EVENTTARGET" value="" type="hidden">
+<input name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" type="hidden">
+<input name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTY1MDA4NTg5Ng9kFgJmD2QWAmYPZBYEZhBkZBYEAhMQFgQeA3JlbAUNc2hvcnRjdXQgaWNvbh4EdHlwZQUMaW1hZ2UveC1pY29uZGQCFw8WBB4Dc3JjBe4BL3ZDQUMvV2ViUmVzb3VyY2UuYXhkP2Q9c05mc3kzM3FVQmI4M1FMa2JUTWVSb3pRTkV0TXZUbWc1d0FaYWROZWhnV1FRNWtuUUVkMXg1MFVlcFprbzVYLURrWTdBcmt1dldqZmg2Z2dyanYzYlYyMVMtX1hGRzZHejNIWGxxLUpXT1p6anlXaUtXWHpIVnJWVDgyTWVqY1VEOHRhSTR4TDZ5YnFvUE1MYmZpSTE1TlhHMGJ2X3NKN2wyc1FIa1JnZjZpbFVySkw2UG5Eb1JTZ1lwWlluS0RWMCZ0PTYzNTI1NTEwNzUwMDAwMDAwMB8BBQ90ZXh0L2phdmFzY3JpcHRkAgEPZBYCAgIPZBYCAgcPZBYCAgEPZBYCAgEPZBYGZg8oKYUBRHluYW1pY09wcy5XZWIuQ29udHJvbHMuTGl0ZXJhbCtMaXRlcmFsU3RhdGUsIER5bmFtaWNPcHMuV2ViLkxvZ2ljLCBWZXJzaW9uPTUuMi4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49YjZlNTFlYTNlYjFkZWViYwExZAICDxQrAAcPFgIeDl8hVXNlVmlld1N0YXRlZ2RkZGRkZA9kEBYBAgEWATwrAAUBABYCHgdWaXNpYmxlaGQWAmYPZBYCZg9kFgICAQ9kFgJmD2QWAmYPZBYCZg9kFgJmD2QWAgIBD2QWAmYPZBYaAgEPKCsEATFkAgUPKCsEATFkAgkPZBYCZg9kFgICAQ8oKwQBMWQCCw8oKwQBMWQCDQ8PFgIeCFBvcHVwVXJsBR9FZGl0Q3JlZGVudGlhbHMuYXNweD9UeXBlPVNjdm1tZBYEAgEPFCsABg9kFgIeB29uY2xpY2sFiQFjdGwwMF9jdGwwMF9NYXN0ZXJDb250ZW50X01haW5Db250ZW50UGxhY2VIb2xkZXJfRW5kcG9pbnRUb3BpY1BhbmVsX0VuZHBvaW50VGFiQ29udHJvbF9FbmRwb2ludENyZWRlbnRpYWxfUG9wdXBfU2hvd1BvcHVwKCk7cmV0dXJuIGZhbHNlO2RkFCsABhYCHhJDbGllbnRJbnN0YW5jZU5hbWUFcWN0bDAwX2N0bDAwX01hc3RlckNvbnRlbnRfTWFpbkNvbnRlbnRQbGFjZUhvbGRlcl9FbmRwb2ludFRvcGljUGFuZWxfRW5kcG9pbnRUYWJDb250cm9sX0VuZHBvaW50Q3JlZGVudGlhbF9UZXh0Qm94FCsAARYCHgVLZXlVcAX0AWZ1bmN0aW9uKHMsIGUpIHsgaWYgKGUuaHRtbEV2ZW50LmtleUNvZGUgPT0gMzIpIHsgY3RsMDBfY3RsMDBfTWFzdGVyQ29udGVudF9NYWluQ29udGVudFBsYWNlSG9sZGVyX0VuZHBvaW50VG9waWNQYW5lbF9FbmRwb2ludFRhYkNvbnRyb2xfRW5kcG9pbnRDcmVkZW50aWFsX1BvcHVwX1Nob3dQb3B1cCgpO3JldHVybiBmYWxzZTs7IEFTUHhDbGllbnRVdGlscy5QcmV2ZW50RXZlbnRBbmRCdWJibGUoZS5odG1sRXZlbnQpOyB9IH1kZGRkZGRkAgcPZBYCAgEPDxYGHghDc3NDbGFzcwUKQ29vbEJ1dHRvbh4NT25DbGllbnRDbGljawWJAWN0bDAwX2N0bDAwX01hc3RlckNvbnRlbnRfTWFpbkNvbnRlbnRQbGFjZUhvbGRlcl9FbmRwb2ludFRvcGljUGFuZWxfRW5kcG9pbnRUYWJDb250cm9sX0VuZHBvaW50Q3JlZGVudGlhbF9Qb3B1cF9TaG93UG9wdXAoKTtyZXR1cm4gZmFsc2U7HgRfIVNCAgJkZAIPDxYCHwRoFgRmD2QWAgIBDygrBAExZAIBD2QWAgIBDzwrAAYBAzwrAAkBCDwrAAQBAg8WAh4KSXNTYXZlZEFsbGcPFCsAARQrAAEWAh4OUnVudGltZUNyZWF0ZWRnZGQCEQ9kFgJmD2QWAgIBDygrBAExZAITDxYCHwRoZAIVDxYCHwRoFgICAQ9kFgYCAQ9kFgJmD2QWAgIBDygrBAExZAIDD2QWAmYPZBYCAgEPKCsEATFkAgUPZBYEZg9kFgICAQ8oKwQBMWQCAQ9kFgICAQ8PFgIfBQUURWRpdENyZWRlbnRpYWxzLmFzcHhkFgQCAQ88KwAGAQM8KwAGAQAWAh8HBXZjdGwwMF9jdGwwMF9NYXN0ZXJDb250ZW50X01haW5Db250ZW50UGxhY2VIb2xkZXJfRW5kcG9pbnRUb3BpY1BhbmVsX0VuZHBvaW50VGFiQ29udHJvbF9FbmRwb2ludFByb3h5Q3JlZGVudGlhbF9UZXh0Qm94ZAIHD2QWAgIBDw8WBB8JBQpDb29sQnV0dG9uHwsCAmRkAhcPFgIfBGhkAhkPFgIfBGgWAgIBD2QWBAIBD2QWAmYPZBYCAgEPKCsEATFkAgMPZBYEZg9kFgICAQ8oKwQBMWQCAQ9kFgICAQ8PFgIfBQUURWRpdENyZWRlbnRpYWxzLmFzcHhkFgQCAQ88KwAGAQM8KwAGAQAWAh8HBXVjdGwwMF9jdGwwMF9NYXN0ZXJDb250ZW50X01haW5Db250ZW50UGxhY2VIb2xkZXJfRW5kcG9pbnRUb3BpY1BhbmVsX0VuZHBvaW50VGFiQ29udHJvbF9FbmRwb2ludFZDTlNDcmVkZW50aWFsX1RleHRCb3hkAgcPZBYCAgEPDxYEHwkFCkNvb2xCdXR0b24fCwICZGQCGw8oKwQBMWQCHQ9kFgQCAQ9kFgICAQ8oKwQBMWQCAw88KwAYAwAPFgQeGkNsaWVudEluc3RhbmNlTmFtZUludGVybmFsBQxQcm9wZXJ0eUdyaWQeD0RhdGFTb3VyY2VCb3VuZGdkBg9kEBYEAgECAgIDAgQWBDwrAAsBABYKHgdUb29sVGlwZR4JU29ydEluZGV4Zh4JU29ydE9yZGVyCyl6RGV2RXhwcmVzcy5EYXRhLkNvbHVtblNvcnRPcmRlciwgRGV2RXhwcmVzcy5EYXRhLnYxMi4yLCBWZXJzaW9uPTEyLjIuNy4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI4OGQxNzU0ZDcwMGU0OWEBHgdDYXB0aW9uBYcBPGRpdiBjbGFzcz0iSWNvblJlcXVpcmVkIEljb25UZXh0R3JpZCBIaWRkZW4iPjxzcGFuPjxpbWcgc3JjPSIvdkNBQy9JbWFnZXMvaWNvbl9yZXF1aXJlZC5wbmciIHdpZHRoPSI4IiBoZWlnaHQ9IjE2IiAvPk5hbWU8L3NwYW4+PC9kaXY+HgpHcm91cEluZGV4Av////8PPCsACwEAFgYfEQL/////Dx8UAv////8PHxILKwUAPCsACwIAFgYfEQL/////Dx8UAv////8PHxILKwUACTwrAAUBABYGHgxWYWx1ZUNoZWNrZWRnHg5WYWx1ZVVuY2hlY2tlZGgeC1ZhbHVlR3JheWVkZDwrAAsCABYIHgpDb2xWaXNpYmxlaB8SCysFAB8UAv////8PHxEC/////w8JPCsABQEAFgYfFWcfFmgfF2QPFgQCAQIBAgICAhYCBYwBRGV2RXhwcmVzcy5XZWIuQVNQeEdyaWRWaWV3LkdyaWRWaWV3RGF0YVRleHRDb2x1bW4sIERldkV4cHJlc3MuV2ViLnYxMi4yLCBWZXJzaW9uPTEyLjIuNy4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI4OGQxNzU0ZDcwMGU0OWEFjQFEZXZFeHByZXNzLldlYi5BU1B4R3JpZFZpZXcuR3JpZFZpZXdEYXRhQ2hlY2tDb2x1bW4sIERldkV4cHJlc3MuV2ViLnYxMi4yLCBWZXJzaW9uPTEyLjIuNy4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI4OGQxNzU0ZDcwMGU0OWEVPCsABgEFFCsAAmRkZAIED2QWBGYPDxYIHwkFGENvb2xCdXR0b24gRGVmYXVsdEJ1dHRvbh4PVmFsaWRhdGlvbkdyb3VwZR8KBShpZiAoIWJ1dHRvblZhbGlkYXRlKHRoaXMpKSByZXR1cm4gZmFsc2U7HwsCAhYCHxllZAIBDw8WBB8JBQpDb29sQnV0dG9uHwsCAmRkGAEFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYEBR9jdGwwMCRjdGwwMCRNYXN0ZXJDb250ZW50JGN0bDA1BVZjdGwwMCRjdGwwMCRNYXN0ZXJDb250ZW50JE1haW5Db250ZW50UGxhY2VIb2xkZXIkRW5kcG9pbnRUb3BpY1BhbmVsJEVuZHBvaW50VGFiQ29udHJvbAWGAWN0bDAwJGN0bDAwJE1hc3RlckNvbnRlbnQkTWFpbkNvbnRlbnRQbGFjZUhvbGRlciRFbmRwb2ludFRvcGljUGFuZWwkRW5kcG9pbnRUYWJDb250cm9sJEVuZHBvaW50Q3JlZGVudGlhbCRwdXBQb3B1cENvbnRyb2wkUG9wdXBDb250cm9sBXZjdGwwMCRjdGwwMCRNYXN0ZXJDb250ZW50JE1haW5Db250ZW50UGxhY2VIb2xkZXIkRW5kcG9pbnRUb3BpY1BhbmVsJEVuZHBvaW50VGFiQ29udHJvbCRFbmRwb2ludFByb3BlcnRpZXMkcHJvcGVydHlHcmlkK/Rbwfd6jn6QZtz90kmo93MK7EV7A9QUcBFRchKLIYw=" type="hidden">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/vCAC/WebResource.axd?d=tnx3CP0oMxsmEbXMe8ST2dF-pRHyoCiDB6Is_MfdBEA7YRFGNJ1UNgHIqxK0c31IKPCvU7ElRI8eL81wQD9uxF5gh4H8W93E_WSFKDwUbCw1&amp;t=635086466580000000" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+      ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential = new Object(); 
+                    ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential.GetValue = function () { 
+                        return ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_TextBox.GetText(); 
+                    }
+
+                    function ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_Popup_OK(id, name) { 
+                        document.getElementById('ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_pupHiddenValue').value =  name; 
+                        document.getElementById('ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_pupHiddenValueId').value = id; 
+                        ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_TextBox.SetText(name); 
+                        ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_TextBox.Validate(); 
+                        $('#ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_TextBox_ClearSelection').show(); 
+                        ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_Popup.Hide(); 
+                        
+                    }
+
+                    function ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_Popup_Cancel() { 
+                        ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_Popup.Hide(); 
+                    }
+
+                    function ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_TextBox_Init(s) { 
+                        $(s.inputElement).parents('tr:first').append('<td><a class="ClearSelection" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_TextBox_ClearSelection" href="javascript:"></a></td>');
+
+                        $('#ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_TextBox_ClearSelection').click(function () { 
+                            $(s.inputElement).val(''); 
+                            $(this).hide(); 
+                            
+                        });  
+
+                        $(s.inputElement).click(function () { 
+                            ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_Popup_ShowPopup();
+                        });    
+
+                        if (s.GetText() == '') { 
+                            $('#ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_TextBox_ClearSelection').hide(); 
+                        } 
+                    }      function ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_Popup_ShowPopup(contentUrl) { 
+                        if (contentUrl) {
+                            ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_Popup.SetContentUrl(contentUrl); 
+                        } else {
+                            ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_Popup.SetContentUrl('EditCredentials.aspx?Type=Scvmm&PopupId=ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_Popup'); 
+                        }
+                        
+                        ShowPopupSizedToFit(ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_Popup, 700, 900); 
+                        return false; 
+                    }//]]>
+</script>
+
+<script src="/vCAC/ScriptResource.axd?d=kDd_kzNZpzXgH5l-FW1U4h-25Ya6D2pqTDjmcWKZLW80bModHtrhLI1qBGB00Lo4uM8Dh_mevFt-0qCZJ7czpTTnvS7GmfrBZ7Jy121AfIlYqxKZ53dXRSxYHCUAPFzwRzkvEnVf66c8NMeax4tf5DhuTre9oYkHPc_SuLR7SeA1&amp;t=6119e399" type="text/javascript"></script>
+<script src="/vCAC/ScriptResource.axd?d=7mPYvyZAzYBWlYLo1HVsVwRQs4RggG1ykgiYTy9C6eVk-bc59p-gJFcDDUBbkaUCEQrOpI-aymvn5qTczKrYJrGLvYs-oJfAKd9QlDwNJqVtac4vWh6CMhLgW_86YYyrQvi27jEOCWgh3Z8rIFxZvkMQfyiak9bJ152tWwKPXgzKrvuLylUVuZjOyKOlLQiS0&amp;t=6119e399" type="text/javascript"></script>
+<div>
+
+	<input name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAqdFxalSlvTAs+cALzeDHm9rACJMK3sZte5Cedw5ef/4VYCAh1SVNZ78O3OZ/EfmGGhU7KtQJgMjQNmEWmx+d8c0ZjtcgtKU3SLFTj9KInF3v6SgMSZ8GjLIPkhZ7u6aMkUGMPxn1ohpIkCubFtg+fRC28fOf+rFo3C8+/eR5NqerlFdV1l5LASBNx8n/XJE4QC7CIDVHV/Loy0RQceQFf73LiHK+pOCLoEgIMvR1VAhnQR8jp6dA/D76CJXwyQb20=" type="hidden">
+</div>
+            <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ctl00$ScriptManager1', 'aspnetForm', ['fctl00$ctl00$MasterContent$BannerPanel','','tctl00$ctl00$MasterContent$MainContentPlaceHolder$EndpointTopicPanel$EndpointTabControl$ProxyInfoUpdatePanel',''], [], [], 90, 'ctl00$ctl00');
+//]]>
+</script>
+
+            <script src="/vCAC/Scripts/VMPS.js" type="text/javascript"></script>
+            <script src="/vCAC/Scripts/Controls.js" type="text/javascript"></script>
+            <script src="/vCAC/Scripts/RoboHelp_CSH.js" type="text/javascript"></script>
+            <script type="text/javascript">
+                g_sGetPleaseWaitMessageUrl = "/vCAC/GetPleaseWaitMessage.ashx?SessionID=t0kiodhqhgipazrtjupdiu1i&Path=%2fvCAC%2fVMPSAdmin%2fEditEndpoint.aspx";
+                g_sSaveUserPreferenceUrl = "/vCAC/SaveUserPreference.ashx?ReturnUrl=%2fvCAC%2fVMPSAdmin%2fEditEndpoint.aspx%3fType%3dScvmm%26ReturnUrl%3d%252fvCAC%252fVmpsAdmin%252fViewEndpoints.aspx";
+                g_sHeartbeatUrl = "/vCAC/SessionKeepAlive.ashx";
+                g_iHeartbeatIntervalMin = 5;
+            </script>
+
+            <!-- Header -->
+            <div id="Header"><div class="masthead_outer_left"><div class="masthead_left"></div></div><div class="masthead_outer_right"><div class="masthead_right_middle"><div id="logo"><a href="/vCAC/Default.aspx" title="vCloud Automation Center announcements"><img src="/vCAC/App_Themes/VMware/DCAC/Images/nav_logo.png" id="imgLogo" height="64" border="0" width="200"></a></div><div class="appname">vCloud Automation Center</div><img class="PleaseWait" src="/vCAC/App_Themes/VMware/DCAC/Images/icon_loading.gif" title="Please wait..." height="16" width="16"><div class="masthead_links"><span class="Label">User: </span><span class="User">VCAC\administrator</span><a class="" href="/vCAC/Default.aspx"><span>Announcements</span></a><a href="javascript:RH_ShowHelp(0, &quot;/vCAC/WebHelp/VRM_Help.htm>NewWindow&quot;, HH_HELP_CONTEXT, 64)"><span>Help</span></a><a target="_blank" onclick="return !showPopup('wndAbout', this.href)" href="/vCAC/About.aspx"><span>About</span></a></div><img src="/vCAC/App_Themes/VMware/DCAC/images/nav_plain.gif" alt="" class="masthead_right"></div></div><div class="LogoLineFooter"><div></div></div></div>
+            
+            <!-- Content -->
+            <div id="MainContentArea">
+                
+    <!-- Sidebar -->
+    <div id="Sidebar">
+        <div id="SidebarDiv"><div class="SidebarTabs"><script id="dxis_1492097074" src="/vCAC/DXR.axd?r=1_142,1_80,1_135,1_128,1_133,1_119,1_136,1_98,1_105,1_126,1_90,1_113,1_94-kMs68" type="text/javascript"></script><table id="ctl00_ctl00_MasterContent_ctl05" style="width:190px;border-collapse:collapse;border-collapse:separate;" border="0" cellpadding="0" cellspacing="0">
+	<tbody><tr>
+		<td class="dxmVerticalMenu_VMware" style="border-bottom-color:#CCCCCC;border-bottom-style:Dotted;border-bottom-width:1px;" valign="top"><table style="width:100%;border-collapse:collapse;border-collapse:separate;" border="0" cellpadding="0" cellspacing="0">
+			<tbody><tr id="ctl00_ctl00_MasterContent_ctl05_DXI0_" onclick="aspxMIClick(event, 'ctl00_ctl00_MasterContent_ctl05', '0')">
+				<td id="ctl00_ctl00_MasterContent_ctl05_DXI0_I" title="View reports." class="dxmMenuGutter_VMware dxmVerticalMenuItemWithImage_VMware" style="cursor:pointer;text-align:Left;white-space:normal;padding-right:3px!important;border-right:0px!important;"><a tabindex="-1" href="/vCAC/Reports/ViewReports.aspx"><img id="ctl00_ctl00_MasterContent_ctl05_DXI0_Img" title="View reports." src="../images/toc_img_reports_sm.png" alt="" style="height:32px;width:32px;"></a></td><td id="ctl00_ctl00_MasterContent_ctl05_DXI0_N" title="View reports." class="dxmVerticalMenuItemWithImage_VMware dxmVerticalMenuItemLeftImageSpacing_VMware" style="cursor:pointer;"><div style="overflow:hidden;">
+
+				</div></td><td id="ctl00_ctl00_MasterContent_ctl05_DXI0_T" title="View reports." class="dxmVerticalMenuItemWithImage_VMware" style="color:#444444;font-family:Arial;width:100%;cursor:pointer;text-align:Left;white-space:normal;border-left:0px!important;padding-left:0px!important;"><a title="View reports." href="/vCAC/Reports/ViewReports.aspx" style="color:#444444;font-family:Arial;white-space:normal;">Reports</a></td>
+			</tr>
+		</tbody></table></td>
+	</tr>
+</tbody></table><script id="dxss_1660123581" type="text/javascript">
+<!--
+aspxAddHoverItems('ctl00_ctl00_MasterContent_ctl05',[[[''],[''],['DXM_']],[['dxmVerticalMenuItemHoverWithImage_VMware'],[''],['DXI0_'],['I','N','T','P'],[['']],['Img','PImg']]]);
+
+var dxo = new ASPxClientMenu('ctl00_ctl00_MasterContent_ctl05');
+window['ctl00_ctl00_MasterContent_ctl05'] = dxo;
+dxo.uniqueID = 'ctl00$ctl00$MasterContent$ctl05';
+dxo.disappearAfter=0;
+dxo.subMenuFIXOffset=2;
+dxo.subMenuLIXOffset=2;
+dxo.subMenuXOffset=2;
+dxo.isVertical=true;
+dxo.InlineInitialize();
+
+//-->
+</script><div class="SelectedNavNode"><img src="/vCAC/App_Themes/VMware/DCAC/Images/bg_nav_sel_top.gif" class="Header" height="4" width="191"><table class="Heading" cellspacing="0"><tbody><tr><td onclick="document.location.href='/vCAC/VMPSAdmin/ViewEntAdmins.aspx';" class="Clickable"><img class="HeadingImage" src="/vCAC/images/toc_img_support_sm.png" height="32" width="32">vCAC Administrator</td></tr></tbody></table><ul><li><a title="Assign access control administrators and vCAC administrators." href="/vCAC/VMPSAdmin/ViewAppAdmins.aspx">Administrators</a></li><li><a title="Configure agents compute resource discovery" href="/vCAC/VMPSAdmin/AgentConfiguration.aspx">Agent Configuration</a></li><li><a title="View the audit logs." href="/vCAC/VMPSAdmin/ViewAuditLog.aspx">Audit Log Viewer</a></li><li><a title="Manage the credentials associated with endpoints." href="/vCAC/VmpsAdmin/EditCredentials.aspx">Credentials</a></li><li><a title="Change the announcements, application name, and logo seen by users of this application." href="/vCAC/VMPSAdmin/Customize.aspx">Customization</a></li><li><a title="View the status of all Distributed Execution Managers." href="/vCAC/VMPSAdmin/WorkflowExecutionManagerStatus.aspx">Distributed Execution Status</a></li><li><a title="Manage the endpoints representing virtualization platforms, cloud service accounts, physical machines and storage devices." href="/vCAC/VmpsAdmin/ViewEndpoints.aspx">Endpoints</a></li><ul><li class="Selected"><a title="Create an endpoint." href="/vCAC/VMPSAdmin/EditEndpoint.aspx?Type=Scvmm&amp;ReturnUrl=%2fvCAC%2fVmpsAdmin%2fViewEndpoints.aspx">New Endpoint</a></li></ul><li><a title="Place compute resources in enterprise groups and assign enterprise administrators to manage them." href="/vCAC/VMPSAdmin/ViewEntAdmins.aspx">Enterprise Groups</a></li><li><a title="Manage global configuration settings." href="/vCAC/VMPSAdmin/EditGlobalProperties.aspx">Global Properties</a></li><li><a title="Manage the instance types associated with Amazon machine images." href="/vCAC/VMPSAdmin/EditInstanceTypes.aspx">Instance Types</a></li><li><a title="View license information." href="/vCAC/VMPSAdmin/LicenseInfo.aspx">License Info</a></li><li><a title="Review vCAC Logs" href="/vCAC/VMPSAdmin/ViewTrackingLog.aspx">Log Viewer</a></li><li><a title="Review a user's provisioning group memberships, access to machine blueprints and administrator assignments." href="/vCAC/VMPSAdmin/ViewUserRights.aspx">User Rights</a></li><li><a title="View the workflow execution history." href="/vCAC/VMPSAdmin/WorkflowHistory.aspx">Workflow History</a></li></ul><img src="/vCAC/App_Themes/VMware/DCAC/Images/bg_nav_sel_bottom.gif" class="Footer" height="4" width="191"></div></div></div>
+        
+    </div>
+    <!-- Page Content -->
+    <div id="Content">
+        <div id="ctl00_ctl00_MasterContent_BannerPanel">
+	
+                <div class="Banner">  <div class="BannerHeader"><div></div></div>  <div class="BannerBody">    <ul><li class="warning">vCAC Server License is using a temporary license and has 7 days remaining.</li><li class="warning">vCAC Desktop License is using a temporary license and has 7 days remaining.</li>    </ul>  </div>  <div class="Footer"><div><div></div></div></div></div>
+            
+</div>
+        
+    <table class="ContentPanel" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel" cellpadding="0" cellspacing="0"><tbody><tr><td><table class="ContentPanelHeader" cellspacing="0"><thead><tr><th class="Header Left"></th><th class="TitleHeader">New Endpoint - Hyper-V (SCVMM)</th>
+<th class="Header Right"></th></tr>
+</thead></table></td></tr><tr><td class="ContentPanelBodyCell"><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_Body" class="Body PaddedContent"><span>Create an endpoint.<br>&nbsp;<br></span>
+  
+        <input id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControlATI" name="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControlATI" value="0" type="hidden"><table class="dxtcControl_VMware" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl" style="height:0px;width:100%;border-collapse:collapse;border-collapse:separate;" border="0" cellpadding="0" cellspacing="0">
+	<tbody><tr>
+		<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_TC" class="dxtcTabsCell" style="padding-left:0px;padding-right:0px;padding-top:0px;padding-bottom:0px;"><table style="height:100%;width:100%;border-collapse:collapse;border-collapse:separate;" border="0" cellpadding="0" cellspacing="0">
+			<tbody><tr>
+				<td style="vertical-align:bottom;"><table class="dxtcActiveRow_VMware" style="width:100%;border-collapse:collapse;border-collapse:separate;" border="0" cellpadding="0" cellspacing="0">
+					<tbody><tr>
+						<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_T0" class="dxtcTab_VMware" onclick="return aspxTCTClick(event, 'ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl', 0)" style="background-color:#EFF0F8;border-color:#C8D0EB;height:0px;border-bottom-color:#C8D0EB;border-bottom-style:Solid;border-bottom-width:1px;cursor:pointer;display:none;"><table style="font-family:Arial;border-collapse:collapse;" border="0" cellpadding="0" cellspacing="0">
+							<tbody><tr>
+								<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_T0I" style="padding-right:4px;"><img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_T0Img" src="../images/icon_endpoint.png" alt=""></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_T0T" class="dxtc" style="font-family:Arial;width:100%;">Endpoint</td>
+							</tr>
+						</tbody></table></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_AT0" class="dxtcActiveTab_VMware" style="background-color:White;border-color:#C8D0EB;height:0px;background-image:url(../App_Themes/VMware/Web/bg_tab.gif);background-repeat:repeat-x;cursor:default;border-bottom-width:0px!important;"><table style="font-family:Arial;font-weight:bold;border-collapse:collapse;margin-bottom:1px;" border="0" cellpadding="0" cellspacing="0">
+							<tbody><tr>
+								<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_AT0I" style="padding-right:4px;"><img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_AT0Img" src="../images/icon_endpoint.png" alt=""></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_AT0T" class="dxtc" style="font-family:Arial;font-weight:bold;width:100%;">Endpoint</td>
+							</tr>
+						</tbody></table></td>
+					</tr>
+				</tbody></table></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_RAC" class="dxtcRightAlignCell_VMware" style="width:100%;border-bottom-color:#C8D0EB;border-bottom-style:Solid;border-bottom-width:1px;"><div style="height:1px;width:1px;overflow:hidden;">
+
+				</div></td>
+			</tr>
+		</tbody></table></td>
+	</tr><tr>
+		<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_CC" class="dxtcPageContent_VMware" style="border-color:#C8D0EB;border-width:1px;border-style:Solid;width:100%;border-top-width:0px;padding-left:12px;padding-right:12px;padding-top:12px;padding-bottom:12px;"><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_C0">
+			
+                            <div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_ProxyInfoUpdatePanel">
+				
+                                    <table class="Form" cellspacing="0">
+                                        <tbody><tr>
+                                            <td class="Label">
+                                                <div class="IconRequired "><span title="Required"><img src="/vCAC/Images/icon_required.png" height="16" width="8">Name: </span></div>
+                                            </td>
+                                            <td class="Field">
+                                                <table errorframe="errorFrame" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointName_ET" style="border-collapse:collapse;" border="0" cellpadding="0" cellspacing="0">
+					<tbody><tr>
+						<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointName_CC"><table class="dxeTextBoxSys dxeTextBox_VMware dxeFocused_VMware dxh0" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointName" style="width:300px;border-collapse:collapse;" border="0" cellpadding="0" cellspacing="0">
+							<tbody><tr>
+								<td class="dxic" style="width:100%;"><input class="dxeEditArea_VMware dxeEditAreaSys dxh0" name="ctl00$ctl00$MasterContent$MainContentPlaceHolder$EndpointTopicPanel$EndpointTabControl$EndpointName" onkeyup="aspxEKeyUp('ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointName', event)" maxlength="256" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointName_I" onchange="aspxEValueChanged('ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointName')" onblur="aspxELostFocus('ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointName')" onfocus="aspxEGotFocus('ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointName')" type="text"></td>
+							</tr>
+						</tbody></table><input value="" name="ctl00$ctl00$MasterContent$MainContentPlaceHolder$EndpointTopicPanel$EndpointTabControl$EndpointName$CVS" type="hidden"></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointName_EC" class="dxeErrorCell_VMware" style="vertical-align:middle;display:none;white-space:nowrap;"><table style="width:100%;border-collapse:collapse;" border="0" cellpadding="0" cellspacing="0">
+							<tbody><tr>
+								<td style="padding-right:5px;"><img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointName_EI" title="Invalid value" class="dxEditors_edtError_VMware" src="/vCAC/DXR.axd?r=1_9-kMs68" alt="Invalid value"></td>
+							</tr>
+						</tbody></table></td>
+					</tr>
+				</tbody></table><script id="dxss_1163646359" type="text/javascript">
+<!--
+document.getElementById("ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointName_ET").setAttribute("errorFrame", "errorFrame");
+
+var dxo = new ASPxClientTextBox('ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointName');
+window['ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointName'] = dxo;
+dxo.uniqueID = 'ctl00$ctl00$MasterContent$MainContentPlaceHolder$EndpointTopicPanel$EndpointTabControl$EndpointName';
+dxo.initialFocused = true;
+dxo.customValidationEnabled = true;
+dxo.isValid = true;
+dxo.errorText = 'Invalid value';
+dxo.validationPatterns = [ new ASPxRequiredFieldValidationPattern('This field is required. Please specify a value.') ];
+dxo.setFocusOnError = true;
+dxo.display = "Dynamic";
+dxo.errorDisplayMode = "i";
+dxo.errorImageIsAssigned = true;
+dxo.errorFrameStyles = { errorFrame: { cssClass: 'dxeErrorFrame_VMware', style: '' }, controlCell: { cssClass: 'dxeControlsCell_VMware', style: '' } };
+dxo.RequireStyleDecoration();
+dxo.styleDecoration.AddStyle('I','dxeInvalid_VMware','');
+dxo.styleDecoration.AddStyle('F','dxeFocused_VMware','');
+dxo.InlineInitialize();
+
+//-->
+</script>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="Label">
+                                                <span>Description: </span>
+                                            </td>
+                                            <td class="Field">
+                                                <table class="dxeMemoSys dxeMemo_VMware" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointDescription" style="width:300px;border-collapse:collapse;border-collapse:separate;" border="0" cellpadding="0" cellspacing="0">
+					<tbody><tr>
+						<td style="width:100%;"><textarea class="dxeMemoEditArea_VMware dxeMemoEditAreaSys" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointDescription_I" name="ctl00$ctl00$MasterContent$MainContentPlaceHolder$EndpointTopicPanel$EndpointTabControl$EndpointDescription" onfocus="aspxEGotFocus('ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointDescription')" onblur="aspxELostFocus('ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointDescription')" onkeyup="aspxEKeyUp('ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointDescription', event)" cols="" rows="3" style="width:100%;"></textarea></td>
+					</tr>
+				</tbody></table><script id="dxss_880252528" type="text/javascript">
+<!--
+aspxAddDisabledItems('ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointDescription',[[['dxeDisabled_VMware'],[''],['','I']]]);
+
+var dxo = new ASPxClientMemo('ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointDescription');
+window['ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointDescription'] = dxo;
+dxo.uniqueID = 'ctl00$ctl00$MasterContent$MainContentPlaceHolder$EndpointTopicPanel$EndpointTabControl$EndpointDescription';
+dxo.LostFocus.AddHandler(function(s, e) { return MemoEx_EnforceMaxLength(s, 256); });
+dxo.KeyUp.AddHandler(function(s, e) { return MemoEx_EnforceMaxLength(s, 256); });
+dxo.RequireStyleDecoration();
+dxo.styleDecoration.AddStyle('F','dxeFocused_VMware','');
+dxo.InlineInitialize();
+
+//-->
+</script>
+                                            </td>
+                                        </tr>
+                                
+                                        <tr id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_AddressRow">
+					<td class="Label">
+                                                <div class="IconRequired "><span title="Required"><img src="/vCAC/Images/icon_required.png" height="16" width="8">Address: </span></div>
+                                            </td>
+					<td class="Field">
+                                                <table errorframe="errorFrame" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointAddress_ET" style="border-collapse:collapse;" border="0" cellpadding="0" cellspacing="0">
+						<tbody><tr>
+							<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointAddress_CC"><table class="dxeTextBoxSys dxeTextBox_VMware" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointAddress" style="width:300px;border-collapse:collapse;" border="0" cellpadding="0" cellspacing="0">
+								<tbody><tr>
+									<td class="dxic" style="width:100%;"><input class="dxeEditArea_VMware dxeEditAreaSys" name="ctl00$ctl00$MasterContent$MainContentPlaceHolder$EndpointTopicPanel$EndpointTabControl$EndpointAddress" onkeyup="aspxEKeyUp('ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointAddress', event)" maxlength="128" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointAddress_I" onchange="aspxEValueChanged('ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointAddress')" onblur="aspxELostFocus('ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointAddress')" onfocus="aspxEGotFocus('ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointAddress')" type="text"></td>
+								</tr>
+							</tbody></table><input value="" name="ctl00$ctl00$MasterContent$MainContentPlaceHolder$EndpointTopicPanel$EndpointTabControl$EndpointAddress$CVS" type="hidden"></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointAddress_EC" class="dxeErrorCell_VMware" style="vertical-align:middle;display:none;white-space:nowrap;"><table style="width:100%;border-collapse:collapse;" border="0" cellpadding="0" cellspacing="0">
+								<tbody><tr>
+									<td style="padding-right:5px;"><img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointAddress_EI" title="Invalid value" class="dxEditors_edtError_VMware" src="/vCAC/DXR.axd?r=1_9-kMs68" alt="Invalid value"></td>
+								</tr>
+							</tbody></table></td>
+						</tr>
+					</tbody></table><script id="dxss_267095273" type="text/javascript">
+<!--
+document.getElementById("ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointAddress_ET").setAttribute("errorFrame", "errorFrame");
+
+var dxo = new ASPxClientTextBox('ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointAddress');
+window['ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointAddress'] = dxo;
+dxo.uniqueID = 'ctl00$ctl00$MasterContent$MainContentPlaceHolder$EndpointTopicPanel$EndpointTabControl$EndpointAddress';
+dxo.customValidationEnabled = true;
+dxo.isValid = true;
+dxo.errorText = 'Invalid value';
+dxo.validationPatterns = [ new ASPxRequiredFieldValidationPattern('This field is required. Please specify a value.') ];
+dxo.setFocusOnError = true;
+dxo.display = "Dynamic";
+dxo.errorDisplayMode = "i";
+dxo.errorImageIsAssigned = true;
+dxo.errorFrameStyles = { errorFrame: { cssClass: 'dxeErrorFrame_VMware', style: '' }, controlCell: { cssClass: 'dxeControlsCell_VMware', style: '' } };
+dxo.RequireStyleDecoration();
+dxo.styleDecoration.AddStyle('I','dxeInvalid_VMware','');
+dxo.styleDecoration.AddStyle('F','dxeFocused_VMware','');
+dxo.InlineInitialize();
+
+//-->
+</script>
+                                            </td>
+				</tr>
+				
+
+                                        <tr>
+                                            <td class="Label">
+                                                <div class="IconRequired "><span title="Required"><img src="/vCAC/Images/icon_required.png" height="16" width="8">Credentials: </span></div>
+                                            </td>
+                                            <td class="Field">
+                                                
+<table cellpadding="0" cellspacing="0">
+    <tbody><tr>
+        <td>
+            <table errorframe="errorFrame" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_pupTextBox_ET" style="border-collapse:collapse;" border="0" cellpadding="0" cellspacing="0">
+					<tbody><tr>
+						<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_pupTextBox_CC"><table class="dxeTextBoxSys dxeTextBox_VMware dxeReadOnly_VMware" onclick="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_Popup_ShowPopup();return false;" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_pupTextBox" style="background-color:#F4F4F4;width:300px;border-collapse:collapse;" border="0" cellpadding="0" cellspacing="0">
+							<tbody><tr>
+								<td class="dxic" style="width:100%;"><input class="dxeEditArea_VMware dxeEditAreaSys" name="ctl00$ctl00$MasterContent$MainContentPlaceHolder$EndpointTopicPanel$EndpointTabControl$EndpointCredential$pupTextBox" onkeyup="aspxEKeyUp('ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_pupTextBox', event)" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_pupTextBox_I" onchange="aspxEValueChanged('ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_pupTextBox')" onblur="aspxELostFocus('ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_pupTextBox')" onfocus="aspxEGotFocus('ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_pupTextBox')" readonly="readonly" style="background-color:#F4F4F4;" type="text"></td>
+							</tr>
+						</tbody></table><input value="" name="ctl00$ctl00$MasterContent$MainContentPlaceHolder$EndpointTopicPanel$EndpointTabControl$EndpointCredential$pupTextBox$CVS" type="hidden"></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_pupTextBox_EC" class="dxeErrorCell_VMware" style="vertical-align:middle;display:none;white-space:nowrap;"><table style="width:100%;border-collapse:collapse;" border="0" cellpadding="0" cellspacing="0">
+							<tbody><tr>
+								<td style="padding-right:5px;"><img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_pupTextBox_EI" title="Invalid value" class="dxEditors_edtError_VMware" src="/vCAC/DXR.axd?r=1_9-kMs68" alt="Invalid value"></td>
+							</tr>
+						</tbody></table></td>
+					</tr>
+				</tbody></table><script id="dxss_939778152" type="text/javascript">
+<!--
+aspxAddDisabledItems('ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_pupTextBox',[[['dxeDisabled_VMware'],[''],['','I']]]);
+document.getElementById("ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_pupTextBox_ET").setAttribute("errorFrame", "errorFrame");
+
+var dxo = new ASPxClientTextBox('ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_pupTextBox');
+window['ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_TextBox'] = dxo;
+dxo.uniqueID = 'ctl00$ctl00$MasterContent$MainContentPlaceHolder$EndpointTopicPanel$EndpointTabControl$EndpointCredential$pupTextBox';
+dxo.KeyUp.AddHandler(function(s, e) { if (e.htmlEvent.keyCode == 32) { ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_Popup_ShowPopup();return false;; ASPxClientUtils.PreventEventAndBubble(e.htmlEvent); } });
+dxo.customValidationEnabled = true;
+dxo.isValid = true;
+dxo.errorText = 'Invalid value';
+dxo.validationPatterns = [ new ASPxRequiredFieldValidationPattern('This field is required. Please specify a value.') ];
+dxo.setFocusOnError = true;
+dxo.display = "Dynamic";
+dxo.errorDisplayMode = "i";
+dxo.errorImageIsAssigned = true;
+dxo.errorFrameStyles = { errorFrame: { cssClass: 'dxeErrorFrame_VMware', style: '' }, controlCell: { cssClass: 'dxeControlsCell_VMware', style: '' } };
+dxo.readOnly=true;
+dxo.RequireStyleDecoration();
+dxo.styleDecoration.AddStyle('I','dxeInvalid_VMware','');
+dxo.styleDecoration.AddStyle('F','dxeFocused_VMware','');
+dxo.InlineInitialize();
+
+//-->
+</script>
+            <input name="ctl00$ctl00$MasterContent$MainContentPlaceHolder$EndpointTopicPanel$EndpointTabControl$EndpointCredential$pupHiddenValue" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_pupHiddenValue" type="hidden">
+            <input name="ctl00$ctl00$MasterContent$MainContentPlaceHolder$EndpointTopicPanel$EndpointTabControl$EndpointCredential$pupHiddenValueId" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_pupHiddenValueId" type="hidden">
+        </td>
+        <td class="Button">
+            <div class="CoolButtonBar">
+                <a href="#" ondragend="this.blur();return false;" type="button" name="ctl00$ctl00$MasterContent$MainContentPlaceHolder$EndpointTopicPanel$EndpointTabControl$EndpointCredential$pupButton" value="..." onclick="this.blur();ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_Popup_ShowPopup();return false;__doPostBack('ctl00$ctl00$MasterContent$MainContentPlaceHolder$EndpointTopicPanel$EndpointTabControl$EndpointCredential$pupButton','')" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_pupButton" class="CoolButton"><span>...</span></a>
+            </div>
+        </td>
+    </tr>
+</tbody></table>
+<input id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_pupPopupControl_PopupControlWS" name="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_pupPopupControl_PopupControlWS" value="0:0:-1:-10000:-10000:0:900px:700px:1:0:0:0" type="hidden"><table id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_pupPopupControl_PopupControl_PW-1" style="border-collapse:collapse;border-collapse:separate;position:absolute;left:0px;top:0px;z-index:10000;visibility:hidden;display:none;" border="0" cellpadding="0" cellspacing="0">
+					<tbody><tr>
+						<td class="dxpcControl_VMware" onmousedown="aspxPWMDown(event,'ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_pupPopupControl_PopupControl',-1,false)" onmousemove="aspxPWMMove(event,'ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_pupPopupControl_PopupControl',-1)" style="height:700px;width:900px;cursor:default;"><table id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_pupPopupControl_PopupControl_CLW-1" style="height:700px;width:900px;border-collapse:collapse;border-collapse:separate;" border="0" cellpadding="0" cellspacing="0">
+							<tbody><tr>
+								<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_pupPopupControl_PopupControl_PWH-1" class="dxpcHeader_VMware" onmousedown="aspxPWDGMDown(event,'ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_pupPopupControl_PopupControl',-1)" style="cursor:move;padding-left:7px;padding-right:2px;padding-top:2px;padding-bottom:2px;-moz-user-select:none;"><table style="width:100%;border-collapse:collapse;border-collapse:separate;" border="0" cellpadding="0" cellspacing="0">
+									<tbody><tr>
+										<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_pupPopupControl_PopupControl_PWH-1T" class="dxpc" style="width:100%;">Select Credentials</td><td class="dxpcHBCell_VMware"><table style="border-collapse:collapse;border-collapse:separate;" border="0" cellpadding="0" cellspacing="0">
+											<tbody><tr>
+												<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_pupPopupControl_PopupControl_HCB-1" class="dxpcCloseButton_VMware" onclick="aspxPWCBClick(event, 'ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_pupPopupControl_PopupControl',-1)" onmousedown="return aspxPWHMDown(event);" style="cursor:pointer;"><img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_pupPopupControl_PopupControl_HCB-1Img" class="dxWeb_pcCloseButton_VMware" src="/vCAC/DXR.axd?r=1_9-kMs68" alt="[Close]"></td>
+											</tr>
+										</tbody></table></td>
+									</tr>
+								</tbody></table></td>
+							</tr><tr>
+								<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_pupPopupControl_PopupControl_PWC-1" class="dxpcContent_VMware" style="height:100%;border-top-width:0px;border-bottom-width:0px;"><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_pupPopupControl_PopupControl_CSD-1" class="dxpcContentPaddings_VMware" style="padding-left:0px;padding-right:0px;padding-top:0px;padding-bottom:0px;">
+									&nbsp;&nbsp;
+								</div></td>
+							</tr><tr>
+								<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_pupPopupControl_PopupControl_PWF-1" class="dxpcFooter_VMware">
+        <div style="margin: -3px 0px 6px 12px;">
+            <div class="FormButtonBar"><a href="#" ondragend="this.blur();return false;" name="DefaultButton" type="button" value="OK" onclick="this.blur();PopupSubmitOk(ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_Popup.GetContentIFrame()); return false;__doPostBack('ctl00$ctl00$MasterContent$MainContentPlaceHolder$EndpointTopicPanel$EndpointTabControl$EndpointCredential$pupPopupControl$PopupControl$TPCFm1$ctl02','')" class="CoolButton DefaultButton" style="width:75px;"><span>OK</span></a><a href="#" ondragend="this.blur();return false;" type="button" name="ctl00$ctl00$MasterContent$MainContentPlaceHolder$EndpointTopicPanel$EndpointTabControl$EndpointCredential$pupPopupControl$PopupControl$TPCFm1$ctl03" value="Cancel" onclick="this.blur();document.location.href = &quot;javascript:ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_Popup.Hide();&quot;; return false;__doPostBack('ctl00$ctl00$MasterContent$MainContentPlaceHolder$EndpointTopicPanel$EndpointTabControl$EndpointCredential$pupPopupControl$PopupControl$TPCFm1$ctl03','')" class="CoolButton" style="width:75px;"><span>Cancel</span></a><span class="PleaseWait">Please wait...</span></div>
+        </div>
+        <div style="position: absolute; right: 6px; bottom: 6px;">
+            <img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_pupPopupControl_PopupControl_TPCFm1_sizeGrip" class="dxWeb_pcSizeGrip_VMware" src="~/DXR.axd?r=1_9-GTk16" onmousedown="return aspxPWGripMDown(event,'ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_pupPopupControl_PopupControl',-1)" style="border-width:0px;">
+        </div>
+    </td>
+							</tr>
+						</tbody></table></td><td style="background:url('/vCAC/DXR.axd?r=1_62-kMs68') no-repeat left top;"></td>
+					</tr><tr>
+						<td style="background:url('/vCAC/DXR.axd?r=1_61-kMs68') no-repeat left top;"></td><td style="background:url('/vCAC/DXR.axd?r=1_63-kMs68') no-repeat left top;"><div style="height:5px;width:5px;">
+
+						</div></td>
+					</tr>
+				</tbody></table><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_pupPopupControl_PopupControl_DXPWMB-1" class="dxpcModalBackground_VMware" style="position:absolute;visibility:hidden;left:0px;top:0px;z-index:9999;">
+
+				</div><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_pupPopupControl_PopupControl_LP" style="left:0px;top:0px;z-index:30000;display:none;" align="center">
+					<table class="dxpcLoadingPanel_VMware" style="height:100%;border-collapse:collapse;" border="0" cellpadding="0" cellspacing="0">
+						<tbody><tr>
+							<td class="dx" style="padding-right:5px;"><img src="../App_Themes/VMware/Web/Loading.gif" alt="" align="middle"></td><td class="dx" style="padding-left:0px;"><span id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_pupPopupControl_PopupControl_TL">Loading…</span></td>
+						</tr>
+					</tbody></table>
+				</div><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_pupPopupControl_PopupControl_LD" class="dxpcLoadingDiv_VMware" style="left:0px;top:0px;z-index:29999;display:none;position:absolute;">
+
+				</div><script id="dxss_2111520026" type="text/javascript">
+<!--
+
+var dxo = new ASPxClientPopupControl('ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_pupPopupControl_PopupControl');
+window['ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_Popup'] = dxo;
+dxo.callBack = function(arg) { WebForm_DoCallback('ctl00$ctl00$MasterContent$MainContentPlaceHolder$EndpointTopicPanel$EndpointTabControl$EndpointCredential$pupPopupControl$PopupControl',arg,aspxCallback,'ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_pupPopupControl_PopupControl',aspxCallbackError,true); };
+dxo.uniqueID = 'ctl00$ctl00$MasterContent$MainContentPlaceHolder$EndpointTopicPanel$EndpointTabControl$EndpointCredential$pupPopupControl$PopupControl';
+dxo.CloseUp.AddHandler(function(s,e) { s.SetContentUrl(''); });
+dxo.enableAnimation=false;
+dxo.allowResize=true;
+dxo.closeAction='CloseButton';
+dxo.popupHorizontalAlign='WindowCenter';
+dxo.popupVerticalAlign='WindowCenter';
+dxo.isPopupPositionCorrectionOn=false;
+dxo.allowDragging=true;
+dxo.width=900;
+dxo.height=700;
+aspxAddSelectedItems('ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointCredential_pupPopupControl_PopupControl',[[['dxpcPinButtonChecked_VMware'],[''],['HPB-1'],,[['']],['Img']],[['dxpcCollapseButtonChecked_VMware'],[''],['HMNB-1'],,[['']],['Img']],[['dxpcMaximizeButtonChecked_VMware'],[''],['HMXB-1'],,[['']],['Img']]]);
+dxo.InlineInitialize();
+
+//-->
+</script>
+                                            </td>
+                                        </tr>
+
+                                        
+
+                                        
+
+                                        
+                                        
+                                        
+                                        
+                                        <tr>
+                                            <td class="Label"><span>Custom properties: </span></td>
+                                            <td class="Field" style="width:600px">
+<div class="PropertyBag">
+    <div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointProperties_divHeader" class="Header">
+        <div class="IconText "><a id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointProperties_lblAdd" href="#" onclick="PropertyGrid.AddNewRow();return false;"><img src="/vCAC/images/icon_add.png" height="16" width="16">New Property</a></div>
+    </div>
+    <table class="dxgvControl_VMware" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointProperties_propertyGrid" style="width:100%;border-collapse:collapse;border-collapse:separate;" border="0" cellpadding="0" cellspacing="0">
+					<tbody><tr>
+						<td><table id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointProperties_propertyGrid_DXMainTable" class="dxgvTable_VMware" onclick="aspxGVTableClick('ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointProperties_propertyGrid', event);" style="width:100%;border-collapse:collapse;empty-cells:show;" border="0" cellpadding="0" cellspacing="0">
+							<tbody><tr id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointProperties_propertyGrid_DXHeadersRow0">
+								<td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointProperties_propertyGrid_col0" class="dxgvHeader_VMware" onmousedown="aspxGVHeaderMouseDown('ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointProperties_propertyGrid', this, event);" style="width:40px;white-space:normal;border-top-width:0px;border-left-width:0px;cursor:default;"><table style="width:100%;border-collapse:collapse;" border="0" cellpadding="0" cellspacing="0">
+									<tbody><tr>
+										<td style="white-space:normal;">&nbsp;</td>
+									</tr>
+								</tbody></table></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointProperties_propertyGrid_col1" class="dxgvHeader_VMware" onmousedown="aspxGVHeaderMouseDown('ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointProperties_propertyGrid', this, event);" style="white-space:normal;border-top-width:0px;border-left-width:0px;"><table style="width:100%;border-collapse:collapse;" border="0" cellpadding="0" cellspacing="0">
+									<tbody><tr>
+										<td style="width:100%;white-space:normal;"><div class="IconRequired IconTextGrid Hidden"><span><img src="/vCAC/Images/icon_required.png" height="16" width="8">Name</span></div></td><td style="padding-left:5px;"><img class="dxGridView_gvHeaderSortUp_VMware" src="/vCAC/DXR.axd?r=1_9-kMs68" alt="(Ascending)"></td>
+									</tr>
+								</tbody></table></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointProperties_propertyGrid_col2" class="dxgvHeader_VMware" onmousedown="aspxGVHeaderMouseDown('ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointProperties_propertyGrid', this, event);" style="white-space:normal;border-top-width:0px;border-left-width:0px;"><table style="width:100%;border-collapse:collapse;" border="0" cellpadding="0" cellspacing="0">
+									<tbody><tr>
+										<td style="white-space:normal;">Value</td>
+									</tr>
+								</tbody></table></td><td id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointProperties_propertyGrid_col3" class="dxgvHeader_VMware" onmousedown="aspxGVHeaderMouseDown('ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointProperties_propertyGrid', this, event);" style="width:50px;text-align:Center;white-space:normal;border-top-width:0px;border-left-width:0px;border-right-width:0px;"><table style="width:100%;border-collapse:collapse;" border="0" cellpadding="0" cellspacing="0">
+									<tbody><tr>
+										<td style="text-align:Center;white-space:normal;">Encrypted</td>
+									</tr>
+								</tbody></table></td>
+							</tr><tr class="dxgvEmptyDataRow_VMware">
+								<td class="dxgv" colspan="4" style="border-bottom-width:0px;"><div>
+									There is no data to display.
+								</div></td>
+							</tr>
+						</tbody></table><img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointProperties_propertyGrid_IADD" class="dxGridView_gvDragAndDropArrowDown_VMware" src="/vCAC/DXR.axd?r=1_9-kMs68" alt="|" style="position:absolute;visibility:hidden;top:-100px;"><img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointProperties_propertyGrid_IADU" class="dxGridView_gvDragAndDropArrowUp_VMware" src="/vCAC/DXR.axd?r=1_9-kMs68" alt="|" style="position:absolute;visibility:hidden;top:-100px;"><img id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointProperties_propertyGrid_IDHF" class="dxGridView_gvDragAndDropHideColumn_VMware" src="/vCAC/DXR.axd?r=1_9-kMs68" alt="Hide" style="position:absolute;visibility:hidden;top:-100px;"><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointProperties_propertyGrid_LP" style="left:0px;top:0px;z-index:30000;display:none;" align="center">
+							<table class="dxgvLoadingPanel_VMware" style="height:100%;border-collapse:collapse;" border="0" cellpadding="0" cellspacing="0">
+								<tbody><tr>
+									<td class="dx" style="padding-right:5px;"><img src="../App_Themes/VMware/GridView/Loading.gif" alt="" align="middle"></td><td class="dx" style="padding-left:0px;"><span id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointProperties_propertyGrid_TL">Loading…</span></td>
+								</tr>
+							</tbody></table>
+						</div><div id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointProperties_propertyGrid_LD" class="dxgvLoadingDiv_VMware" style="display:none;z-index:29999;position:absolute;">
+
+						</div><input name="ctl00$ctl00$MasterContent$MainContentPlaceHolder$EndpointTopicPanel$EndpointTabControl$EndpointProperties$propertyGrid$DXSelInput" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointProperties_propertyGrid_DXSelInput" type="hidden"><input name="ctl00$ctl00$MasterContent$MainContentPlaceHolder$EndpointTopicPanel$EndpointTabControl$EndpointProperties$propertyGrid$DXKVInput" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointProperties_propertyGrid_DXKVInput" value="[]" type="hidden"><table id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointProperties_propertyGrid_DXStyleTable" style="display:none;" border="0">
+							<tbody><tr>
+								<td></td>
+							</tr><tr class="dxgvEditingErrorRow_VMware">
+								<td class="dxgv" colspan="4" style="border-right-width:0px;"></td>
+							</tr><tr class="dxgvSelectedRow_VMware">
+								<td></td>
+							</tr><tr class="dxgvFocusedRow_VMware">
+								<td></td>
+							</tr><tr class="dxgvFocusedGroupRow_VMware">
+								<td></td>
+							</tr>
+						</tbody></table><input name="ctl00$ctl00$MasterContent$MainContentPlaceHolder$EndpointTopicPanel$EndpointTabControl$EndpointProperties$propertyGrid$CallbackState" id="ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointProperties_propertyGrid_CallbackState" value="BwMHAQIFU3RhdGUHUgcFBwACAQcBAgEHAgIBBwMCAQcEAgAHAAcABwEHAAcBBwEHAAIABQAAAIAJAgxQcm9wZXJ0eU5hbWUJAgACAAMHBAIABwACAQcABwACAQcABwACCFBhZ2VTaXplAwcZAhBGaWx0ZXJFeHByZXNzaW9uBwIA" type="hidden"></td>
+					</tr>
+				</tbody></table><script id="dxss_609955247" type="text/javascript">
+<!--
+
+var dxo = new ASPxClientGridView('ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointProperties_propertyGrid');
+window['PropertyGrid'] = dxo;
+dxo.callBack = function(arg) { WebForm_DoCallback('ctl00$ctl00$MasterContent$MainContentPlaceHolder$EndpointTopicPanel$EndpointTabControl$EndpointProperties$propertyGrid',arg,aspxCallback,'ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl_EndpointProperties_propertyGrid',aspxCallbackError,true); };
+dxo.uniqueID = 'ctl00$ctl00$MasterContent$MainContentPlaceHolder$EndpointTopicPanel$EndpointTabControl$EndpointProperties$propertyGrid';
+dxo.Init.AddHandler(GridView_EndCallback);
+dxo.BeginCallback.AddHandler(GridView_BeginCallback);
+dxo.EndCallback.AddHandler(function(s, e) { GridView_EndCallback(s, e); });
+dxo.cpSetFocusOnNewRow=true;
+dxo.cphc='(0)';
+dxo.callBacksEnabled=true;
+dxo.pageRowCount=0;
+dxo.pageRowSize=25;
+dxo.pageIndex=-1;
+dxo.pageCount=0;
+dxo.selectedWithoutPageRowCount=0;
+dxo.visibleStartIndex=0;
+dxo.focusedRowIndex=-1;
+dxo.allowFocusedRow=false;
+dxo.allowSelectByRowClick=false;
+dxo.allowSelectSingleRowOnly=false;
+dxo.indentColumnCount=0;
+dxo.callbackOnFocusedRowChanged=false;
+dxo.callbackOnSelectionChanged=false;
+dxo.autoFilterDelay='1200';
+dxo.confirmDelete='Are you sure you want to delete this row?';
+dxo.columns = [new ASPxClientGridViewColumn('Command',0,-1,null,1,'',0,0,0,0,0,0,0),
+new ASPxClientGridViewColumn('',1,-1,'PropertyName',1,'',0,1,1,1,0,0,0),
+new ASPxClientGridViewColumn('',2,-1,'PropertyValue',1,'',0,1,1,1,0,0,0),
+new ASPxClientGridViewColumn('',3,-1,'IsEncrypted',1,'',0,1,1,1,0,0,0),
+new ASPxClientGridViewColumn('',4,-1,'IsRuntime',0,'',0,1,1,1,0,1,0)];
+dxo.editState=0;
+dxo.InlineInitialize();
+
+//-->
+</script>
+</div>
+<script type="text/javascript">
+    function IsEncryptedCheckChanged(s, e) {
+        var isChecked = s.GetValue();
+
+        if (typeof PropertyValue !== 'undefined') {
+            PropertyValue.SetClientVisible(!isChecked);
+            Password.SetClientVisible(isChecked);
+
+            PropertyValue.SetText('');
+            Password_PB.SetText('');
+            Password_CB.SetText('');
+            Password_PB.SetClientVisible(false);
+            Password_CB.SetClientVisible(false);
+            Password_PNT.SetClientVisible(true);
+            Password_CNT.SetClientVisible(true);
+        }
+    }
+</script>
+</td>
+                                        </tr>
+                                    </tbody></table>
+                                
+			</div>
+                        
+		</div></td>
+	</tr>
+</tbody></table><script id="dxss_1453655402" type="text/javascript">
+<!--
+aspxAddHoverItems('ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl',[[['dxtcTabHover_VMware'],['background-color:#E3E7F6;border-color:#C8D0EB;'],['T0'],['','T'],[['']],['Img']],[['dxtcActiveTabHover_VMware'],['background-color:White;border-color:#C8D0EB;'],['AT0'],['','T'],[['']],['Img']]]);
+aspxAddDisabledItems('ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl',[[['dxtcDisabled_VMware'],[''],['T0','AT0'],['','T'],[[''],['']],['Img']]]);
+
+var dxo = new ASPxClientPageControl('ctl00_ctl00_MasterContent_MainContentPlaceHolder_EndpointTopicPanel_EndpointTabControl');
+window['defaultTabs'] = dxo;
+dxo.uniqueID = 'ctl00$ctl00$MasterContent$MainContentPlaceHolder$EndpointTopicPanel$EndpointTabControl';
+dxo.emptyHeight = true;
+dxo.CreateTabs([['',,,,],['DetailsTab',,,false,]]);
+dxo.tabCount=2;
+dxo.InlineInitialize();
+
+//-->
+</script>
+        <div class="FormButtonBar"><a href="#" ondragend="this.blur();return false;" name="DefaultButton" type="button" value="OK" onclick="this.blur();if (!buttonValidate(this)) return false;WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl00$MasterContent$MainContentPlaceHolder$EndpointTopicPanel$ctl04&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))" class="CoolButton DefaultButton" validationgroup="" style="width:75px;"><span>OK</span></a><a href="#" ondragend="this.blur();return false;" type="button" name="ctl00$ctl00$MasterContent$MainContentPlaceHolder$EndpointTopicPanel$ctl05" value="Cancel" onclick="this.blur();document.location.href = &quot;/vCAC/VmpsAdmin/ViewEndpoints.aspx&quot;; return false;__doPostBack('ctl00$ctl00$MasterContent$MainContentPlaceHolder$EndpointTopicPanel$ctl05','')" class="CoolButton" style="width:75px;"><span>Cancel</span></a><span class="PleaseWait">Please wait...</span></div>
+    </div></td></tr></tbody></table>
+
+    </div>
+
+            </div>
+        
+
+<script type="text/javascript">
+//<![CDATA[
+
+var callBackFrameUrl='/vCAC/WebResource.axd?d=s5GeBdeqTLGA8qINKrTLmioN4ZYnSFs2wVkDPagSIbTjp0lq7Uz-jBt2hNR8ZLplgTda8DujXS1lqWgsvbEPp3q5wQlIJu-L6uwgB2b8Q_I1&t=635086466580000000';
+WebForm_InitCallback();//]]>
+</script>
+<input value="1_142,1_80,1_135,1_128,1_133,1_119,1_136,1_98,1_105,1_126,1_90,1_113,1_94" id="DXScript" name="DXScript" type="hidden"></form>
+    
+
+</body>​​​​​</html>
